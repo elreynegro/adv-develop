@@ -1,0 +1,206 @@
+body {
+    background: none !important;
+    /* Fallback for when there is no custom background color defined. */
+}
+body,
+button,
+input,
+select,
+textarea,
+.site-content {
+    font-family: $primary-font !important;
+}
+
+.site-content {
+    padding: 0;
+}
+
+#change_password {
+    margin-bottom: 4%;
+}
+
+.category-blog .entry-content {
+    margin: 0 auto !important;
+    float: none !important; 
+    width: 75% !important;
+}
+
+.category-blog .entry-footer {
+    display: none;
+}
+
+.entry-content {
+    // Removes the extra margin around the sides of the reservation form..
+
+    // margin: 0 !important;
+    p {
+        font-size: 0.85 !important;
+        font-weight: 300;
+        text-align: justify;
+    }
+
+    a {
+        // Removes the weird box shadow underline on the reserve form links
+        box-shadow: none !important;
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-weight: 600;
+        font-size: 1.5em;
+        margin-top: 0 !important;
+        margin-bottom: 3px !important;
+    }
+}
+
+.aez-container {
+    width: 90%;
+    margin: 0 auto;
+    margin-left: -130px;
+}
+
+.-blue {
+    color: $primary-color;
+}
+
+.-green {
+    color: $green;
+}
+
+.-white {
+    color: $white;
+}
+
+.-dark-blue {
+    color: $dark-blue;
+}
+
+// All Caps
+.aez-all-caps {
+    text-transform: uppercase;
+}
+
+// Sub Text
+.aez-sub {
+    font-size: .7em;
+}
+
+// .location-usa-wrapper  {
+//     margin: 0 15% 25px 15%;
+// }
+
+.location-usa-wrapper .aez-body {
+    padding: 0;
+}
+
+/**
+ * Body Text
+ */
+
+.aez-body {
+    width: 100%;
+    padding: 2em 5%;
+    max-width: 1200px;
+    margin: 0 auto;
+
+    > p {
+        font-weight: 400;
+        font-size: 1.1em;
+        line-height: 1.5;
+        margin-bottom: 15px;
+        color: $grey;
+    }
+}
+
+.aez-print-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    width: 90%;
+    margin: auto;
+    > * {
+        color: #fff;
+        font-size: 1em;
+    }
+}
+
+.aez-modify-reservation-link {
+    display: block;
+    float: left;
+    margin-top: 525px;
+}
+
+#adv_rez {
+    position: relative;
+}
+
+.aez-car-loader-overlay {
+    background-color: rgba(255, 255, 255, 0.75);
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2000000000;
+}
+
+
+.aez-car-loader-gif {
+    height: 200px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 200px;
+}
+
+.aez-form {
+    .aez-car-loader-overlay {
+        // keep the spinner within the form if its appended there
+        position: absolute;
+    }
+}
+
+// Target the home page spinner to align it to the right
+.aez-home {
+    .aez-form {
+        .aez-car-loader-overlay {
+            width: 105%;
+        }
+    }
+}
+
+
+@media screen and (min-width: 44.375em) {
+    .site {
+        margin: 0px;
+    }
+}
+
+@media only screen and (max-width: 709px) {
+    .aez-modify-reservation-link {
+        float: none;
+        margin: 1em 0 0 auto;
+        text-align: right;
+        width: 80%;
+    }
+}
+
+@media only screen and (min-width: 910px) {
+    .aez-container {
+        width: 95%;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .aez-inside-container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+}

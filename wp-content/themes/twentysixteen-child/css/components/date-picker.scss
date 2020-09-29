@@ -1,0 +1,23 @@
+/*
+ * Datepicker Styling
+ */
+
+.pika-single {
+  font-family: $primary-font;
+}
+.is-today {
+  color: $blue;
+}
+.pika-button {
+  background-color: $off-white;
+  color: $gray;
+}
+.pika-button:hover {
+  background-color: $green;
+}
+.is-selected .pika-button {
+  background-color: $blue;
+}
+.triangle-theme .pika-label:after {
+    content:" \25be";
+}

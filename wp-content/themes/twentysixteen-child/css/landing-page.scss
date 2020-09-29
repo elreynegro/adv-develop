@@ -1,0 +1,166 @@
+/** Landing Page CSS **/
+
+.landing-page-wrapper {
+	width: 100%;
+}
+
+.landing-page-content {
+	max-width: 800px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 2%;
+	background-color: $white;
+}
+
+
+
+/* Full Background Landing Page Styles */
+
+
+.landing-page-custom-wrapper {
+	background: url("/wp-content/plugins/advantage-reservations/assets/landing-pages/Southwest_Advantage_BG.jpg") no-repeat center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#landing-page-custom-logos {
+	display: table;
+	width: 100%;
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 10px 0;
+	padding-top: 50px;
+}
+
+.landing-page-logo-left {
+	display: table-row;
+	float: left;
+	padding: 20px;
+	max-width: 45%;
+}
+
+.landing-page-vertical-line {
+	position: relative;
+	float: left;
+	height: 60px;
+	width: 10%;
+	margin-top: 2%;
+}
+
+.landing-page-vertical-line:after {
+    content:"";
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    border-left: 2px solid #fff;
+}
+
+.landing-page-logo-right {
+	float: right;
+	padding: 20px;
+	max-width: 45%;
+}
+
+.landing-page-custom-content {
+	position: relative;
+	max-width: 800px;
+	margin: 10px auto;
+	text-align: center;
+	padding: 2px;
+	background-color: $white;
+}
+
+.landing-page-custom-header {
+	background-color: $aez-link-color;
+	color: $white;
+	border-bottom: thick solid #95d600;
+	width: 100%;
+	padding: 20px;
+	text-align: center;
+}
+
+.landing-page-custom-header > h1 {
+	color: $white;
+	font-size: 4em;
+	font-weight: 600;
+	margin-bottom: -20px;
+}
+
+.landing-page-custom-header > h2 {
+	color: $white;
+	font-size: 2em;
+	font-weight: 400;
+}
+
+.landing-page-custom-body {
+	padding: 4% 2%;
+	text-align: left;
+	margin-bottom: 20px;
+	font-size: 1.4em
+}
+
+.landing-page-custom-carimg {
+	margin: 2% auto;
+	max-width: 360px;
+	text-align: center;
+}
+
+.landing-page-height-fill {
+	height: 200px;
+}
+
+
+
+
+/* Mobile Responsive Media Queries */
+
+@media screen and (max-width: 414px) {
+
+	#landing-page-custom-logos {
+		padding: 10px 2px 0 2px;		
+	}
+
+	.landing-page-logo-left {
+		display: table-row;
+		margin: 0 auto;
+		text-align: center;
+		max-width: 45%;
+	}
+
+	.landing-page-vertical-line {
+		display: none;
+	}
+
+	.landing-page-logo-right {
+		margin: 0 auto;
+		text-align: center;
+		max-width: 45%;
+	}
+
+	.landing-page-height-fill {
+		height: 20px;
+	}
+
+	.landing-page-custom-content {
+		margin-top: 0;
+	}
+
+	.landing-page-custom-header > h2 {
+		line-height: 35px;
+	}
+
+	.landing-page-custom-body {
+		font-size: 1.1em;
+	}
+
+
+}
+
+
+
+
+

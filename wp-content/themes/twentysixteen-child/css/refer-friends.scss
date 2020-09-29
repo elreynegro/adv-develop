@@ -1,0 +1,175 @@
+.aez-friend-referral-container {
+    margin: 0; 
+    background: url(/wp-content/themes/twentysixteen-child/assets/friend_refer_adv.png); 
+    min-height: 100vh;   
+    background-position: 0 -180px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 20px;
+    color: #000;
+}
+
+.aez-friend-referral-container h1 {
+    color: #036;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 2.3em;
+    padding: 10px;
+    padding-top: 25px;
+}
+
+.aez-friend-referral-container #refer_friends, .aez-friend-referral-container .refer_friends {
+    text-align: center;
+    min-height: 350px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    width: 45%;
+    margin: 0 auto;  
+    padding-bottom: 35px;
+}
+
+.aez-friend-referral-container .spacer {
+    height: 40px;
+}
+
+.aez-friend-referral-container .form_logo {
+    width: 220px;
+    margin-top: 15px;
+}
+
+.friend-text-container {
+    margin-top: 16px;
+}
+
+.friend-text-container .text-head { 
+    font-weight: 500;
+    color: #000;
+    font-size: 1.1em;
+}
+
+
+.friend-text-container .text-1 { 
+    color: #000;
+    font-size: 0.9em;
+    font-weight: 100;
+}
+
+.aez-friend-referral-container h4.text-2 { 
+    text-align: left;
+    font-weight: 400;
+}
+
+.friend-text-container .text-1 span{ 
+    font-weight: 500;
+}
+
+.friend-text-container .aez-form-block {
+    text-align: left;
+}
+
+.aez-friend-referral-container .aez-form-item { 
+    border-radius: 0!important;
+    background-color: #fff;
+    border: 2px solid #e3e3e3;
+    height: 34px;
+}
+.aez-friend-referral-container .aez-form-block input { 
+    background-color: #ffffff;
+    width: 100%;
+}
+
+.aez-friend-referral-container .aez-form-block .aez-btn {
+    background-color: #036;
+    color: #ffffff;
+    border: 2px solid #036;
+    text-transform: uppercase !important;
+    width: 150px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+.aez-friend-referral-container .aez-form-block .aez-btn:hover,.aez-friend-referral-container .aez-form-block .aez-btn:focus {
+    background-color: #00539f;
+    border: 2px solid #00539f;
+}
+
+.aez-friend-referral-container .error_container {
+    border: 2px solid red;
+    width: 78%;
+    margin: 0 auto;
+    color: red;
+    font-weight: 300;
+    text-align: left;
+    padding: 5px;
+    display: none;
+}
+
+.refer-success-container {
+    display: none;
+    background-color: #ffffff;
+    width: 35%;
+    margin: 0 auto;
+    padding: 5px;
+    text-align: center;   
+    padding-top: 15px;
+}
+
+.refer-success-container h2 {
+    color: #036!important;
+    font-weight: 700;
+    font-size: 1.7em;
+    margin-top: 20px;
+}
+
+.refer-success-container .success_msg {
+    color: #000;
+    font-size: 0.9em;
+    font-weight: 100;
+    margin-top: 20px;
+}
+
+.refer-success-container .failed_msg {
+    color: red;
+    font-size: 0.9em;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+.refer-success-container .return-home-link {
+    height: 40px;
+    background-color: #036;
+    display: block;
+    width: 200px;
+    margin: 2px auto;
+    color: #fff;
+    line-height: 32px;
+    border-radius: 5px;
+    padding: 4px;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.refer-success-container  .ctn-logo {
+    width: 220px;
+    margin: 12px 0px;
+}
+
+/* Responsive Design Fixes */
+@media screen and (max-width:768px) {
+    .aez-friend-referral-container {
+        background-size: auto;
+    }
+    
+    .aez-friend-referral-container #refer_friends, .aez-friend-referral-container refer_friends {
+        width: 80%;
+        padding-left: 10px;
+        padding-right: 10px;
+        
+    }
+}
+@media screen and (max-width:1024px) {
+    .aez-friend-referral-container #refer_friends, .aez-friend-referral-container .refer_friends {
+        width: 80%;
+    }
+}
+/* Responsive Design Fixes */

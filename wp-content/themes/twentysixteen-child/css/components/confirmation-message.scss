@@ -1,0 +1,97 @@
+/*
+ *	AEZ Reservation Confirmation Message Block
+ */
+.aez-confirmation {
+	background-color: $dark-blue;
+	color: $white;
+	padding: 0.658em 0;
+	text-align: center;
+}
+
+.aez-confirmation__heading {
+	font-size: 1.2em;
+	font-weight: 300;
+	margin-top: -2%;
+}
+
+.aez-confirmation-number {
+	font-weight: 400;
+	margin-top: 0.5em;
+	padding: 0;
+
+	> * {
+		margin: 0;
+	}
+
+	> .aez-confirmation-number__heading {
+		color: $green;
+		font-size: 0.97em;
+	}
+	> .aez-confirmation-number__number {
+		font-size: 2em;
+		font-weight: 600;
+		line-height: 1;
+	}
+	> .aez-confirmation-number__message {
+		font-size: 0.98em;
+		font-weight: 300;
+	}
+	> .aez-confirmation-number__driver_age {
+		font-size: 0.8em;
+		font-weight: 300;
+		width: 70%;
+		margin: 10px auto 0px;
+	}
+}
+
+.complete .aez-selected-car .aez-vehicle-img img {
+	max-width: 450px;
+    width: 59% !important;
+}
+
+@media only screen and (max-width: 769px) { 
+	.aez-confirmation {
+		margin-bottom: 1%;
+		padding: 0.318em 0;
+	}
+	.aez-print-row > * {
+		font-size: 0.9em !important;
+	}
+	.aez-confirmation-number__driver_age {
+		font-size: 0.7em !important;
+		width: 95% !important;
+		margin: 5px auto 0px !important;
+	}
+	.aez-confirmation-number__message {
+		font-size: 0.9em !important;
+	}
+	.aez-confirmation {
+		padding: 0.2em 0 !important;
+		text-align: center !important;
+		margin-bottom: 0.5% !important;
+	}
+	.aez-confirmation__heading {
+		font-size: 1em !important;
+	}
+	.aez-confirmation-number__heading {
+		font-size: .9em !important;
+	}
+	.aez-confirmation-number {
+		margin-top: 0% !important;
+	}
+	.aez-confirmation-number__number {
+		font-size: 1.5em !important;
+	}
+}
+
+/*  Reservation Complete Signup Popup Scrolls */
+html.pum-open.pum-open-overlay, html.pum-open.pum-open-overlay.pum-open-fixed .pum-overlay {
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+}
+html.pum-open.pum-open-overlay.pum-open-scrollable .pum-overlay.pum-active {
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+}
+/* end  Reservation Complete Signup Popup Scroll */

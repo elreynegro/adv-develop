@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>AutoPayment - My ASP.NET MVC Application</title>
+    <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link href="payment.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <div class="content-wrapper">
+
+
+        </div>
+    </header>
+    <div id="body" class="outer-wrapper">
+
+        <section class="content-wrapper main-content clear-fix">
+
+            <hr size="8" width="100%" color="red">
+            <h2 style="margin-top: 0;">Payment Method</h2>
+            <script src="/Scripts/jquery-1.8.2.js"></script>
+            <script src="/Scripts/jquery.validate.js"></script>
+            <script src="/Scripts/jquery.validate.unobtrusive.js"></script>
+            <br />
+            <label class="label-control cc-label">We accept credit card only <img style="valign:center" src="cards.png" /></label>
+
+            <form action="/Pay/BookNow" class="form-horizontal" method="post">
+
+                <div class="credit-card-details">
+                    <label class="label-control">Name on Card</label>
+                    <input data-val="true" class="input-control" data-val-length="Name can not be more than 50 characters " data-val-length-max="50" data-val-required="Please enter card holder name" id="payment_cc_name" name="payment.cc_name" type="text" value="" />
+
+                    <label class="label-control">Credit Card</label>
+                    <input data-val="true" class="input-control" data-val-number="The field cc_number must be a number." data-val-range="must be between 12 and 19 digits" data-val-range-max="1E+19" data-val-range-min="100000000000" data-val-required="Please enter card number" id="payment_cc_number" name="payment.cc_number" type="text" value="" />
+
+                    <label class="label-control">Expiry Date</label>
+                    <input data-val="true" class="input-control" data-val-length="Enter expiry date format MM/dd/yyyy " data-val-length-max="12" data-val-regex="Expiry date should be in MM/dd/yyyy format" data-val-regex-pattern="^(0[1-9]|1[012])[/](0[1-9]|[12][0-9]|3[01])[/]\d{4}$" data-val-required="Please enter expiry date MM/dd/yyyy" id="payment_cc_exp" name="payment.cc_exp" type="text" value="" />
+
+                    <label class="label-control">CVV Number</label>
+                    <input data-val="true" class="input-control" data-val-length="CVV number can not be more than 3 characters " data-val-length-max="3" data-val-required="Please enter CVV number" id="payment_cc_sec_code" name="payment.cc_sec_code" type="text" value="" />
+                    <br />
+                    <hr class="divider-dotted" />
+                </div>
+                <br>
+                <br>
+
+                <div class="billing-address">
+                    <h2>Billing Address</h2>
+                    <label class="label-control">Street Address</label>
+                    <input id="payment_StreetAddress" class="input-control" name="payment.StreetAddress" type="text" value="" />
+
+                    <label class="label-control">Street Address</label>
+                    <input id="payment_StreetAddress1" class="input-control" name="payment.StreetAddress1" type="text" value="" />
+
+                    <label class="label-control">Postal Code</label>
+                    <input id="payment_PostalCode" class="input-control" name="payment.PostalCode" type="text" value="" />
+
+                    <label class="label-control">City</label>
+                    <input id="payment_City" class="input-control" name="payment.City" type="text" value="" />
+
+                    <label class="label-control">State</label>
+                    <input id="payment_State" class="input-control" name="payment.State" type="text" value="" />
+
+                    <label class="label-control">Country</label>
+                    <input id="payment_Country" class="input-control" name="payment.Country" type="text" value="" />
+
+                </div>
+                <input type="submit" class="book-now" name="Send" id="Send" value="Book Now" />
+            </form>
+            <div id="RenderPage"></div>
+
+
+        </section>
+    </div>
+
+
+    <script src="/Scripts/jquery-1.8.2.js"></script>
+
+
+
+    <!-- Visual Studio Browser Link -->
+    <script type="application/json" id="__browserLink_initializationData">
+        {"appName":"Chrome","requestId":"4c5f3b9d6ff54f17bcd7a4a1e89fecdc"}
+    </script>
+    <script type="text/javascript" src="http://localhost:51224/77359bfff7f3479e89a329bd80a19a6d/browserLink" async="async"></script>
+    <!-- End Browser Link -->
+
+</body>
+
+</html>

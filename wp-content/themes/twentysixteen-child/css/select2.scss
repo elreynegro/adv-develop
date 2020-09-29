@@ -1,0 +1,143 @@
+/*
+ * Select2 Related Styling
+ */
+
+.select2-container {
+	border-color: transparent;
+	border-radius: 5px;
+	display: block;
+	font-family: $primary-font;
+	height: 100% !important;
+	z-index: 9990;
+	// width: 100% !important;
+
+	.select2-selection--single {
+		background-color: $white;
+		color: $gray;
+		height: 100% !important;
+
+		.select2-selection__rendered {
+			border: 1px solid $gray;
+			border-radius: 5px;
+			height: 100% !important;
+		}
+	}
+
+	&.select2-container--default {
+		.select2-selection--single {
+			background-color: $white;
+			border: none;
+	        color: $gray;
+
+	        .select2-selection__rendered {
+	            color: $gray;
+	        }
+		}
+
+		&.select2-container--open.select2-container--below .select2-selection--single,
+		&.select2-container--open.select2-container--below .select2-selection--multiple {
+			border-bottom-left-radius: 5px;
+			border-bottom-right-radius: 5px;		
+		}
+	}
+
+}
+
+.aez-select2-search + .select2-container {
+	.select2-selection {
+
+        &:after {
+            color: $gray;
+            content: '\f002';
+            font-family: 'FontAwesome';
+            font-size: 1em;
+            position: absolute;
+            margin: auto;
+            top: 7px;
+            right: 10px;
+        }
+
+        .select2-selection__arrow {
+            display: none;
+        }
+    }
+}
+
+.select2-dropdown {
+	background-color: $off-white;
+	border: 1px solid $gray;
+	
+	.select2-search {
+		background-color: $off-white;
+		border-radius: 5px;
+	}
+
+	.select2-results {
+		background-color: $off-white;
+		border-radius: 5px;
+
+		.select2-results__options {
+			border-radius: 5px;
+			color: $gray;
+
+			.select2-results__option {
+				padding: 8px;
+
+				&.select2-results__message {
+					padding: 0;
+				}
+			}
+
+			.select2-results__option--highlighted {
+				background-color: $blue;
+				color: $white;
+			}
+		}
+	}
+
+	&.select2-dropdown--above {
+		border-top-left-radius: 5px;
+		border-top-right-radius: 5px;
+	}
+
+	&.select2-dropdown--below {
+		border-bottom-left-radius: 5px;
+		border-bottom-right-radius: 5px;
+	}
+}
+
+
+.aez-reservation-form {
+	.select2-container {
+		// Put the z-index of the select2 on the reservation
+		// Place it underneath the fixed footer
+		z-index: 9983;
+	}
+}
+
+.aez-form-item {
+	.select2-container {
+		.select2-selection--single {
+			.select2-selection__rendered {
+				border: none;
+			}
+		}
+	}
+}
+
+.aez-form-item--white {
+	.select2-container {
+
+		.select2-selection--single {
+			background-color: $white;
+		}
+
+		&.select2-container--default {
+			.select2-selection--single {
+				background-color: $white;
+		    }
+		}
+	}
+	
+}
+

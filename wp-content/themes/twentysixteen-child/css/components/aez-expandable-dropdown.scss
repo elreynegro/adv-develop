@@ -1,0 +1,207 @@
+.aez-extra {
+    clear: both;
+
+    .aez-extra-header {
+        cursor: pointer;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        padding: 15px 20px;
+        width: 100%;
+        background-color: $super-light-grey;
+        color: $white;
+        border-bottom: 1px solid $white; 
+
+        > h4 {
+            font-size: 1.1em;
+            font-weight: 400;
+            margin: 0;
+
+            > .fa {
+                font-size: 1.1em;
+                margin-right: 10px;
+            }
+
+            span {
+
+            }
+        }
+        
+
+        .fa-chevron-down,
+        .fa-chevron-up {
+            font-size: 20px;
+            padding: 5px;
+        }
+    }
+
+    .aez-extra-content {
+        display: none;
+        font-size: 1.25em;
+        background-color: $light-white;
+        height: 100%;
+        max-height: 250px;
+        overflow: scroll;
+        padding: 25px 20px;
+        margin-bottom: 20px;
+
+        form {
+            padding: 1em 0;
+
+            input[type="submit"] {
+                display: block;
+                margin: 0 auto;
+                padding: 0.8em 0;
+                width: 36%;
+            }
+        }
+    }
+
+    .opened {
+        display: none;
+    }
+}
+
+.aez-extra--confirmation {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.aez-extra--contact-us, .aez-extra--location-policy {
+    margin: 1em auto;
+    position: relative;
+
+    .aez-extra-header {
+        background-color: $gray;
+        text-align: center;
+        cursor: pointer;
+    }
+}
+.aez-extra--contact-us, .aez-extra--location-policy {
+    .aez-extra-header:hover {
+        background-color: $light-gray;
+    }
+}
+.arconix-faq-accordion-title,
+.arconix-faq-accordion-content {
+    // background-color: $off-white;
+    border-radius: 0;
+    font-family: $primary-font;
+
+    a {
+        color: $aez-link-color;
+
+        &:hover {
+            color: $aez-link-hover;
+        }
+    }
+
+    &:focus {
+        outline: none;  
+    }
+}
+
+
+@media only screen and (min-width: 910px) {
+    .aez-extra--summary {
+        width: 65%;
+        float: right;
+        padding: 2% 6.5%;
+
+    }
+
+    .aez-extra--contact-us {
+        max-width: 1024px;
+        width: 80%;
+    }
+    .aez-extra--location-policy {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 710px) and (max-width: 909px) {
+    .aez-extra {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 910px) {
+    .aez-extra {
+        .aez-extra-content {
+            // font-size: 1.25em;
+            
+            form {
+
+                input[type="submit"] {
+                    width: 80%;
+                }
+            }
+        }
+    }
+}
+
+@-ms-viewport { width: auto !important; }
+@media only screen and (max-width: 709px) {
+    .aez-extra {
+        .aez-extra-header {
+
+            > h4 {
+                font-size: 1.2em;
+
+                > .fa {
+                    font-size: 1.2em;
+                }
+            }
+
+            .fa-chevron-down,
+            .fa-chevron-up {
+                font-size: 20px;
+                padding: 5px;
+            }
+        }
+
+        .aez-extra-content {
+            font-size: 1.2em;
+        }
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .aez-extra {
+        .aez-extra-header {
+            > h4 {
+                font-size: 1em;
+
+                > .fa {
+                    font-size: 1em;
+                }
+            }
+        }
+        .aez-extra-content {
+            font-size: 1em;
+        }
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .aez-extra {
+        .aez-extra-header {
+            > h4 {
+                font-size: 0.9em;
+
+                > .fa {
+                    font-size: 0.9em;
+                }
+            }
+        }
+        .aez-extra-content {
+            font-size: 0.9em;
+        }
+    }
+}

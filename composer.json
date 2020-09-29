@@ -1,0 +1,7 @@
+{
+    "name": "aez/wp_packages",
+    "description": "Packes for AEZ websites to Wordpress implimentations",
+    "require": {
+    	"guzzlehttp/guzzle": "~6.0"
+   	}
+}

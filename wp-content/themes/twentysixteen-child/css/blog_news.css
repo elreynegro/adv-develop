@@ -1,0 +1,9 @@
+/* Blog and In The News CSS */
+
+
+@media only screen (min-width:1024px) {}
+	.hero-margin {
+		margin-bottom: 20px;
+	}
+
+}

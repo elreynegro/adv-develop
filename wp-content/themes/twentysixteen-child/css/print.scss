@@ -1,0 +1,358 @@
+/* 
+ * Print Styling
+ */
+
+@page {
+  margin: 0.25cm;
+}
+
+@media print {
+  /* Body */
+  .site {
+  	 margin: 2.5%;
+  }
+  /* Return to Top Footer */
+  .aez-return-top {
+    display: none;
+  }
+  /* Header */
+  .site-header {
+    display: none;
+  }
+  /* Footer */
+  .site-footer {
+    .footer-top {
+      display: none;
+    }
+    .footer-bottom {
+      padding: 16px 0;
+    }
+    .site-info {
+      // Logo Div
+      img {
+        &.mobile-show {
+          display: none;
+        }
+        &.desktop-show {
+          margin: 0 auto;
+          width: 50%;
+        }
+      }
+    }
+  }
+
+  /* 
+   * RESERVATION FLOW
+   */
+  
+  .aez-reservation {
+  	form {
+  		display: block;
+  	}
+  }
+
+  // Title
+  .aez-reservation-summary {
+    > .aez-reservation-title-bar {
+      display: block;
+      overflow: hidden;
+      width: 100%;
+
+      h3 {
+        float: left;
+        padding: 16px;
+      }
+      span {
+        float: right;
+        padding: 16px;
+      }
+    }
+  }
+
+  .aez-reservation__fixed-footer {
+  	display: none;
+  }
+
+  /* 
+	 * CHOOSE PAGE 
+	 */
+  // Arrows
+  .aez-progress-bar__item-arrow {
+    display: none;
+  }
+  // Reservation Summary Container
+  .aez-reservation-container {
+    padding: 16px;
+    // Close Button
+    .aez-sub.aez-all-caps {
+      display: none;
+    }
+    // Edit Button
+    .aez-reservation-edit {
+      display: none;
+    }
+    // Reservation Info Container
+    .aez-reservation-info {
+      display: block;
+      overflow: hidden;
+      // Info Divs
+      .aez-reservation-section {
+        float: left;
+
+        &:last-of-type {
+          margin-left: 64px;
+        }
+      }
+    }
+  }
+  // Reservation Container
+  .aez-reservation-choose {
+    * {
+      page-break-inside: avoid;
+      -webkit-print-color-adjust: exact;
+    }
+    // Forms
+    form {
+      display: block;
+      // Sort Form
+      &#adv_choose_sort {
+        padding: 16px 0;
+        // Sort Dropdown
+        .aez-form-item--dropdown {
+          float: right;
+          width: 45%;
+        }
+      }
+    }
+  }
+  // Vehicle Container Container
+  .aez-vehicle-outside-container {
+    display: block;
+    overflow: hidden;
+  }
+  // Vehicle Container
+  .aez-vehicle-container {
+    display: block;
+    overflow: hidden;
+  }
+  // Vehicle Details Container
+  .aez-vehicle-details-container {
+    display: block;
+    float: left;
+    overflow: hidden;
+    width: 66.66666%;
+    // Vehicle Information
+    .aez-vehicle-content {
+      display: block;
+      overflow: hidden;
+      width: 100%;
+      // Hide extra containers
+      &.desktop-hidden.mobile-hidden,
+      &.desktop-hidden.tablet-hidden {
+        display: none;
+      }
+      // Show and style image and information
+      .aez-car-information,
+      .aez-vehicle-img {
+        display: block;
+        float: left;
+        margin-top: 45px;
+        width: 50%;
+      }
+    }
+    // Hide extra image
+    .aez-vehicle-img {
+      &.tablet-hidden-block.desktop-hidden {
+        display: none;
+      }
+    }
+  }
+  // Pay Options Container
+  .aez-choose-pay-container {
+    display: block;
+    float: left;
+    height: 100%;
+    width: 33.33333%;
+    // Buttons
+    form {
+      button {
+        display: block;
+        &.best-rate {
+          background-color: transparent;
+          color: #555555;
+        }
+      }
+    }
+    // Hide extras
+    &.aez-counter-option.mobile-hidden,
+    &.aez-online-option.mobile-hidden {
+      display: none;
+    }
+  }
+
+  /* 
+	 * ENHANCE PAGE
+	 */
+  
+  .enhancements_chosen {
+    * {
+      page-break-inside: avoid;
+      -webkit-print-color-adjust: exact;
+    }
+  }
+
+  .aez-car-option {
+    &.enhance-page {
+      display: block;
+			overflow: hidden;
+
+      .aez-vehicle-img {
+      	float: left;
+      	width: 62.5%;
+      	// img {
+      	// 	display: block;
+      	// 	margin: 0 auto;
+      	// }
+      }
+
+      .aez-vehicle-content {
+      	align-items: flex-start;
+
+      	float: right;
+      	margin-top: 60px;
+				width: 37.5%;
+      }
+
+      .aez-mini-details {
+      	clear: both;
+      	font-size: 1.5em;
+      }
+    }
+  }
+
+  .aez-upsell-cars-container {
+    .aez-car-option {
+      display: block;
+      overflow: hidden;
+
+      .aez-upgrade-content {
+        float: left;
+        width: 52.5%;
+
+        .aez-upgrade-content__title {
+          font-size: 12pt;
+        }
+
+        span {
+          font-size: 10pt;
+        }
+      }
+
+      .aez-vehicle-img {
+        float: right;
+        width: 47.5%;
+      }
+    }
+  }
+
+  .aez-choose-option-container {
+  	.aez-options {
+  		float: left;
+      height: 150px;
+  		width: 47.5%;
+  		
+  		&:nth-of-type(2n+1) {
+  			margin-right: 5%;
+  		}
+  	}
+
+  	.aez-options__info {
+  		button.aez-options__button {
+  			display: block;
+  		}
+  	}
+  }
+
+  /*
+   * RESERVATION PAGE
+   */
+  
+  .aez-reservation-form {
+    input {
+      display: block;
+
+      &[type="radio"],
+      &[type="checkbox"] {
+        display: none;
+      }
+
+      &.aez-form-item__radio + .aez-form-item__label:before,
+      &.aez-form-item__checkbox + .aez-form-item__label:before  {
+        color: transparent !important;
+        display: none;
+      }
+
+      &.aez-form-item__radio:checked + .aez-form-item__label:before  {
+        color: $blue !important;
+        display: inline-block;
+      }
+
+      &.aez-form-item__checkbox:checked + .aez-form-item__label:before  {
+        color: $green !important;
+        display: inline-block;
+      }
+    }
+  }
+
+  .aez-extra {
+    .aez-extra-content {
+      display: block;
+      max-height: 100%;
+      height: auto;
+      overflow: visible;
+    }
+  }
+
+  /* 
+   * CONFIRMATION PAGE
+   */
+  .aez-info-block-container {
+    * {
+      -webkit-print-color-adjust: exact;
+    }
+  }
+  .aez-info-block {
+    display: block;
+    overflow: hidden;
+    padding: 16px 8px;
+
+    .aez-info-section {
+      width: 48%;
+
+      &:first-of-type {
+        float: left;
+      }
+      &:last-of-type {
+        float: right;
+      }
+    }
+  }
+
+
+
+  /* 
+   * COMPLETE PAGE
+   */
+  .aez-confirmation {
+    height: 210px;
+    -webkit-print-color-adjust: exact;
+
+    & + main {
+      .aez-reservation {
+        * {
+          -webkit-print-color-adjust: exact;
+        }
+      }
+    }
+  }
+}

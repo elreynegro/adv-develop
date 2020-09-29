@@ -1,0 +1,155 @@
+.aez-learn {
+    max-width: 1200px;
+    margin: 0 auto;
+
+    > div:first-of-type {
+        text-align: center;
+        padding: 20px 0px;
+    }
+
+    .aez-learn-block {
+        width: 100%;
+        text-align: center;
+        padding: 30px 20px;
+
+        .img {
+            width: 100%;
+        }
+
+        .aez-btn {
+            display: block;
+            margin: 15px auto 0;
+        }
+    }
+
+    /*.aez-learn-block:nth-child(even) {
+        background-color: $off-white;
+    }*/
+
+    .aez-questions {
+        width: 100%;
+        background-color: $white;
+
+        .aez-btn {
+            display: block;
+            margin: 1em auto;
+        }
+    }
+}
+
+.aez-learn-bgcolor {
+    background-color: $off-white;
+    max-width: 100%;
+    margin-bottom: -5%;
+    padding-bottom: 100px;
+}
+
+.aez-more-info-bold {
+    font-size: 18px;
+    font-family: 'montserratregular', sans-serif;
+    font-weight: bold;
+    margin-top: -25px;
+}
+
+.aez-learn-h2 {
+    font-size: 30px;
+    color: #036;
+    font-family: 'montserratregular', sans-serif;
+}
+
+.aez-multiple-loyalty {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    color: #555;
+    font-family: 'montserratlight', sans-serif;
+}
+
+.aez-sign-up-form {
+    margin: 20px auto;
+
+    .aez-form {
+        span {
+            display: block;
+            text-align: center;
+            line-height: 1em;
+        }
+    }
+}
+
+@media only screen and (min-width: 910px) {
+    .aez-learn {
+        display: flex;
+        flex-wrap: wrap;
+
+        > div:first-of-type {
+            width: 100%;
+        }
+
+        .aez-learn-block {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 49%;
+
+            h3 {
+                margin-bottom: 10px;
+            }
+
+            img {
+                margin: 0 auto;
+            }
+
+            a.aez-btn {
+                display: block;
+                width: 50%;
+                margin: 15px auto 0;
+            }
+        }
+
+        .aez-questions {
+            width: 100%;
+            background-color: $white;
+        }
+    }
+
+    .aez-sign-up-form {
+        .-checkbox {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+               -ms-flex-align: center;
+                  align-items: center;
+            -webkit-box-pack: justify;
+               -ms-flex-pack: justify;
+             justify-content: space-between;
+
+            div[class$="--checkbox-cont"] {
+                width: 50%;
+            }
+
+            button {
+                width: 30%;
+                margin: 0;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 909px) {
+    .aez-learn {
+        display: block;
+        .aez-learn-block {
+            width: 100%;
+
+            img {
+                max-width: 300px;
+            }
+
+            a {
+                max-width: 400px;
+            }
+        }
+    }
+}

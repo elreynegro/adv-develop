@@ -1,0 +1,171 @@
+/*
+ * GayTravel.com Partner Styles
+ */
+
+.aez-partners--primary-bg-color {
+  /* Primary BG Color */
+  background-color: #ed8131;
+}
+
+.aez-partners--primary-color {
+  /* Primary Text Color */
+  color: #ed8131;
+}
+
+.aez-partners--accent-bg-color {
+  /* Accent BG Color */
+  background-color: #005ca5;
+}
+
+.aez-partners--accent-color {
+  /* Accent Text Color */
+  color: #005ca5;
+}
+
+.aez-partners--heading-color {
+  /* Heading Text Color */
+  color: #003366;
+}
+
+.aez-partners--copy-color {
+  /* Copy Text Color */
+  color: #55565a;
+}
+
+.aez-partners--promo-bg-color {
+  /* Promo Mobile View Block BG Color */
+  background-color: #74A553;
+}
+
+.aez-partners--arrow-promo-bg-color {
+  /* Promo Arrow Desktop View Block BG Color */
+  background-color: #74A553;
+}
+
+.aez-partners-feature__content-promo .code.aez-partners--arrow-promo-bg-color:before {
+  /* Promo Arrow Desktop View Block BG Color - Triangle Of Arrow */
+  border-right-color: #74A553;
+}
+
+.aez-partners--stacking-rewards-bg-color {
+  /* Stacking BG Color */
+  background-color: #f0f0f0;
+}
+
+.aez-partners-feature__hero-content h2 {
+    margin: 0px 200px 100px;
+}
+
+.aez-partners-feature__content {
+  width: 80% !important;
+}
+
+.red-text {
+  color: #BE604A;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+/*
+  Buttons
+ */
+
+.aez-partners-stacking__adv-awards-button.aez-partners--primary-bg-color:hover,
+.aez-partners-stacking__adv-awards-button.aez-partners--primary-bg-color:focus,
+.aez-partners-questions__content-button.aez-partners--primary-bg-color:hover,
+.aez-partners-questions__content-button.aez-partners--primary-bg-color:focus {
+  /* 
+    Buttons Hover & Focus State
+    Primary BG Color darkened by 5%
+    http://hslpicker.com/#B93293
+  */
+  background-color: #eb7419;
+}
+
+
+
+/* 
+  AEZ Find A Car Form Buttons
+*/
+
+.aez-partners-feature__form .aez-form #adv_rez_submit,
+.aez-partners-feature__form .aez-form .aez-add-btn:before {
+  /* Use Accent BG Color */
+  background-color: #005ca5;
+  border-color: #005ca5;
+}
+
+.aez-partners-feature__form .aez-form #adv_rez_submit:hover,
+.aez-partners-feature__form .aez-form #adv_rez_submit:focus,
+.aez-partners-feature__form .aez-form .aez-add-btn:hover:before,
+.aez-partners-feature__form .aez-form .aez-add-btn:focus:before {
+  /*
+    Accent BG Color darkened by 5%
+    http://hslpicker.com/#005ca5
+   */
+  background-color: #004c8a;
+  border-color: #004c8a;
+}
+
+
+
+/* 
+  AEZ Background Images
+*/
+
+.aez-partners-feature__hero {
+  /* Hero Image */
+  background-image: url("/wp-content/plugins/adv-landing-pages/assets/expressway/hero.png");
+}
+
+.aez-partners-stacking__equation-circle--partner-logo {
+  background-size: 90% !important;
+}
+@media (min-width:1025px) {
+  .approved-logo {
+      margin-top: -22% !important;
+      margin-left: -83% !important;
+  }
+}
+@media (min-width:961px) and (max-width:1024px)  { 
+    .approved-logo {
+      margin-top: -37%;
+      margin-left: -90%;
+   }
+ }
+ @media (min-width:641px) and (max-width:960px){
+  .approved-logo {
+      margin-top: -9%;
+      margin-left: -2%;
+   }
+   .aez-partners--stacking-rewards-bg-color {
+    margin-top:-5%;
+   }
+ }
+ 
+ @media (min-width:481px) and (max-width:640px)  {
+  .approved-logo {
+      margin-top: -11%;
+   }
+ }
+
+  @media (min-width:412px) and (max-width:480px)  { 
+ .approved-logo {
+      margin-top: -17%;
+      margin-left: 5.5%;
+   }
+ }
+
+ @media (min-width:321px) and (max-width:411px)  { 
+ .approved-logo {
+      margin-top: -17%;
+      margin-left: 1.5%;
+   }
+ }
+
+  @media (width:320px){ 
+ .approved-logo {
+      margin-top: -18%;
+   }
+ }
+

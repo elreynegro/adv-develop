@@ -1,0 +1,3 @@
+(function($){var $redeem_now=$('.redeem_now');function goToAnchorReserve(anchor){var loc=document.location.toString().split('#')[0];document.location=loc;return false;}
+function openSearchFormwithMenu(evt){evt.preventDefault();if($('.aez-find-a-car-dropdown').hasClass('is-open')){$('.aez-find-a-car-dropdown').toggleClass('is-open');$('.aez-find-a-car-dropdown').find('.aez-form').slideToggle();}}
+$redeem_now.off('click').on('click',openSearchFormwithMenu);})(jQuery);

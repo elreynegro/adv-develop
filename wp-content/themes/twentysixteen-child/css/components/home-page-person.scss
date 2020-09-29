@@ -1,0 +1,436 @@
+/*
+ *	Home Page Person Styling
+ */
+
+.aez-person {
+    background: transparent no-repeat center;
+    background-size: contain;
+    position: absolute;
+    transition: $primary-transition;
+
+    // Z Index on home page 
+    // Make sure that it is below other elements
+    z-index: 20;
+}
+
+.aez-person--business {
+	background-image: url('/wp-content/uploads/2016/11/travelers_male_and_female-1.png');
+	// width: 897px;
+  // height: 921px;
+	top: 18%;
+    left: 50px;
+    height: 750px;
+    width: 730px;
+}
+
+.aez-person--family {
+	background-image : url('/wp-content/uploads/2016/11/family_travel.png');
+	// width: 667px;
+    // height: 1000px;
+	top: 18%;
+    left: 250px;
+    height: 750px;
+    width: 500px;
+}
+
+.aez-person--europcar {
+    background-image: url('/wp-content/uploads/2016/11/europcar_float_360.png');
+    top: 550px;
+    left: 5%;
+    height: 280px;
+    width: 400px;
+}
+
+.aez-person--summer {
+    background-image: url('/wp-content/themes/twentysixteen-child/assets/advantage-summer.png');
+    top: 97px;
+    left: 0%;
+    height: 623px;
+    width: 600px;
+}
+
+.aez-person--silver {
+    background-image:url("/wp-content/themes/twentysixteen-child/assets/hp-app-silver-cell-phone.png");
+    top:97px;
+    left:0%;
+    height:623px;
+    width:600px;
+}
+
+.aez-person--gay-travel {
+    background-image:url("/wp-content/themes/twentysixteen-child/assets/Gaytravel-winner.png");
+    top:350px;
+    left:8%;
+    height:623px;
+    width:600px;
+}
+
+@media screen and (max-width: 1600px) {
+	.aez-person--business {
+		left: 0;
+	}
+	.aez-person--family {
+		left: 200px;
+	}
+}
+@media screen and (max-width: 1500px) {
+	.aez-person--business {
+		left: -50px;
+	}
+	.aez-person--family {
+		left: 150px;
+	}
+}
+@media screen and (max-width: 1400px) {
+	.aez-person--business {
+		left: -70px;
+	}
+	.aez-person--family {
+		left: 50px;
+	}
+}
+@media screen and (max-width: 1300px) {
+	.aez-person--business {
+		height: 700px;
+		width: 680px;
+	}
+	.aez-person--family {
+		height: 700px;
+    	width: 475px;
+	}
+}
+@media screen and (max-width: 1200px) {
+	.aez-person--business {
+		height: 650px;
+		width: 635px;
+	}
+	.aez-person--family {
+		height: 650px;
+    	width: 445px;
+	}
+}
+@media screen and (max-width: 1109px) {
+	// Desktop
+	.aez-person--business {
+		height: 600px;
+		width: 600px;
+	}
+	.aez-person--family {
+		height: 575px;
+    	width: 390px;
+    	left: 10px;
+    	top: 18%;
+	}
+}
+
+@media screen  and (min-width: 1281px) and (max-width: 1399px) {
+    .aez-person--summer {
+        top: 96px;
+        height: 561px;
+        width: 540px;
+    }
+}
+
+@media screen  and (min-width: 1025px) and (max-width: 1280px) {
+    .aez-person--summer {
+        top: 96px;
+        height: 535px;
+        width: 515px;
+    }
+    .aez-person--gay-travel {
+        top: 350px;
+        height: 535px;
+        width: 515px;
+    }
+}
+
+@media screen  and (min-width: 1001px) and (max-width: 1024px) {
+    .aez-person--summer {
+        top: 62px;
+        height: 521px;
+        width: 500px;
+    }
+}
+
+@media screen and (min-width:1281px) and (max-width:1399px) {
+    .aez-person--silver {
+        top:96px;
+        height:561px;
+        width:540px;
+    }
+}
+
+
+
+@media screen and (min-width:1025px) and (max-width:1280px) {
+    .aez-person--silver {
+        top:96px;
+        height:535px;
+        width:515px;
+    }
+    .aez-person--gay-travel {
+        top:350px;
+        height:535px;
+        width:515px;
+    }
+}
+@media screen and (min-width:1001px) and (max-width:1024px) {
+    .aez-person--silver{
+        top:62px;
+        height:521px;
+        width:500px;
+    }
+
+    .aez-person--gay-travel {
+        top:350px;
+        left:40px;
+        height:521px;
+        width:500px;
+    }
+}
+
+
+@media screen and (max-width: 1000px) and (min-width: 985px)  {
+	.aez-person--business {
+		background-image: url('/wp-content/uploads/2016/11/business_travel_woman.png');
+		height: 600px;
+		width: 425px;
+		left: -50px;
+	}
+	.aez-person--family {
+		height: 500px;
+    	width: 350px;
+    	left: 0;
+	}
+
+    .aez-person--europcar {
+        height: 300px;
+        width: 360px;
+        left: 4%;
+    }
+
+     .aez-person--summer {
+        top: 62px;
+        height: 521px;
+        width: 500px;
+    }
+
+    .aez-person--silver {
+        height:300px;
+        width:360px;
+        left:4%;
+    }
+
+    .aez-person--gay-travel {
+        height:450px;
+        width:450px;
+        left:4%;
+    }
+}
+
+@media screen and (max-width: 984px) and (min-width: 910px) {
+   .aez-person--summer {
+      height: 483px;
+      width: 465px;
+      top: 93px;
+    }
+
+    .aez-person--gay-travel {
+      height: 483px;
+      width: 465px;
+      top: 370px;
+      left: 20px;
+    }
+
+    .aez-person--silver {
+      height: 483px;
+      width: 465px;
+      top: 150px;
+      left: -60px;
+    }
+}
+
+@media screen and (max-width: 909px) {
+	// Tablet
+	.aez-person--business {
+		height: 375px;
+		width: 355px;
+		left: -50px;
+		top: 13%;
+	}
+
+	.aez-person--family {
+		height: 450px;
+    	width: 310px;
+   		top: 15%;
+   	}
+
+    .aez-person--summer {
+        height: 366px;
+        width: 352px;
+        top: 79px;
+   	}
+
+    .aez-person--europcar {
+        top: 400px;
+        left: 5%;
+        height: 200px;
+        width: 265px;
+    }
+
+    .aez-person--silver {
+        top: 400px;
+        left: 5%;
+        height: 200px;
+        width: 265px;
+    }
+
+    .aez-person--gay-travel {
+        top: 350px;
+        left: -80px;
+        height: 250px;
+        width: 500px;
+    }
+}
+@media screen and (max-width: 909px) and (orientation: landscape) {
+	.aez-person--business {
+		top: 25%;
+	}
+
+	.aez-person--family {
+   		top: 25%;
+   	}
+
+   	.aez-person--summer {
+        height: 366px;
+        width: 352px;
+        top: 79px;
+   	}
+}
+@media screen and (max-width: 800px) {
+	.aez-person--business {
+		left: -25px;
+	}
+
+	.aez-person--family {
+		height: 400px;
+    	width: 275px;
+   	}
+
+   	.aez-person--summer {
+        height: 343px;
+        width: 330px;
+        top: 80px;
+   	}
+
+    .aez-person--europcar {
+        left: 3%;
+    }
+
+    .aez-person--silver {
+        height:343px;
+        width:330px;
+        top:80px;
+    }
+
+    .aez-person--gay-travel {
+        height:343px;
+        width:330px;
+        top:250px;
+        left:10px;
+    }
+}
+
+
+
+@media screen and (max-width: 710px) and (min-width: 710px) {
+  // Mobile
+    .aez-person--summer {
+        height: 343px;
+        width: 330px;
+        top: 79px;
+    }
+}
+
+@media screen and (max-width: 709px) {
+    .aez-person--europcar { display: none !important; }
+
+    .aez-person--silver{display:none !important;}
+
+    .aez-person--gay-travel{display:none !important;}
+}
+@media screen and (min-width: 710px) {
+    .aez-home-carousel__slide-content > img.aez-home-carousel__europcar-logo { display: none !important; }
+}
+
+@media screen and (max-width: 709px) {
+	// Mobile
+	.aez-person--business {
+        height: 325px;
+        width: 180px;
+        left: 25px;
+        top: 12%;
+	}
+	.aez-person--family {
+		height: 250px;
+    	width: 170px;
+    	left: 75px;
+   	}
+
+    .aez-person--summer {
+        height: 258px;
+        width: 248px;
+        top: 128px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+	.aez-person--business {
+		left: 25px;
+	}
+	.aez-person--family {
+    	left: 50px;
+   	}
+    .aez-person--summer {
+        height: 367px;
+        width: 219px;
+        left: 0px;
+        top: 62px;
+    }
+}
+@media screen and (max-width: 500px) {
+	.aez-person--business {
+        height: 280px;
+        width: 160px;
+        left: 10px;
+        top: 13%;
+	}
+	.aez-person--family {
+    	height: 225px;
+    	width: 155px;
+    	left: 25px;
+   	}
+   	.aez-person--summer {
+    	display: none;
+   	}
+}
+@media screen and (max-width: 400px) {
+	.aez-person--business {
+		left: -10px;
+	}
+	.aez-person--family {
+		height: 200px;
+		width: 140px;
+		top: 15%;
+    	left: 0;
+   	}
+  .aez-person {
+    display: none;
+  }
+
+}
+@media screen and (max-width: 300px) {
+	.aez-person {
+		display: none;
+	}
+}

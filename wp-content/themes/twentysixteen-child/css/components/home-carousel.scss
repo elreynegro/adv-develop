@@ -1,0 +1,148 @@
+.aez-car-selection-container {
+	text-align: center;
+	color: $light-gray;
+	background-color: #f0f0f0;
+}
+
+.aez-car-selection-container h2 {
+	font-size: 1.3em;
+	margin-bottom: 10%;
+	color: $dark-blue;
+	line-height: 1.2em;
+}
+
+.aez-car-carousel {
+	margin: 20px auto 0;
+	width: 85%;
+}
+
+.aez-carousel-car-desc {
+	margin-top: 10%;
+	margin-bottom: 0;
+}
+
+.slick-prev, .slick-next {
+	&:before, &:after {
+		color: $semi-dark-grey;
+		border-radius: 50%;
+	}
+}
+
+.slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus  {
+	color: $super-light-gray;
+}
+
+.slick-dots li.slick-active button:before {
+	color: $blue;
+}
+
+.aez-car-types {
+	display: none;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+	font-size: .9em;
+}
+
+.aez-car-types > .aez-btn {
+	background-color: $dark-blue;
+	border-color: $dark-blue;
+	border-radius: 0;
+	font-weight: 500;
+}
+
+.aez-worldwide {
+	background-color: #FFFFFF;
+}
+
+@media only screen and (min-width: 710px) {
+	.aez-car-selection-container {
+		background-image: url('/wp-content/themes/twentysixteen-child/assets/carlady-tablet.jpg');
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		clear: both;
+		width: 100%;
+		margin: 0;
+		text-align: left;
+	}
+	.aez-car-selection-container h2 {
+		color: $green;
+		margin: 0 auto 10px;
+		text-shadow: 1px 1px 1px #3c3c3c;
+		text-align: center;
+		width: 80%;
+		line-height: 1.3em;
+		text-align: center;
+		letter-spacing: 1px;
+		font-size: 1.7em;
+	}
+	.aez-car-selection-container > div:first-of-type {
+		width: 50%;
+		margin: 0 auto 0 0;
+		padding: 20px;
+	}
+	.aez-car-carousel {
+		width: 100%;
+		margin: 0 auto 0 0;
+	}
+	.aez-check-available-btn {
+		width: 100%;
+		margin: 2% 0;
+		display: inline-block;
+	}
+	.aez-car-types {
+		display: flex;
+	}
+	.aez-car-types > .aez-btn {
+		width: 100%;
+	}
+	.aez-carousel-car-desc{
+		display: none;
+	}
+	.aez-view-all-btn {
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 1250px) {
+	.aez-car-selection-container > a.aez-check-available-btn {
+		font-size: 1.8em;
+		width: 50%;
+		margin-left: 3%;
+	}
+	
+	.aez-car-selection-container h2 { color: $white; }
+	.aez-car-types { font-size: 1.3em; }
+
+	.aez-car-selection-container > div:first-of-type {
+		max-width: 550px;
+		padding: 40px;
+		margin-left: 50px;
+	}
+}
+
+@media only screen and (max-width: 710px) {
+	.aez-worldwide {
+		margin: 15px 0 0 0;
+		padding: 20px 10px;
+    	text-align: center;
+	}
+
+	.aez-car-selection-container .slick-slide img {
+		width: 85%;
+		margin: 0 auto;
+	}
+
+	.aez-car-selection-container {
+		padding: 20px 10px;
+
+		.aez-btn {
+			display: block;
+			margin: 10px auto;
+			width: 80%;
+			padding: 5px;
+		}
+	}
+}

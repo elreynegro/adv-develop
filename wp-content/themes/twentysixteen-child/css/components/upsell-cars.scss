@@ -1,0 +1,239 @@
+/*
+ * Upsell Car Styling
+ */
+
+.aez-upsell-cars-container {
+    /* container that holds both upgrade options */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #F0F0F0;
+    margin: 4px auto;
+    width: 100%;
+    .aez-car-option {
+        margin: 0;
+        width: 48%;
+        width: calc(50% - 16px);
+        &:first-of-type {
+            margin-left: 8px;
+            margin-right: 4px;
+        }
+        &:last-of-type {
+            margin-left: 4px;
+            margin-right: 8px;
+        }
+    }
+}
+
+@media screen and (min-width: 834px) and (max-width: 910px) {
+    .enhancements_chosen .aez-upgrade-container {
+        height: 111px;
+    }  
+}
+
+@media screen and (min-width: 767px) and (max-width: 833px) {
+    .enhancements_chosen .aez-upgrade-container {
+        height: 121px;
+    }  
+}
+
+.aez-upgrade-container {
+    /* upgrade container */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0066AA;
+    color: $white;
+    border-radius: 5px;
+    height: 180px;
+    padding: 8px;
+    .aez-vehicle-img {
+        align-self: flex-end;
+        margin: 0;
+        width: 40%;
+    }
+}
+
+.aez-upgrade-content {
+    /* upgrade text content */
+    align-self: flex-start;
+    flex: 1;
+    span {
+        display: inline;
+        font-size: 14px;
+        font-weight: 300;
+    }
+    .aez-upgrade-content__title {
+        font-size: 1.3em;
+        font-weight: 400;
+        line-height: 1.2;
+    }
+    .aez-upgrade-content__description {
+        b {
+            font-size: 1.2em;
+            font-weight: 500;
+        }
+    }
+    .aez-upgrade-content__car-name {
+        font-size: 1.1em;
+    }
+    .aez-upgrade-content__car-type {
+        font-size: 0.8em;
+        font-weight: 300;
+    }
+	.aez-upgrade-content__car-code {
+		display: inline;
+		font-size: 0.6em;
+        font-weight: 200;
+	}
+}
+
+.car-type {
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 1024px) {
+    .aez-upgrade-container {
+        .aez-vehicle-img {
+            width: 45%;
+        }
+    }
+}
+
+@media screen and (max-width: 940px) {
+    .aez-upgrade-container {
+        .aez-vehicle-img {
+            width: 40%;
+        }
+    }
+}
+
+@media screen and (max-width: 840px) {
+    .aez-upgrade-container {
+        .aez-vehicle-img {
+            width: 47%;
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+        .enhancements_chosen .aez-upgrade-container .aez-vehicle-img {
+            position: relative;
+            float: right;
+            clear: none;
+            //right: -8%;
+            margin: auto;
+            width: 35%;
+        }
+}
+
+@media screen and  (min-width: 767px) and (max-width: 910px) { 
+    .enhancements_chosen .aez-upgrade-container { 
+                height: 150px;
+                flex-direction: row;
+    }
+}
+
+@media screen and (min-width: 910px) {
+   .enhancements_chosen .aez-upgrade-container { 
+                height: 130px;
+                flex-direction: row;
+    }
+}
+
+@media screen and  (min-width: 385px) and (max-width: 767px) {
+    .aez-upsell-cars-container {
+        height: 340px !important;
+    }
+    .aez-upgrade-container {
+        height: 170px !important;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .aez-upsell-cars-container {
+        flex-direction: column;
+        .aez-car-option {
+            width: 95%;
+            &:first-of-type {
+                margin: 8px;
+            }
+            &:last-of-type {
+                margin: 0 8px 8px 8px;
+            }
+        }
+    }
+    .aez-upgrade-content {
+        .aez-upgrade-content__title {
+            font-size: 1.3em;
+        }
+    } 
+    .aez-upgrade-content {
+        .aez-upgrade-content__car-name {
+           width: 114% !important;
+        }
+    }
+    .aez-upgrade-content {
+        flex: auto !important;
+    }
+    .aez-upgrade-container {
+        .aez-vehicle-img {
+            margin-top: -2%;
+            align-self: baseline !important;
+        }
+    }
+
+.aez-upgrade-container .aez-upgrade-content {
+    max-width: 50% !important;
+}  
+    .aez-upgrade-container {
+        height: 200px;
+        width: 100%;
+        .aez-vehicle-img {
+            width: 40%;
+        }
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .aez-upgrade-container {
+        height: auto;
+        .aez-upgrade-content {
+            align-self: center;
+            max-width: 40%;
+        }
+        .aez-vehicle-img {
+            align-self: center;
+            width: 63%;
+        }
+    }
+}
+
+@media only screen and (width: 320px) {
+ .aez-upgrade-container {
+    .aez-vehicle-img { 
+        width: 53%;
+        > img {
+            min-width: 129px;
+        }
+    }
+ }
+ .aez-reservation-choose .aez-reservation-summary__full.is-open::after, .enhancements_chosen .aez-reservation-summary__full.is-open::after {
+     left: 0 !important;
+ }
+ .aez-choose-option-container > h1, .aez-page-title--summary > h1 {
+    font-size: 1.5em !important;
+ }
+}
+
+@media only screen and (width: 600px) {
+ .aez-upgrade-container {
+    .aez-vehicle-img { 
+        width: 43%;
+    }
+ }
+}

@@ -1,0 +1,40 @@
+/* --------------------------------------------------------
+Style Sheet for Vehicles & Vehicle Details page
+
+version: 1.0
+last modified: 21.05.2019 by Quagile
+author: Quagile
+email: david.r@quagilesolution.com
+website: 
+----------------------------------------------------------*/
+
+.vehicle-details-page-container .aez-form-block__header { color: #ffffff; }
+.vehicle-car-class span.close { display: none !important; }
+// .vehicle-car-class div.fac_login_btn_container { width: 85%;position: relative; }
+.right-side-text-container { padding-right: 30px; }
+.vehicle-details-page-right-img { width: 150px; position: relative; bottom: 20px; left: 10px; }
+.vehicle-details-page-container .aez-form { width: 85%; margin-left: 40px; }
+.float-left { float: left; }
+.vehicle-page-secondary-footer { background-color: rgba(0,0,0,0.7)!important; background-position: center !important; }
+.vehicle-page-secondary-footer-exp-prog { margin-top: 5.2%; }
+.color-8ED8F8 { color: #8ED8F8 !important; }
+.color-white { color: #ffffff !important; }
+.img-vehicle-detail-content p { text-align: justify; }
+@media (max-width: 767px) { 
+    .vehicle-details-page-container .aez-form {
+        margin-left: 10px !important;
+    }
+    .img-vehicle-detail-content p { padding-left: 10px !important; }
+    .img-vehicle-detail-content img{ margin-top: 10px;margin-left: 40px; } 
+    .vehicle-details-page-container .fac_login_btn { margin-right: 0px !important;font-size: 11px; }
+    .vehicle-details-page-container #home_login { left: auto!important;}
+}
+@media (min-width: 992px ) { 
+    .img-vehicle-detail-content img{ position: relative;float: right; } 
+    .vehicle-details-page-container .right-side-text-container h1 { float:  left; }
+    .img-vehicle-detail-content { margin-top: 60px; margin-right: 20px; }
+}
+.vehicle-details-page-container .fac_except_home_page .fac_login_btn { margin-top: -24px!important; }
+// .vehicle-details-page-container  div.fac_login_btn_container { width: 100%; }
+.vehicle-details-page-container h4.express-checkout-link span { font-size: 11px !important;  }
+.vehicle-title-link span.vehicle_class_code { font-size: .5em !important; color: #8e9090 !important; }

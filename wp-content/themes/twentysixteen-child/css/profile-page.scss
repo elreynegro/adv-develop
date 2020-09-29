@@ -1,0 +1,37 @@
+.profile-view-awards {
+	width: 100%;
+	max-width: 700px;
+	margin: 0 auto;
+	display: block;
+}
+
+.aez-profile-container {
+	button.aez-btn { 
+		width: 100%;
+		max-width: 700px;
+		margin: 0 auto;
+	}
+
+	a {
+		max-width: 700px;
+		margin: 0 auto;
+		display: block;
+	}
+    
+	button.toggle-show-edit-profile { 
+		width: 100%;
+		max-width: 700px;
+		margin: 0 auto;
+                display:block;
+	}    
+}
+@media screen and (min-width: 769px) {
+     .aez-profile-container-main-block {
+           width: 69%;
+           margin: 0 auto;
+            
+       }
+      .aez-profile-container-main-block > .aez-info-block >  .aez-info-section {
+           width: auto;
+      }  
+}

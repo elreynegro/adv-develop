@@ -1,0 +1,87 @@
+[class^="aez-locations"] {
+    .aez-info-block-container {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+}
+
+.__location {
+    padding: 15px 25px !important;
+    margin-left: 0;
+    width: 50% !important;
+    max-width: 300px;
+    margin-bottom: 15px;
+}
+
+.check_avail {
+        margin-top: -5%;
+        width: 55%;
+}
+
+.check_avail_no_hours {
+        margin-top: 5%;
+        width: 55%;
+}
+
+@media screen and (width: 600px) {
+    .check_avail {
+        margin-top: -5%;
+        width: 55%;
+    }
+}
+
+@media screen and (min-width: 710px) {
+    [class^="aez-locations"] {
+        .aez-location__map {
+            height: 400px;
+
+            &.open {
+                height: 500px
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 709px) {
+    [class^="aez-locations"] {
+        .aez-info-section {
+            width: auto !important;
+        }
+
+        .aez-location__map {
+            height: 300px;
+
+            &.open {
+                height: 400px
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .aez-locations__us .aez-info-section:nth-of-type(2) {
+        text-align: left;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .aez-locations__us .aez-info-section {
+        text-align: left;
+    }
+    .location-usa-wrapper {
+        .aez-body {
+            padding: 0 10px !important;
+
+            .__location {
+                width: 100% !important;
+                max-width: 100%;
+            }
+        }
+    }
+    .check_avail {
+        margin-top: 0%;
+        width: 100% !important;
+        max-width: 100%;
+    }
+}

@@ -1,0 +1,1 @@
+(function($){$('.aez-quotes').slick({adaptiveHeight:true,arrows:true,});})(jQuery);

@@ -1,0 +1,163 @@
+.awards-banner{
+    width: 1700px;
+}
+
+.awards-login-part {
+    min-height:200px;
+    background-color: #fff;
+    padding:20px;
+}
+
+.membership-txt {
+    color: #003366;
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.membership-sub-txt {
+    text-align: center;
+    line-height: 30px;
+}
+.membership-sub-txt p {
+    font-size: 28px;
+    color: #003366;
+}
+
+.best-of-luck {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.best-of-luck p {
+    font-size: 20px;
+    font-weight: bold;
+    color: #003366;
+}
+
+.adv-container{
+    min-height: 200px;
+    background-color: #fff;
+}
+
+.popover__message, .popover__title {
+    text-align: center;
+}
+
+.popover__title {
+    font-family: Montserrat, Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    line-height: 36px;
+    text-decoration: none;
+    color: #e44444;
+    padding: 15px 0;
+}
+
+.popover__wrapper {
+    position: relative;
+    display: inline-block;
+    height: fit-content;
+}
+
+.popover__content {
+    opacity: 0;
+    visibility: hidden; 
+    position: absolute;
+    left: -90px;
+    transform: translate(0, 10px);
+    background-color: #BFBFBF;
+    padding: 1.4rem;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, .26);
+    width: 200px;
+}
+
+.popover__content:before { 
+    position: absolute;
+    z-index: -1;
+    content: '';
+    right: calc(50% - 10px);
+    top: -8px;
+    border-style: solid;
+    border-width: 0 10px 10px;
+    border-color: transparent transparent #BFBFBF;
+    transition-duration: .3s;
+    transition-property: transform;
+}
+
+.popover__wrapper:hover .popover__content { 
+    z-index: 10;
+    opacity: 90;
+    visibility: visible;
+    transform: translate(0, -20px);
+    transition: all.5s cubic-bezier(.75, -.02, .2, .97)
+}
+
+@media only screen and (min-width: 768px) {
+    .sec-banner-logo-division{
+        border-right: solid 1px #06a;
+    }
+    .sec-banner-logo-division.w-354 { width:354px; }
+}
+
+.awards-login-btn {
+    padding: 0.8% 8.5%;
+    margin-left: 14px;
+}
+.benifits-faq {
+    width: 40%;
+    float: left;
+    margin-top: 20px;
+    line-height: 1;
+    padding-bottom: 32px;
+    padding-top: 69px;
+    color:#ffffff;
+    margin-right:10px;
+}
+
+.awards-background-img{
+    background-image: url(/wp-content/themes/twentysixteen-child/assets/Advantage-awards.png);
+    background-size:cover;
+    background-position: top center;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position-y: -6px;
+}
+
+.awards-banner-text {
+    color: #fff;
+    padding: 150px;
+    line-height: 75px;
+    font-size: 47px;
+    margin-bottom: -6px;
+    padding-left: 10% !important;
+}
+
+.awards-banner-text span{
+    font-weight: 200 !important;
+}
+
+@media only screen and (max-width: 768px) {
+    .awards-banner-text {
+        color: #fff;
+        padding: 150px;
+        line-height: 75px;
+        font-size: 20px;
+        margin-bottom: -6px;
+        padding-left:-15px;
+    }
+    .popover__content {
+        top: 60%;
+        left: -4%;
+    }
+    .popover__wrapper {
+        margin-top: 0!important;
+    }
+    .popover__wrapper__confirm {
+       margin-top: 0!important;
+    }
+}
+.awards-benefit-logos { 
+    margin-top: 70px;
+    margin-bottom: 40px;
+}

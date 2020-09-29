@@ -1,0 +1,2 @@
+function goToAnchor(anchor){var loc=document.location.toString().split('#')[0];document.location=loc+'#locations_top';var element=document.getElementsByClassName("aez-find-a-car-dropdown");element[0].classList.toggle("is-open");var form=document.getElementById("adv_rez");form.style.display='block';return false;}
+function goToAnchorReserve(anchor){jQuery('#vehicle_page_car_class').val(jQuery(anchor).data("vechicle_car_class"));var loc=document.location.toString().split('#')[0];document.location=loc+'#reserve_top';return false;}

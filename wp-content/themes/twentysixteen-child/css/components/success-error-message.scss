@@ -1,0 +1,468 @@
+/*
+ *	ADV Success/Warning/Notice/Error Message Styling
+ */
+ 
+.aez-error-container,
+.aez-warning-container,
+.aez-notice-container,
+.aez-success-container {
+	box-shadow: $primary-box-shadow;
+	font-family: $primary-font;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	z-index: 9000000000;
+}
+
+.aez-error-container {
+	background-color: $error-background;
+}
+
+.aez-warning-container {
+	background-color: $warning-background;
+}
+
+.aez-notice-container {
+	background-color: $notice-background;
+}
+
+.aez-success-container {
+	background-color: $success-background;
+}
+
+.aez-error,
+.aez-warning,
+.aez-notice,
+.aez-success {
+	display: flex;
+	margin: 0 auto;
+	max-width: 1200px;
+	position: relative;
+	width: 98%;
+}
+
+.aez-error__close,
+.aez-warning__close,
+.aez-notice__close,
+.aez-success__close {
+	cursor: pointer;
+	font-size: 1.2em;
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	transition: $primary-transition;
+}
+
+.aez-error__close {
+	color: $error-text;
+	&:hover,
+	&:focus {
+		color: $error-bright;
+	}
+}
+.aez-warning__close {
+	color: $warning-text;
+	&:hover,
+	&:focus {
+		color: $warning-bright;
+	}
+}
+.aez-notice__close {
+	color: $notice-text;
+	&:hover,
+	&:focus {
+		color: $notice-bright;
+	}
+}
+.aez-success__close {
+	color: $success-text;
+	&:hover,
+	&:focus {
+		color: $success-bright;
+	}
+}
+
+.aez-error__fa-times-circle {
+    position:relative;
+}
+
+.aez-error__fa-times-circle:before {
+    content: "\f057";
+    font-family: FontAwesome;
+    font-size: 4em;
+    color: $error-text;
+    position:absolute;
+    padding: 7px;
+}
+
+.aez-warning__fa-exclamation-triangle {
+    position:relative;
+}
+
+.aez-warning__fa-exclamation-triangle:before {
+    content: "\f071";
+ 	flex: 1;
+    font-family: FontAwesome;
+    font-size: 3em;
+    color: $warning-text;
+  	height: 80px;
+	position: relative;
+	margin-right: 10px;
+	padding: 8px 0;
+}
+
+.aez-notice__fa-info-circle {
+    position:relative;
+}
+
+.aez-notice__fa-info-circle:before {
+    content: "\f05a";
+    font-family: FontAwesome;
+    font-size: 4em;
+    color: $notice-text;
+    position:absolute;
+    padding: 7px;
+}
+
+.aez-success__fa-check-circle {
+    position:relative;
+}
+
+.aez-success__fa-check-circle:before {
+    content: "\f058";
+    font-family: FontAwesome;
+    font-size: 4em;
+    color: $success-text;
+  	height: 80px;
+	position: relative;
+	margin-right: 10px;
+	padding: 8px 0;
+}
+
+.aez-error__cone {
+	background: url(./assets/cone.png) no-repeat center center;
+	background-size: contain;
+	flex: 0 0 10%;
+	height: 80px;
+	position: relative;
+	margin-right: 10px;
+	padding: 8px 0;
+}
+
+.aez-warning__fa-exclamation-triangleWhite {
+	background: url(./assets/cone.png) no-repeat center center;
+	background-size: contain;
+	flex: 0 0 10%;
+	height: 80px;
+	position: relative;
+	margin-right: 10px;
+	padding: 8px 0;
+}
+
+.aez-success__stoplight {
+	background: url(./assets/stoplight.png) no-repeat center center;
+	background-size: contain;
+	position: relative;
+	flex: 0 0 10%;
+	height: 80px;
+	margin-right: 10px;
+	padding: 8px 0;
+}
+
+.aez-error__message,
+.aez-warning__message,
+.aez-notice__message,
+.aez-success__message {
+	align-self: center;
+	flex: 1;
+	letter-spacing: 1px;
+	margin-left: 5px;
+	margin-right: 15px;
+
+	> * {
+		display: block;
+	}
+}
+
+.aez-error__message {
+	color: $error-text;
+}
+
+.aez-warning__message {
+	color: $warning-text;
+}
+
+.aez-notice__message {
+	color: $notice-text;
+}
+
+.aez-success__message {
+	color: $success-text;
+}
+
+.aez-error__main-text,
+.aez-warning__main-text,
+.aez-notice__main-text,
+.aez-success__main-text {
+	font-size: 1em;
+	font-weight: 600;
+	line-height: 1.2;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+.aez-error__additional-text,
+.aez-warning__additional-text,
+.aez-notice__additional-text,
+.aez-success__additional-text {
+	font-size: 0.8em;
+	font-weight: 400;
+}
+
+@media screen and (max-width: 374px) {
+	.aez-error__close,
+	.aez-warning__close,
+	.aez-notice__close,
+	.aez-success__close {
+		top: 2px;
+		right: 6px;
+		font-size: .8em;
+	}
+
+	.aez-success,
+	.aez-error {
+		width: 100%;
+
+		> .aez-success__fa-check-circle,
+		.aez-error__cone {
+			font-size: .4em;
+			top: 4.5px;	
+			position: relative;	
+		}
+
+	}
+	
+	.aez-error__main-text,
+	.aez-warning__main-text,
+	.aez-notice__main-text,
+	.aez-success__main-text{
+	font-size: .8em;
+	}
+	
+	.aez-error__additional-text,
+	.aez-warning__additional-text,
+	.aez-notice__additional-text,
+	.aez-success__additional-text{
+		font-size: .6em;
+	}
+	
+	.aez-error,
+	.aez-warning,
+	.aez-notice,
+	.aez-success {
+		> .aez-error__cone,
+		> .aez-error__fa-times-circle,
+		> .aez-warning__fa-exclamation-triangle,
+		> .aez-notice__fa-info-circle,
+		> .aez-success__fa-check-circle,
+		> .aez-success_stoplight {
+			font-size: .4em;
+			top: 4.5px;	
+			position: relative;	
+		}
+	}
+}
+
+@media screen and (min-width: 374px) {
+	.aez-error__close,
+	.aez-warning__close,
+	.aez-notice__close,
+	.aez-success__close {
+		//top: 4px;
+		right: 8px;
+		font-size: 1em;
+	}
+	
+	.aez-error__main-text,
+	.aez-warning__main-text,
+	.aez-notice__main-text,
+	.aez-success__main-text{
+		font-size: 1em;
+	}
+
+	.aez-error__additional-text,
+	.aez-warning__additional-text,
+	.aez-notice__additional-text,
+	.aez-success__additional-text {
+		font-size: .8em;
+	}
+	.aez-success,
+	.aez-error {
+		width: 90%;
+
+		> .aez-success__fa-check-circle,
+		.aez-error__cone {
+			font-size: .4em;
+			top: 6.5px;	
+			position: relative;	
+		}
+
+	}
+	
+	.aez-error,
+	.aez-warning,
+	.aez-notice,
+	.aez-success {
+		> .aez-error__cone,
+		> .aez-error__fa-times-circle,
+		> .aez-warning__fa-exclamation-triangle,
+		> .aez-notice__fa-info-circle,
+		> .aez-success__fa-check-circle,
+		> .aez-success_stoplight {
+			font-size: .6em;
+			top: 6.5px;	
+			position:relative;			
+		}
+	}
+}
+
+
+@media screen and (min-width: 768px) {
+		.aez-success,
+		.aez-error {
+		width: 80%;
+
+		> .aez-success__fa-check-circle,
+		.aez-error__cone {
+			font-size: .6em;
+			top: 8.5px;	
+
+		}
+
+	}
+
+	.aez-warning,
+	.aez-notice,
+	.aez-error,
+	.aez-success {
+		> .aez-error__fa-times-circle,
+		> .aez-warning__fa-exclamation-triangle,
+		> .aez-notice__fa-info-circle,
+		> .aez-success_stoplight {
+			font-size: .8em;
+			top: 8.5px;
+			position:relative;
+		}
+	}
+
+
+	.aez-error__close,
+	.aez-warning__close,
+	.aez-notice__close,
+	.aez-success__close {
+		right: 25px;
+		font-size: 1.3em;
+	}
+	
+	.aez-error__main-text,
+	.aez-warning__main-text,
+	.aez-notice__main-text,
+	.aez-success__main-text{
+		font-size: 1em;
+	}
+
+	.aez-error__additional-text,
+	.aez-warning__additional-text,
+	.aez-notice__additional-text,
+	.aez-success__additional-text {
+		font-size: .8em;
+	}
+}
+
+@media screen and (min-width: 909px) {
+
+	.aez-success {
+		width: 70%;
+
+		> .aez-success__fa-check-circle {
+			height: 100px;
+		}
+
+		> .aez-success_close {
+			font-size: 2em;
+		}
+
+		.aez-success__main-text {
+			font-size: 1.2em;
+		}
+	}
+
+	.aez-notice,
+	.aez-warning,
+	.aez-error {
+		width: 70%;
+
+		> .aez-error__fa-times-circle {
+			height: 100px;
+		}
+
+		> .aez-error_close {
+			font-size: 2em;
+		}
+
+		.aez-error__main-text {
+			font-size: 1.2em;
+		}
+	}
+
+	.aez-notice,
+	.aez-warning {
+		width: 70%;
+
+		> .aez-error__cone,
+		> .aez-error__fa-times-circle,
+		> .aez-warning__fa-exclamation-triangle,
+		> .aez-notice__fa-info-circle,
+		> .aez-success_stoplight {
+			font-size: 1em;
+			flex: 0 0 10%;
+			position: relative;
+		}
+
+		> .aez-notice__close,
+		> .aez-warning__close 
+		> .aez-error_close {
+			font-size: 2em;
+		}
+
+		.aez-notice__main-text,
+		.aez-warning__main-text 
+		.aez-error__main-text {
+			font-size: 1.2em;
+		}
+	}
+
+}
+
+@media screen and (min-width: 1024px) {
+	.aez-error,
+	.aez-notice,
+	.aez-warning,
+	.aez-success {
+		width: 60%;
+	}
+}
+@-ms-viewport { width: auto !important; }
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+
+	.aez-warning__fa-exclamation-triangle:before {
+	    font-size: 35px;  
+	    padding: 7px;
+	}
+
+	.aez-warning-container {
+		height: auto;
+	}
+
+}

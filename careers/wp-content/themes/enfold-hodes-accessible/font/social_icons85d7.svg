@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2016 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="glassdoor" unicode="&#xe800;" d="M590 687l0 63-480 89c-57 11-110-33-110-91l0-804c0-56 57-94 108-72l422 176c37 15 60 50 60 90l0 512-97 7 0-466c0-31-20-60-50-71l-267-99 0 644c0 37 31 65 67 61l347-39" horiz-adv-x="591" />
+
+<glyph glyph-name="xing" unicode="&#xf168;" d="M333 478q-5-10-143-255-15-25-36-25h-134q-12 0-17 9t0 20l141 250q1 0 0 1l-90 156q-7 12 0 20 5 9 17 9h134q22 0 37-26z m450 358q6-9 0-21l-295-521v0l188-344q6-11 0-20-5-9-17-9h-134q-23 0-37 25l-189 348q10 18 296 525 14 25 36 25h135q12 0 17-8z" horiz-adv-x="785.7" />
+</font>
+</defs>
+</svg>

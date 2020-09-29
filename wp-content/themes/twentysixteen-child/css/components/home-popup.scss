@@ -1,0 +1,82 @@
+/* home page popup */
+
+.pum-container p {
+    margin: 0 0 -1.25em;
+}
+
+.popup-full-container {
+	color: green;
+	margin-top: -113px;
+	clear: both;
+    min-height: 200px;
+    padding-bottom: 10px;
+}
+
+.image-container {
+    display: block;
+    position: relative;
+}
+
+.pum-container {
+	top: 75px !important;
+	display: block;
+}
+
+@media screen and (min-width: 1025px) {
+
+	.pum-container {
+		width: 40% !important;
+		margin-left: -20% !important;
+	}
+
+}
+
+@media screen  and (min-width: 530px) and (max-width: 1024px) {
+
+	.pum-container {
+		width: 70% !important;
+		margin-left: -20% !important;
+	}
+
+}
+
+@media screen and (min-width: 530px) {
+
+	.apple-store-image {
+	    position:absolute;
+	    left:60%;
+	    top:87%;
+	    width: 18%
+	}
+
+	.android-store-image {
+	    position:absolute;
+	    left:60%;
+	    top:92%;
+	    width: 18%;
+	}
+}
+
+
+@media screen and (max-width: 529px) {
+
+	.pum-container {
+		width: 90% !important;
+		margin-left: -20% !important;
+	}
+
+	.apple-store-image {
+	    position:absolute;
+	    left:60%;
+	    top:88%;
+	    width: 18%
+	}
+
+	.android-store-image {
+	    position:absolute;
+	    left:60%;
+	    top:93%;
+	    width: 18%;
+	}
+
+}

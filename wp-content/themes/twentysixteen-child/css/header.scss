@@ -1,0 +1,219 @@
+.aez-header { 
+    overflow: hidden;
+    text-align: center;
+    background: url('../assets/zoom-car.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    #apple_app_store {
+        margin-top: -29.5%;
+    }
+}
+
+.navbar.navbar-expand-lg.navbar-light.bg-light.w-100.h-5.ml-0 {
+    padding-bottom: 0;
+    padding: 0;
+}
+
+.aez-gradient {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 20px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#222222+0,222222+100&0+0,1+100 */
+    background: -moz-linear-gradient(top,  rgba(34,34,34,0) 0%, rgba(34,34,34,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(34,34,34,0) 0%,rgba(34,34,34,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(34,34,34,0) 0%,rgba(34,34,34,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00222222', endColorstr='#222222',GradientType=0 ); /* IE6-9 */
+}
+
+.aez-header > .aez-container {
+    height: 108%;
+    float: right;
+    padding: 50px 30px 0px;
+    position: relative;
+    top: -15px;
+    border-top-left-radius: 181px;
+    background: -moz-linear-gradient(left, rgba(0, 51, 102, .5) 0%, rgba(229, 229, 229, 0) 100%);
+    background: -webkit-linear-gradient(left, rgba(0, 51, 102, .5) 0%, rgba(229, 229, 229, 0) 100%);
+    background: linear-gradient(to right, rgba(0, 51, 102, .5) 0%, rgba(229, 229, 229, 0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#003366', endColorstr='#00e5e5e5', GradientType=1);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column
+}
+
+.aez-header h1,
+.aez-header h2 {
+    color: white;
+    font-family: $primary-font;
+    font-weight: 300;
+    line-height: 1.2em;
+}
+
+/**
+ * Secondary Header
+ */
+
+.aez-secondary-header {
+    background-size: cover;
+    background-position: center center;
+    color: $white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+
+    h1 {
+        color: $white;
+        line-height: 1.3em;
+    }
+
+    h2 {
+        color: $white;
+        text-transform: uppercase;
+        font-weight: 400;
+    }
+
+    h1,
+    h2 {
+        font-weight: 400;
+        padding-left: 5%;
+    }
+}
+#header-choose-lang {
+    display: none;
+}
+
+ /**
+  * Media Queries
+  */
+
+@media only screen and (max-width: 768px) { 
+    .hide_bg_mobiles {
+        background-image: none !important;
+    }
+    .location-banner-main  {
+        background-color: #fff !important;
+        .aez-gradient {
+            padding: 18px 0 8px;
+            > h1 {
+                text-align: center;
+                padding-left: 0px;
+                color: #036;
+                font-size: 1.5em;
+            }
+        }
+    }
+    .location-usa-wrapper {
+        > h2 {
+            font-size: 1.4em;
+        }
+    }
+}
+
+@media only screen and (min-width: 910px) {
+    .aez-header,
+    .aez-secondary-header {
+        height: 385px;
+        width: 100%;
+    }
+    .aez-header > div {
+        width: 75%;
+    }
+    .aez-header-content {
+        max-width: 400px;
+        margin: 0 30px 0 auto;
+    }
+}
+
+@media only screen and (max-width: 909px) {
+    .aez-header,
+    .aez-secondary-header {
+        height: 250px;
+    }
+    .aez-header > .aez-container {
+        width: 70%;
+    }
+    .aez-header-content {
+        max-width: 300px;
+        margin-left: auto;
+    }
+    #header-choose-lang {
+        display: block;
+    }
+}
+
+
+.header-choose-lang {
+    float:right;
+}
+
+.header-choose-lang-a {
+    position: relative;
+    top: 25px;
+    color: #003366;
+}
+
+.fac_except_home_page .fac_login_btn_container {
+    width:63%;
+}
+
+.fac_except_home_page .fac_login_btn { 
+    width: 16% !important;
+    float: right;
+    margin-right: 55px;
+}
+
+@media screen and (max-width: 846px) and (min-width: 320px) {
+.fac_except_home_page .fac_login_btn { 
+    width: 33% !important;
+    float: right;
+
+}
+
+.aez-find-a-car-dropdown .aez-form-block__header {
+   
+    width: 621px !important;
+}
+.fac_except_home_page .express-checkout-link span {
+  font-size:  13px !important;
+} 
+
+}
+
+// @media screen and (max-width: 767px) {
+//     #lang-dropdown-wrapper {
+//         position: absolute;
+//         right: 10%;
+//         top:2% !important;
+//     }
+// }
+
+// @media screen and (max-width: 1023px) and (min-width: 768px) {
+//      #lang-dropdown-wrapper {
+//         margin-right: 40px !important;
+//     }
+// }
+
+// @media screen and (max-width: 1023px){
+//     button#responsive-menu-button {
+//         top:2% !important;
+//     }
+// }
+
+// @media screen and (min-width: 1024px){
+//     button#responsive-menu-button {
+//         top:1% !important;
+//     }
+// }

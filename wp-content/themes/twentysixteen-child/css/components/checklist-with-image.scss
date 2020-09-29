@@ -1,0 +1,148 @@
+/*
+ * Corporate Advantage
+ */
+
+.aez-checklist-image {
+    text-align: center;
+
+    .aez-check-block {
+        h3 { text-transform: uppercase; font-weight: 500; }
+    }
+
+    .aez-check-image > div:last-of-type {
+        span { display: block; font-size: 1.2em; line-height: 1; }
+        .aez-btn {
+            display: block;
+            font-size: 1.1em;
+            margin: 1em auto; 
+            padding: 5px 0px;
+            width: 50%;
+        }
+    }
+
+    .aez-sub-info {
+        h3,
+        h4 { font-weight: 400; }
+    }
+}
+
+.aez-checklist-image.-corporate {
+    .aez-check-block {
+        h3 { color: $light-blue !important; }
+        p { color: $white !important; }
+    }
+}
+
+@media only screen and (min-width: 910px) {
+    .aez-sub-info {
+        width: 50%;
+        text-align: left;
+        font-size: 1.7em;
+        line-height: 1.3em;
+    }
+
+    .aez-check-image {
+        > img {
+            position: absolute;
+            width: 15%;
+            left: 8%;
+        }
+
+        .aez-checklist {
+            clear: both;
+            padding-top: 0px;
+            margin-top: 0px;
+            padding-bottom: 0px;
+            margin-bottom: 0px;
+            text-align: left;
+        }
+
+        > div {
+            margin: 0 auto;
+        }
+    }
+}
+
+@media only screen and (max-width: 909px) {
+    .aez-check-image {
+        > div:first-of-type {
+            h3 { font-size: 1.5em; }
+            h4 { font-size: 1.3em; }
+            h3, h4 { font-weight: 400; line-height: 1.4em;}
+        }
+
+        > img {
+            width: 200px;
+        }
+    }
+}
+
+@media only screen and (min-width: 710px) {
+    .aez-checklist-image {
+        .aez-check-image {
+            padding: 5% 0;
+        }
+
+        a.aez-btn {
+            margin: 0 auto;
+            display: block;
+            width: 40%;
+        }
+    }
+
+    // For corporate background
+    .-corporate {
+        background-image: url('/wp-content/themes/twentysixteen-child/assets/corporate.png');
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+
+        .aez-check-image {
+            background-color: $downriver-rgba;
+        }
+    }
+
+    // For awards background
+    .-awards {
+        .aez-check-image {
+            background-color: $white-rgba;
+        }
+    }
+
+    // For booking background
+    .-booking {
+        background-image: url('/wp-content/themes/twentysixteen-child/assets/men_shaking_hands.png');
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+
+        .aez-check-image {
+            background-color: $white-rgba-dark;
+        }
+    }
+}
+
+@media only screen and (max-width: 709px) {
+    .aez-checklist-image {
+        .aez-check-image > div:last-of-type {
+            .aez-btn {
+                width: 85%;
+            }
+        }
+    }
+
+    .-corporate,
+    .-awards,
+    .-booking {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .-corporate {
+        background-color: $downriver;
+    }
+
+    .-booking {
+        background-color: $off-white;
+    }
+}

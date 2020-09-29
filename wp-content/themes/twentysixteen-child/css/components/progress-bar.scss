@@ -1,0 +1,147 @@
+/*
+ *  AEZ Progress Bar
+ */
+
+/*
+ *  AEZ Progress Bar
+ */
+
+.aez-progress-bar {
+    display: flex;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.aez-progress-bar__item {
+    display: inline-block;
+    flex: 1;
+  
+  &:first-of-type {
+    
+    .aez-progress-bar__item-arrow {
+      &:before {
+        border-left: 0;
+      }
+    }
+  }
+  
+  &:last-of-type {
+    
+    .aez-progress-bar__item-arrow {
+      width: 100%;
+      
+      &:after {
+        border-left: 0;
+      }
+    }
+  }
+  
+}
+
+.aez-progress-bar__item-text {
+  color: $light-gray;
+  font-size: 1.3em;
+  font-weight: 500;
+  line-height: 1;
+  margin: 5px auto;
+  text-align: center;
+  width: 100%;
+}
+
+.aez-progress-bar__item-arrow {
+    background-color: $light-gray;
+    color: $white;
+    display: block;
+    height: 18px;
+    line-height: 18px;
+    padding: 0 6px;
+    padding-left: 12px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    width: 95%;
+  
+    &:before,
+    &:after {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        border-top: 9px solid transparent;
+        border-bottom: 9px solid transparent;
+    }
+  
+  
+    &:before {
+        border-left: 5px solid $white;
+        left: 0;
+    }
+
+    &:after {
+        border-left: 5px solid $light-gray;
+        left: 100%;
+        width: 0;
+        height: 0;
+        z-index: 2;
+    }
+}
+
+.aez-progress-bar__item--completed {
+  
+  .aez-progress-bar__item-text {
+    color: $blue;
+  }
+  
+  .aez-progress-bar__item-arrow {
+    background: $blue;
+    color: $white;
+    
+    &:after {
+      border-left: 5px solid $blue;
+    }
+  }
+}
+
+@media only screen and (max-width: 909px) {
+  .aez-progress-bar__item {
+    position: relative;
+    
+    .aez-progress-bar__item-text {
+      position: absolute;
+      color: $white;
+      line-height: 2.3;
+      margin: auto;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      z-index: 10;
+    }
+    
+    .aez-progress-bar__item-arrow {
+      height: 44px;
+      line-height: 44px;
+      
+      &:before,
+      &:after {
+        border-top: 22px solid transparent;
+        border-bottom: 22px solid transparent;
+      }
+    }
+  } 
+}
+
+@media only screen and (min-width: 910px) {
+    .aez-progress-bar {
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .aez-progress-bar__item {
+        .aez-progress-bar__item-text {
+            font-size: 1em;
+            line-height: 3;
+        }
+    }
+}

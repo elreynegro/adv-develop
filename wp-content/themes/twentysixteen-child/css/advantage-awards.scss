@@ -1,0 +1,150 @@
+/********* ADVANTAGE AWARDS BLUE BANNER  *********/ 
+.aez-advantage-awards-banner {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	background: $dark-blue; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(white, $light-white, $light-white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(white, $light-white, $light-white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(white, $light-white, $light-white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(white, $light-white, $light-white); /* Standard syntax */
+	width: 100%;
+	color: white;
+	padding: 5px 10px 0px;
+	font-size: .9em;
+	line-height: 1.2;
+}
+
+.popup-form .aez-sign-up-form {
+	margin: auto;
+	width: 95%;
+	
+	span {
+		font-weight: 400;
+		font-size: 0.9em;
+		margin-bottom: 1%;
+	}
+
+	.aez-form-item__input {
+		font-size: .75em;
+		font-weight: 300;
+	}
+	.aez-form-item--checkbox-cont {
+		margin: 0 auto;
+	}
+	.aez-form-block {
+		width: 85%;
+	}
+}
+.pum-container .aez-form-item__label {
+	font-size: .8em!important;
+    padding: 0.5em;
+    font-weight: 300;
+}
+
+.aez-awards-img{
+	max-width: 600px;
+	width: 50%;
+	margin: 0 auto;
+	padding: 2em 0;
+}
+
+.aez-awards-img > img{
+	width: 100%;
+}
+
+.aez-advantage-awards-banner > .aez-banner-header {
+	margin-top: 30%;
+	font-weight: 500;
+	color: $light-blue;
+	text-transform: uppercase;
+}
+
+.aez-advantage-awards-banner > .aez-banner-subheader {
+	font-weight: 500;
+}
+
+@media only screen and (max-width: 709px) {
+	.aez-awards-img {
+	    width: 80%;
+	}
+}
+// __________ ADVANTAGE AWARDS BLUE BANNER END __________
+
+/********* ADVANTAGE AWARDS VIEW AWARDS *********/
+.aez-view-awards {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	text-align: center;
+	padding: 20px 10px;
+}
+
+.aez-view-awards > p {
+	margin-bottom: 0; 
+	font-size: 1.1em;
+}
+// __________ ADVANTAGE AWARDS VIEW AWARDS END __________
+
+.aez-profile-container {
+	padding-bottom: 2%;
+}
+
+.aez-profile-name {    
+	display: inline;
+    font-size: 1em;
+}
+
+.aez-edit-profile-form, #adv-awards-sign-up {
+	margin-bottom: 10%;
+
+	.aez-terms-submit-block button {
+		margin-top: 20px;
+		width: 100%;
+	}
+}
+
+.aez-edit-password-form {
+	.aez-terms-submit-block button {
+		margin-top: 15px;
+		width: 100%;
+	}
+}
+
+.aez-advantage-awards-header {
+	margin: 1.618em auto 0em auto;
+	text-align: center;
+}
+
+.aez-advantage-awards-header__title {
+	color: $dark-blue;
+	font-size: 1.2em;
+	font-weight: 700;
+}
+
+.aez-advantage-awards-header__subtitle {
+	color: $gray;
+	font-size: 1em;
+	font-weight: 400;
+	text-align: left;
+	padding: 0 20px;
+}
+
+.aez-form-block > .aez-advantage-awards-header__subtitle {
+	padding: 0;
+}
+
+#find_rez_form {
+	.aez-advantage-awards-header {
+		margin-bottom: 20px;
+	}
+
+	.aez-form-item {
+		#renter_last,
+		#confirm_num {
+			height: 40px;
+			width: 100%;
+			border-radius: 5px;
+		}
+	}
+}

@@ -1,0 +1,56 @@
+.aez-login {
+    margin:  1.5px auto;
+    max-width: 910px;
+
+    h3 {
+        text-align: center;
+    }
+
+    .aez-form-block__header {
+        > span, h3 {
+            display: block;
+            text-align: center;
+            width: 100%;
+            line-height: 1.2em;
+        }
+    }
+    .aez-login {
+        .aez-form-block__header {
+            > span {
+                font-size: 1em;
+                font-weight: 300;
+            }
+        }
+    }
+}
+
+.aez_login_popup {
+    .aez-awards-form__submit:hover {
+        background-color: #06a!important;
+        border-color: #06a!important;
+        font-weight: 300;
+        font-size: 0.95em;
+    }
+}
+.aez-login .form-group .aez-form-item > input{
+    font-size: 0.8em;
+}
+
+
+.aez_login_popup .aez-awards-form__submit {
+    margin-bottom: 20px;
+    background-color: #036;
+    border-color: #036;
+    font-weight: 300;
+    font-size: 0.95em;
+}
+
+.aez_login_popup {
+    margin: 20px auto 0 !important;
+}
+
+.aez-login .aez-earn-link {
+    width: 100%;
+    display: block;
+    padding: 8px 0 !important;
+}

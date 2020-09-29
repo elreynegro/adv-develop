@@ -1,0 +1,296 @@
+/*
+ *	AEZ Home Carousel
+ */
+
+.aez-home-carousel {
+	
+}
+
+.aez-home-carousel__slide {
+	background: $dark-blue no-repeat center center;
+	background-size: cover;
+	display: flex !important;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: stretch;
+	justify-content: flex-end;
+	height: 400px;
+	overflow: hidden;
+
+    // Z Index on home page slide
+    // Make sure that it is above the slider/person
+	z-index: 25;
+}
+
+.aez-home-carousel__slide--business {
+	background-image: url('/wp-content/uploads/2016/11/hero-image-business.jpg');
+	background-position: right center;
+}
+
+.aez-home-carousel__slide--family {
+	background-image: url('/wp-content/uploads/2016/11/hero-image-family.jpg');
+}
+
+.aez-home-carousel__slide--europcar {
+	background-image: url('/wp-content/uploads/2016/11/hero-image-europcar.jpg');
+}
+
+.aez-home-carousel__slide--advantage-banner {
+	background-image: url('/wp-content/themes/twentysixteen-child/assets/advantage-banner.jpg');
+}
+
+.aez-home-carousel__slide--advantage-silver {
+margin: auto;
+	background-size: 100% 400px; 
+	background-image:url("/wp-content/themes/twentysixteen-child/assets/hp-app-silver-banner-backdrop.jpg");
+}
+
+.aez-home-carousel__slide--gay-travel {
+	background-image: url('/wp-content/themes/twentysixteen-child/assets/gay-travel-background.png');
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  #app_store_button {
+  margin-top: -29.5%;
+  }
+}
+
+.aez-home-carousel__slide-content-silver {
+	display:-webkit-box;
+	display:-ms-flexbox;
+	-webkit-box-orient:vertical;
+	-webkit-box-direction:normal;
+	-ms-flex-direction:column;
+	flex-direction:column;
+	-ms-flex-wrap:nowrap;
+	flex-wrap:nowrap;
+	-webkit-box-align:center;
+	-ms-flex-align:center;
+	align-items:center;
+	-webkit-box-pack:center;
+	-ms-flex-pack:center;
+	justify-content:center;
+	border-top-left-radius:350px;
+	color:#FFFFFF;
+	font-family:"Montserrat", "Helvetica","Arial", sans-serif;
+	margin-right: 15%;
+  	margin-top: 20px;
+}
+
+.aez-home-carousel__slide-content-gay-travel  {
+	display:-webkit-box;
+	display:-ms-flexbox;
+	-webkit-box-orient:vertical;
+	-webkit-box-direction:normal;
+	-ms-flex-direction:column;
+	flex-direction:column;
+	-ms-flex-wrap:nowrap;
+	flex-wrap:nowrap;
+	-webkit-box-align:center;
+	-ms-flex-align:center;
+	align-items:center;
+	-webkit-box-pack:center;
+	-ms-flex-pack:center;
+	justify-content:center;
+	border-top-left-radius:350px;
+	color:#FFFFFF;
+	font-family:"Montserrat", "Helvetica","Arial", sans-serif;
+	width:80%;
+}
+
+.aez-home-carousel__slide-content {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	align-items: center;
+	justify-content: center;
+	
+	background-color: hsla(210, 100%, 20%, 0.3);
+	border-top-left-radius: 350px;
+	color: $white;
+	font-family: $primary-font;
+	width: 58%;
+
+	> * {
+		width: 65%;
+	}
+}
+
+.aez-home-carousel__slide--advantage-banner > .aez-home-carousel__slide-content {
+	padding-top: 50px;
+	width: 65%;
+    margin-right: -8%;
+}
+
+.aez-home-carousel__slide-heading {
+	color: $white;
+	font-size: 3em;
+	font-weight: 700;
+	line-height: 1.3em;
+	text-transform: uppercase;
+}
+
+.aez-home-carousel__slide-subheading {
+	font-size: 1.618em;
+	font-weight: 400;
+	line-height: 1.3em;
+}
+
+button.aez-btn.aez-home-carousel__slide-button {
+	font-size: 1.2em;
+	font-weight: 400;
+	margin: 1em 0;
+	padding: 1em 0;
+	width: 75%;
+	max-width: 420px;
+}
+
+@media screen and (max-width: 1200px) {
+	.aez-home-carousel__slide-content {
+		width: 65%;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.aez-home-carousel__slide-content {
+		width: 72%;
+	}
+}
+
+@media screen and (max-width: 909px) {
+	.aez-home-carousel__slide {
+		height: 250px;
+	}
+
+	.aez-home-carousel__slide-content {
+		border-top-left-radius: 225px;
+
+		.aez-home-carousel__slide-content {
+			> * {
+				width: 55%;
+			}
+		}
+	}
+
+	.aez-home-carousel__slide-heading {
+		font-size: 2em;
+	}
+
+	.aez-home-carousel__slide-subheading {
+		font-size: 1em;
+	}
+
+	button.aez-btn.aez-home-carousel__slide-button {
+		font-size: 1em;
+	}
+}
+
+@media screen and (max-width: 809px) {
+	.aez-home-carousel__slide-content {
+		width: 75%;
+
+		> * {
+
+		}
+	}
+	.aez-home-carousel__slide-content-silver {
+		width: 35%;
+	}
+}
+
+@media screen and (max-width: 709px)  and (min-width: 601px){
+.aez-home-carousel__slide-content-silver {
+	width: 50%;
+}
+	.aez-home-carousel__slide-content {
+		align-items: flex-end;
+		width: 80%;
+
+		> * {
+			width: 55%;
+			margin-right: 50px;
+		}
+	}
+
+	.aez-home-carousel__slide-heading {
+		font-size: 1.618em;
+	}
+
+	.aez-home-carousel__slide-subheading {
+		font-size: 0.8em;
+	}
+
+	button.aez-btn.aez-home-carousel__slide-button {
+		font-size: 0.8em;
+		margin-right: 50px;
+	}
+	.aez-home-carousel__slide--advantage-banner > .aez-home-carousel__slide-content {
+		margin-top: -15px;
+		padding-top: 0px;
+		width: 80%;
+	    margin-right: 0%;
+   	}
+
+}
+@media screen and (max-width: 600px)  and (min-width: 501px) {
+	.aez-home-carousel__slide--advantage-banner > .aez-home-carousel__slide-content {
+		margin-top: -15px;
+		padding-top: 0px;
+		width: 82%;
+	    margin-right: -13%;
+   	}
+}
+
+@media screen and (max-width: 500px) {
+	.aez-home-carousel__slide-content {
+		text-align: center;
+
+		> * {
+			margin-right: 25px;
+		}
+	}
+
+	button.aez-btn.aez-home-carousel__slide-button {
+		margin-right: 25px;
+	}
+	.aez-home-carousel__slide--advantage-banner > .aez-home-carousel__slide-content {
+		background-color: transparent;
+	    padding-top: 0px;
+	    width: 100%;
+	    margin-right: 0;
+	    margin-top: -30px;
+
+		button.aez-btn.aez-home-carousel__slide-button {
+			margin-right: 0px;
+		    width: 100%;
+		}
+	}
+}
+
+
+@media screen and (max-width: 640px)  and (min-width: 300px) {
+ 	.aez-home-carousel__slide-content-silver {
+		margin-right: 40px;
+		width: 55%;
+	}
+}
+@media screen and (width: 600px){
+ 	.aez-home-carousel__slide-content-silver {
+		width: 40% !important;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.aez-home-carousel__slide.aez-home-carousel__slide--advantage-silver {
+		-webkit-box-align: center !important;
+	    -ms-flex-align: center !important;
+	    align-items: center !important;
+	    -webkit-box-pack: center !important;
+	    -ms-flex-pack: center !important;
+	    justify-content: center !important;
+	    margin-right: 0% !important;
+	}
+	.aez-home-carousel__slide-content-silver {
+		margin-right: 0 !important;
+	}
+}

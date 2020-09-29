@@ -1,0 +1,72 @@
+http://10.1.10.165/api/v1/rates?api_provider=TSD&rental_location=MCO&return_location=MCO&pickup_date=11012016&pickup_time=11:00AM&dropoff_date=11022016&dropoff_time=11:00AM&promo_codes[]=ABC123&promo_codes[]=DEF456
+
+http://localhost:8000/api/v1/rates?api_provider=TSD&rental_location=MCO&return_location=MCO&pickup_date=11012016&pickup_time=11:00AM&dropoff_date=11022016&dropoff_time=11:00AM&promo_codes[]=ABC123&promo_codes[]=DEF456
+
+http://10.1.10.165/api/v1/requestBill?api_provider=TSD&rental_location_id=MCO&return_location_id=MCO&pickup_date_time=11012016 11:00 AM&dropoff_date_time=11022016 11:00 AM&rate_id=603518618&class_code=IFAR
+
+http://localhost:8000/api/v1/requestBill?api_provider=TSD&rental_location_id=MCO&return_location_id=MCO&pickup_date_time=11012016 11:00 AM&dropoff_date_time=11022016 11:00 AM&rate_id=603518618&class_code=IFAR
+
+
+AEZREZ
+
+&rental_location_id=MCO&return_location_id=MCO&pickup_date_time=12012016 12:00 PM&dropoff_date_time=12022016 12:00 PM&rate_id=&class_code=&renter_first=Rez&renter_last=Booking&email_address=dev@aezrac.com&renter_home_phone=(407) 999-9999&renter_address1=123 Main St.&renter_city=Orlando&renter_state=FL&renter_zip=32801
+
+
+REQREZ
+rental_location_id=&return_location_id=&pickup_date_time=&dropoff_date_time=&rate_id=&class_code=&renter_first=&renter_last=&email_address=&renter_home_phone=&renter_address1=&renter_city=&renter_state=&renter_zip=
+
+
+
+promo_codes[]=ABC123&promo_codes[]=DEF456
+
+
+	    <RentalLocationID>' . $this->request_array['rental_location_id'] . '</RentalLocationID>
+	    <ReturnLocationID>' . $this->request_array['return_location_id'] . '</ReturnLocationID>
+	    <PickupDateTime>' . $this->request_array['pickup_date_time'] . '</PickupDateTime>
+	    <ReturnDateTime>' . $this->request_array['dropoff_date_time'] . '</ReturnDateTime>
+	    <RateID>' . $this->request_array['rate_id'] . '</RateID>
+	    <ClassCode>' . $this->request_array['class_code'] . '</ClassCode>
+	    <ConfirmNum>' . $this->request_array['confirm_num'] . '</ConfirmNum>
+	    <DiscountCode>' . $this->request_array['discount_code'] . '</DiscountCode>
+	    <DiscountPercent>' . $this->request_array['discount_percent'] . '</DiscountPercent>
+	    <RateSource>' . $this->request_array['rate_source'] . '</RateSource>
+	    <Prepaid>' . $this->request_array['prepaid'] . '</Prepaid>
+	    <LocationInformation>' . $this->request_array['location_information'] . '</LocationInformation>
+	    <RateCode>' . $this->request_array['rate_code'] . '</RateCode>
+	    <CompanyNumber>' . $this->request_array['company_number'] . '</CompanyNumber>
+
+  <PayLoad>
+    <RentalLocationID>LAX</RentalLocationID>
+    <ReturnLocationID>LAX</ReturnLocationID>
+    <PickupDateTime>04042016 12:00 PM</PickupDateTime>
+    <ReturnDateTime>04052016 12:00 PM</ReturnDateTime>
+    <RateID>1026182</RateID>
+    <ClassCode>ECAR</ClassCode>
+    <ConfirmNum />
+    <DiscountCode />
+    <DiscountPercent />
+    <RateSource />
+    <Prepaid>N</Prepaid>
+    <LocationInformation>Y</LocationInformation>
+    <RateCode />
+    <CompanyNumber>CD0003F5C8</CompanyNumber>
+  </PayLoad>
+
+  mmoie70evMRzjWcsyE
+
+
+  <form id="vehicle-form">
+<input type="hidden" name="rental_location_id" value="MCO">
+<input type="hidden" name="return_location_id" value="MCO">
+<input type="hidden" name="pickup_date_time" value="11012016 11:00 AM">
+<input type="hidden" name="dropoff_date_time" value="11022016 11:00 AM">
+<input type="hidden" name="rate_id" value="603518618">
+<input type="hidden" name="class_code" value="IFAR">
+<input type="hidden" name="api_provider" value="TSD">
+<button type="submit">
+<a href="/" class="vehicle_request_bill">Car 1</a></button>
+</form>
+<a href="/?api_provider=TSD&rental_location_id=MCO&return_location_id=MCO&pickup_date_time=11012016 11:00 AM&dropoff_date_time=11022016 11:00 AM&rate_id=603518618&class_code=IFAR" class="vehicle_request_bill">Car 1</a>
+<a href="/" class="vehicle_request_bill">Car 1</a></button>
+
+

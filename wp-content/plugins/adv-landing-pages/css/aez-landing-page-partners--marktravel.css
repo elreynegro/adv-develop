@@ -1,0 +1,137 @@
+/*
+ * GayTravel.com Partner Styles
+ */
+
+.aez-partners--primary-bg-color {
+  /* Primary BG Color */
+  background-color: #932C46;
+}
+
+.aez-partners--primary-color {
+  /* Primary Text Color */
+  color: #932C46;
+}
+
+.aez-partners--accent-bg-color {
+  /* Accent BG Color */
+  background-color: #005ca5;
+}
+
+.aez-partners--accent-color {
+  /* Accent Text Color */
+  color: #005ca5;
+}
+
+.aez-partners--heading-color {
+  /* Heading Text Color */
+  color: #003366;
+}
+
+.aez-partners--copy-color {
+  /* Copy Text Color */
+  color: #55565a;
+}
+
+.aez-partners--promo-bg-color {
+  /* Promo Mobile View Block BG Color */
+  background-color: #74A553;
+}
+
+.aez-partners--arrow-promo-bg-color {
+  /* Promo Arrow Desktop View Block BG Color */
+  background-color: #74A553;
+}
+
+.aez-partners-feature__content-promo .code.aez-partners--arrow-promo-bg-color:before {
+  /* Promo Arrow Desktop View Block BG Color - Triangle Of Arrow */
+  border-right-color: #74A553;
+}
+
+.aez-partners--stacking-rewards-bg-color {
+  /* Stacking BG Color */
+  background-color: #E5DEDE;
+}
+
+
+
+/*
+  Buttons
+ */
+
+.aez-partners--sigh-up, .aez-partners--sigh-up:before {
+  /* Use Accent BG Color */
+  background-color: #932C46;
+  border-color: #932C46;
+  color: white;
+}
+
+.aez-partners--awards , .aez-partners--awards:before {
+  /* Use Accent BG Color */
+  background-color: #932C46;
+  border-color: #932C46;
+  color: white;
+}
+
+.aez-partners--sigh-up:hover,
+.aez-partners--sigh-up:focus,
+.aez-partners--awards:hover,
+.aez-partners--awards:focus {
+  /* 
+    Buttons Hover & Focus State
+    Primary BG Color darkened by 5%
+    http://hslpicker.com/#B93293
+  */
+  background-color: #4f1725;
+  color: white;
+}
+
+
+
+/* 
+  AEZ Find A Car Form Buttons
+*/
+
+.aez-partners-feature__form .aez-form #adv_rez_submit,
+.aez-partners-feature__form .aez-form .aez-add-btn:before {
+  /* Use Accent BG Color */
+  background-color: #005ca5;
+  border-color: #005ca5;
+}
+
+.aez-partners-feature__form .aez-form #adv_rez_submit:hover,
+.aez-partners-feature__form .aez-form #adv_rez_submit:focus,
+.aez-partners-feature__form .aez-form .aez-add-btn:hover:before,
+.aez-partners-feature__form .aez-form .aez-add-btn:focus:before {
+  /*
+    Accent BG Color darkened by 5%
+    http://hslpicker.com/#005ca5
+   */
+  background-color: #004680;
+  border-color: #004680;
+}
+
+
+
+/* 
+  AEZ Background Images
+*/
+
+.aez-partners-feature__hero {
+  /* Hero Image */
+  background-image: url("/wp-content/plugins/adv-landing-pages/assets/partners/mark-travel/hero.png");
+}
+
+.aez-partners-stacking__equation-circle--partner-logo {
+  /* Logo Image */
+  background-image: url("/wp-content/plugins/adv-landing-pages/assets/partners/mark-travel/logo-vertical.png");
+}
+
+.aez-partners-stacking__equation-circle--person {
+  /* Person Image */
+  background-image: url("/wp-content/plugins/adv-landing-pages/assets/partners/mark-travel/person.png");
+}
+
+.aez-partners-questions__header-car {
+  /* Car Image */
+  background-image: url("/wp-content/plugins/adv-landing-pages/assets/partners/mark-travel/car.png");
+}

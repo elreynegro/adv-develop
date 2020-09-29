@@ -1,0 +1,139 @@
+
+
+.location-find-car-form .aez-form-block {
+    width: 94%;
+    padding: 10px 5px;
+}    
+
+.location-find-car-form .aez-form-item--with-btn {
+    width: 48%;
+    float: left;
+}
+
+.location-find-car-form .aez-form-item--with-btn:nth-child(even) {
+    float: right;
+    margin-top: 0; 
+}
+
+.location-find-car-form .aez-form-item--with-btn:nth-child(4) {
+    margin-top: 3px; 
+}
+
+.location-banner-main {
+    width: 100%;
+    height: 100%;
+    background: rgba(34,34,34,0.5);
+    padding: 0;
+    margin: 0;
+}
+
+.location-banner-main .aez-form-item {
+    border: 0 !important;
+}
+
+.location-banner-main .aez-gradient {
+    background: none;
+    height: 100%;
+}
+
+#adv_rez_loc .aez-form-item > input[type=search] {
+    font-size: 0.9em;
+    padding: 0.525em 0.375em;
+}
+
+#adv_rez_loc .aez-form-item > .aez-form-item__label {
+    font-size: .9em;
+    font-weight: 400;
+    padding: 0.5em;
+}
+
+#adv_rez_loc .aez-form-block .aez-btn {
+    padding: .6em 0!important;
+}
+
+#adv_rez_loc .aez-form-item > select.aez-form-item__dropdown {
+    font-size: 0.9em;
+    font-weight: 300;
+    color: #686868;
+    padding: .18em 1em;
+}
+
+.find-a-car-location-banner {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 4px solid #86b300;
+    margin-right: 10%;
+    border-radius: 7px;
+    background: linear-gradient(rgba(34, 34, 34, 0.65) 0, rgba(34, 34, 34, 0.65) 100%);
+}
+.location-find-car-side {
+    width: 100%;
+    margin: 0 auto;
+}
+.location-find-car-side .left-item {
+    width: 100%;
+}
+.location-find-car-side .right-item {
+    width: 100%;
+}
+
+.location-find-car-side .col-row-item {
+    padding: 0;
+}
+
+/*.location-find-car-side .left-item .aez-form-item--dropdown {
+    position: relative;
+    left: 15px;
+}
+
+.location-find-car-side .right-item .aez-form-item--dropdown {
+    position: relative;
+    left: 9px;
+}
+
+
+.aez-form-block.right-item .aez-form-block--side-by-side {
+    position: relative;
+    right: 12px;
+}*/
+
+.location-find-car-form .aez-form-block-side-by-side {
+    padding: 0;
+}
+
+.aez-form-block .calendar {
+    margin-left: -7px !important;
+}
+
+
+@media only screen and (min-width: 600px) {
+    .location-page-fac.aez-find-a-car-dropdown {
+        display: none;
+    }
+    .loc_check_avail_btn {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .find-a-car-location-banner {
+        display: none;
+    }
+    .loc_check_avail_btn_web {
+        display: none;
+    }
+    .loc_check_avail_btn {
+        display: block;
+    }
+}
+
+.location-usa-wrapper .sub-details-loader {
+    text-align: center; 
+    min-height: 100px; 
+    line-height: 40px; 
+    line-height: 98px; 
+    color:#06a;
+}
+.sub-details-loader img {
+    margin-right: 20px;
+}

@@ -1,0 +1,195 @@
+/**
+ * Awards Promo
+ */
+
+.aez-awards-promo {
+    font-family: $primary-font;
+
+    h2 {
+        text-align: center;
+        line-height: 1.2em;
+    }
+
+    h3 {
+        text-align: center;
+    }
+
+    h4 {
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: 400;
+    }
+
+    .aez-promo-blocks {
+        display: flex;
+    }
+}
+
+.aez-member-login {
+    width: 100%;
+    text-align: center;
+
+    span {
+        display: block;
+        margin: 10px 0px;
+    }
+
+    .aez-btn {
+        padding: 0.618em 0;
+        width: 80%;
+        max-width: 650px;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .aez-awards-promo {
+        padding: 4% 15%;
+    }
+}
+
+@media only screen and (min-width: 910px) {
+    .aez-awards-promo {
+        padding: 4% 10%;
+        background-image: url(/wp-content/themes/twentysixteen-child/assets/palm_trees_at_island.jpg);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        height: 100%;
+
+        h2 {
+            font-size: 2.5em;
+            color: $dark-blue;
+        }
+
+        h3 {
+            font-size: 1.7em;
+            color: $primary-color;
+        }
+
+        h4 {
+            color: $light-grey;
+        }
+
+        .aez-promo-blocks {
+            align-items: flex-start;
+            align-items: -ms-flex-start;
+            max-width: 1200px;
+            margin: 0 auto;
+
+            .aez-promo {
+                text-align: center;
+                -ms-flex-pack: center;
+                width: 33%;
+                margin: 20px 0px;
+                padding-right: 10px;
+                padding-left: 10px;
+
+                .fa {
+                    display: block;
+                    font-size: 60px;
+                    color: $dark-blue;
+                }
+
+                span {
+                    color: $primary-color;
+                    font-size: 1.2em;
+                    text-transform: uppercase;
+                }
+
+                p {
+                    color: $dark-grey;
+                    font-size: 1.1em;
+                    margin-bottom: 0px;
+                }
+            }
+        }
+    }
+}
+   @media only screen and (max-width: 1600px) and (min-width: 709px)  { 
+        #promo_locations {
+            background-image: url("/wp-content/themes/twentysixteen-child/assets/zoom-car.jpg") !important;
+        }
+}
+
+
+
+@media only screen and (max-width: 909px) {  
+    .aez-awards-promo {
+        padding: 30px 0px;
+        background-color: $dark-blue;
+
+        h2 {
+            font-size: 1.7em;
+        }
+
+        h2, h4 {
+            color: $white;
+        }
+
+        h3 {
+            font-size: 1.3em;
+            font-weight: 400;
+            color: $green;
+        }
+
+        .aez-promo-blocks {
+            flex-direction: column;
+            padding: 0 20px;
+        }
+
+        .aez-promo {
+            display: flex;
+            margin: 20px 0px;
+            justify-content: space-around;
+
+            .fa {
+                font-size: 65px;
+                color: $white;
+            }
+
+            > div {
+                width: 75%;
+            }
+
+            span {
+                color: $light-blue;
+                text-transform: uppercase;
+            }
+
+            p {
+                margin-bottom: 0px;
+                color: $white;
+                font-size: .9em;
+            }
+            img {
+                width: 54%;
+            }
+        }
+
+        .aez-member-login {
+            text-align: center;
+            color: $white;
+
+            .aez-btn {
+                width: 100%;
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width: 710px) {
+    .aez-member-login {
+        padding: 0 20px;
+    }
+}
+
+@media only screen and (min-device-width: 560px){
+         .aez-promo {                
+                img {
+                        width: 45%;
+                    }
+     }
+}

@@ -1,0 +1,78 @@
+/*!
+    Theme Name:   AEZ Theme
+    Theme URI:    http://example.com/aez-theme
+    Description:  AEZ Theme
+    Author:       Yanely Ramirez
+    Author URI:   http://example.com
+    Template:     twentysixteen
+    Version:      1.0.0
+    License:      GNU General Public License v2 or later
+    License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+    Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+    Text Domain:  twenty-sixteen-child
+*/
+
+@import 'fonts';
+@import 'variables';
+
+@import 'components/confirmation-message';
+@import 'components/success-error-message';
+
+@import 'components/date-picker';
+@import 'components/progress-bar';
+@import 'components/search-results';
+@import 'components/selected-car';
+@import 'components/upsell-cars';
+@import 'components/choose-options';
+@import 'components/car-choices';
+@import 'components/locations';
+@import 'components/awards-member-banner';
+@import 'components/info-block';
+@import 'components/checklist';
+@import 'components/checklist-with-image';
+@import 'components/image-block';
+@import 'components/intl-block';
+@import 'components/login';
+@import 'components/awards-promo';
+@import 'components/aez-corp';
+@import 'components/quote';
+@import 'components/home-page-person';
+@import 'components/home-carousel';
+@import 'components/home-popup';
+@import 'components/aez-expandable-dropdown';
+@import 'components/rental-policy';
+@import 'components/aez-home-carousel';
+@import 'components/us-locations';
+@import 'components/info-modal';
+@import 'components/aez-lang-select';
+@import 'components/aez-404';
+@import 'advantage-awards';
+@import 'profile-page';
+@import 'loyalty';
+@import 'buttons';
+@import 'base';
+@import 'header';
+@import 'footer';
+@import 'select2';
+@import 'forms';
+@import 'menu';
+@import 'reserve';
+@import 'contact-us';
+@import 'brand-promise';
+@import 'terms-and-policies';
+@import 'landing-page';
+@import 'print';
+@import 'location-find-a-car';
+@import 'refer-friends';
+@import 'mobile-optimization';
+
+
+
+/*new design*/
+@import 'home';
+@import 'awards';
+
+/********** vehicle details page **************/
+@import 'vehicles.scss';
+
+

@@ -1,0 +1,1283 @@
+/******************** SEARCH RESULTS PAGE ********************/
+.aez-choose-results-bar__heading {
+    color: $dark-blue;
+    font-weight: 400;
+    font-size: 1.2em;
+}
+
+@media only screen and (max-width: 709px) {
+     #choose_filter {
+    left: 49%;
+    margin-top: -10.5%;
+    width: 53%;
+    }
+
+    #filter{
+        width: 74% !important;
+    }
+
+    #filter_sort {
+        font-size: .8em;
+    }
+    .aez-choose-results-bar {
+
+        > .aez-form-item--dropdown {
+            width: 100%;
+        }
+    }
+
+    .aez-choose-results-bar__heading {
+        margin: 0.618em auto;
+        font-size: 1em;
+    }
+}
+
+div.mobile-hidden {
+    display: none;
+}
+
+div.tablet-hidden {
+    display: flex;
+}
+
+div.tablet-hidden-block {
+    display: inline-block;
+
+    &:first-of-type {
+        padding-bottom: 20px;
+    }
+
+    .best-rate {
+        color: $white;
+        transition: $primary-transition;
+
+        &:hover {
+            background-color: $blue;
+            border-color: $blue;
+            color: $white;
+        }
+    }
+}
+
+.aez-vehicle-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 3%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.aez-reservation-choose {
+    > .aez-vehicle-outside-container {
+        &:nth-of-type(even) {
+            background: $off-white;
+        }
+    }
+}
+
+.aez-vehicle-details-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+}
+
+.aez-vehicle-img {
+    padding: 5px;
+    width: 95%;
+
+    > img {
+        max-width: 100%;
+    }
+}
+
+.aez-vehicle-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+
+    h2 {
+        color: $gray;
+        font-weight: 500;
+        font-family: $primary-font;
+        font-size: 1.1em !important;
+    }
+
+    h3 {
+        font-size: .8em;
+        color: #1158AD;
+        font-family: $primary-font;
+    }
+
+    p {
+        font-weight: 600;
+        color: gray;
+        margin-bottom: 0;
+        font-family: $primary-font;
+    }
+}
+
+ .reserve-page {
+    .aez-mini-details { 
+    display: -webkit-inline-box;
+    }
+}
+
+.aez-mini-details {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.75em;
+
+    > span {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        margin-right: 10px;
+
+        > i {
+            color: gray;
+        }
+
+        > p {
+            text-align: left;
+            font-weight: 500;
+            margin-bottom: 0;
+            margin-left: 3px;
+            font-size: .6em;
+            font-family: $primary-font;
+        }
+    }
+}
+
+.aez-details {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10% 0;
+
+    > i {
+        color: $green;
+        font-size: 1.2em;
+        margin-right: 5px;
+    }
+
+    > p {
+        font-size: .7em;
+        margin-bottom: 0;
+        color: $blue;
+        font-family: $primary-font;
+    }
+}
+
+.aez-vehicle-content.desktop-show {
+    .aez-mini-details-container {
+        .aez-mini-details {
+            font-size: 1em;
+            justify-content: flex-start;
+        }
+    }
+}
+
+.aez-choose-pay-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    form {
+        width: 100%;
+
+        button {
+            padding: 0.618em 0;
+            width: 100%;
+
+            p {
+                margin: 0;
+
+                b {
+                    font-weight: 500;
+                    font-size: 1.3em;
+                }
+            }
+
+            &.best-rate {
+                background-color: $blue;
+                color: $white;
+            }
+        }
+
+    }
+}
+
+.total-display { 
+        font-size: 0.8em;
+        font-weight: 300 !important;
+        padding-top: 8px;
+}
+
+
+.aez-counter-option {
+    margin-right: 10px;
+    width: 100%;
+
+    > h3 {
+        color: $blue;
+        font-size: .9em;
+        text-align: center;
+        font-family: $primary-font;
+    }
+}
+
+
+.aez-online-option {
+    width: 100%;
+
+
+    > h3 {
+        color: $blue;
+        font-size: .9em;
+        text-align: center;
+        font-family: $primary-font;
+    }
+}
+.aez-total-container {
+    border: 1px $blue solid;
+    font-size: .8em;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+
+     > p {
+        margin-bottom: 0;
+        font-family: $primary-font;
+        color: #06a ;
+    }
+    > p:hover {
+        color: #fff !important;
+    }
+}
+
+.aez-pay-total-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 909px) {
+    div.desktop-show {
+        display: none !important;
+    }
+}
+@media only screen and (max-width: 340px)  {
+    .choose-mob-title-desc {
+        font-size: 1em;
+    }
+    .aez-choose-vehicle-container-details .aez-single-car-view .aez-choose-car-title span {
+        font-size: 0.9em !important;
+    }
+    .aez-reservation-choose .aez-reservation-summary__full.is-open::after, .enhancements_chosen .aez-reservation-summary__full.is-open::after {
+        left: 280px !important;
+    }
+}
+
+@media only screen and (max-width: 909px) {
+    .aez-mini-details,
+    .aez-details {
+        justify-content: center;
+    }
+
+    .reserve-page .aez-mini-details {
+        margin-top: 0 !important;
+        font-size: 1.6em;
+  }
+     .aez-mini-details {
+        font-size: 0.88em !important;
+    }
+}
+
+@media only screen and (min-width: 910px) {
+    div.desktop-hidden {
+        display: none !important;
+    }
+    div.desktop-show {
+        display: flex ;
+        display: -ms-flexbox;
+    }
+    .aez-vehicle-details-container {
+        width: 100%;
+    }
+    .aez-car-information {
+        font-family: $primary-font;
+    }
+    .aez-car-information > h3 {
+        color: $blue;
+        font-family: $primary-font;
+    }
+    .aez-details {
+        justify-content: flex-start;
+    }
+    div.aez-vehicle-content {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        width: auto;
+        max-width: 97%;
+
+        &.desktop-show {
+            .aez-car-information {
+                width: 60%;
+                max-width: 450px;
+                min-width: 300px;
+            }
+        }
+    }
+    .aez-vehicle-img {
+        margin-right: 10px;
+        margin-left: 0;
+        // min-width: 320px;
+    }
+    div.aez-choose-pay-container {
+        width: 40%;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 909px) {
+    div.desktop-show {
+        display: none !important;
+    }
+}
+@media only screen and (min-width: 767px) {
+    .aez-choose-line-section {
+        display:none;
+    }
+}
+
+@media only screen and (max-width: 909px) {
+    .aez-choose-results-bar {
+        padding: 14px;
+        > .aez-form-item--dropdown {
+            width: 100%;
+        }
+    }
+
+    .aez-mini-details,
+    .aez-details {
+        justify-content: center;
+    }
+
+    .enhance-page .aez-mini-details {
+        font-size: 1.6em;
+    }
+}
+
+@media only screen and (width: 768px) {
+    .aez-upgrade-container {
+      .aez-vehicle-img > img {
+        min-width: 144px !important;
+        padding-right: 14px !important;
+        margin-bottom: 10%;
+        width: 25%;
+    }
+ }
+}
+
+@media only screen and (min-width: 768px) {
+    .aez-choose-results-bar {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        margin: 1em auto;
+        padding-bottom: 0;
+        padding-top: 12px;
+        padding-left: 14px;
+        padding-right: 14px;
+        max-width: 1200px;
+        width: 90%;
+
+        .aez-choose-results-bar__heading {
+            flex: 1;
+        }
+
+        > .aez-form-item--dropdown {
+            width: 40.5%;
+        }
+    }
+    div.mobile-hidden {
+        display: flex;
+    }
+    div.tablet-hidden {
+        display: none;
+    }
+    div.tablet-hidden-block {
+        display: none;
+    }
+    .aez-vehicle-content {
+        width: auto;
+    }
+    .aez-vehicle-content > h3 {
+        font-size: 1em;
+    }
+    .aez-vehicle-content > h1{
+        line-height: 1;
+        font-size: 1.5em;
+    }
+    .aez-vehicle-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .aez-vehicle-details-container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 100%;
+    }
+    .aez-mini-details {
+        margin-top: 4px;
+        width: 100%;
+    }
+    .enhance-page .aez-mini-details {
+        font-size: 1.1em;
+    }
+    .aez-details {
+        width: 100%;
+        margin: 0;
+        font-size: .7em;
+    }
+    .aez-choose-pay-container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 70%;
+
+        .best-rate {
+            padding: 0.618em 0;
+        }
+    }
+    .aez-counter-option {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;   
+    }
+    .aez-online-option {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+    }
+    .aez-pay-total-container {
+        width: 100%;
+        font-family: "Montserrat", "Arial", sans-serif;
+    }
+    .aez-pay-total-container > p {
+        margin-bottom: 0;
+        font-size: .9em;
+    }
+    .aez-counter-option > .aez-pay-total-container > h3{
+        text-align: left;
+        font-size: .8em;
+        color: #0066AA;
+    }
+    .aez-online-option > .aez-pay-total-container > h3{
+        text-align: left;
+        font-size: .8em;
+        color: #0066AA;
+    }
+    .aez-online-option {
+        width: 100%;
+    }
+    .aez-mini-details-container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        font-size: 1.5em;
+    }
+    .aez-total-container {
+        width: 100%;
+    }
+    .best-rate {
+        padding: 5% 0;
+    }
+}
+
+@media only screen and (min-width: 550px) and (max-width: 767px){
+      #choose_filter {
+        left: 49%;
+        margin-top: -10.5%;
+        width: 53%;
+    }
+
+    .aez-vehicle-details-container {
+        .aez-vehicle-content {
+            width: auto;
+            font-size: 1.5em
+        }
+    }
+    
+    .aez-mini-details {
+        font-size: 2em;
+    }
+    .aez-white-container .aez-mini-details {
+    	font-size: 1em;
+    }
+}
+
+@media only screen and (min-width: 425px) and (max-width: 549px){
+      #choose_filter {
+        left: 49%;
+        margin-top: -10.5%;
+        width: 53%;
+    }
+    .aez-vehicle-details-container {
+        .aez-vehicle-content {
+            width: auto;
+            font-size: 1.5em
+        }
+    }
+    .aez-mini-details {
+        font-size: 2em;
+    }
+    .aez-white-container .aez-mini-details {
+    	font-size: .8em;
+    }
+}
+
+.aez-btn.aez-total-container > h3 {
+    font-size: 1.01em;
+    margin-bottom: 2.5%;
+    color: #036;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 374px) {
+    #choose_filter {
+        left: 49%;
+        margin-top: -10.5%;
+        width: 53%;
+    }
+
+    .aez-total-container {
+        border: 1px #1158AD solid;
+        font-size: .7em;
+    }
+    .aez-counter-option > h3 {
+        font-size: .7em;
+    }
+    .aez-online-option > h3 {
+        font-size: .7em;
+    }
+
+}
+
+@media only screen and (min-width: 767px) {
+	.choose_page_mini .aez-mini-details {
+        margin-top: 15px;
+        width: 100%;
+        font-size: 1em;
+    }
+     .reserve-page {
+		.aez-mini-details {
+			font-size: 1.1em;
+		 }
+    }
+
+    .enhance-page {
+		.aez-mini-details {
+			font-size: 1.1em;
+			width:100%;
+		 }
+    }
+    .aez-details {
+        width: 100%;
+        margin: 0;
+        font-size: .7em;
+    }
+    .aez-car-option > .aez-vehicle-img > img {
+        min-width: 94px;
+    }
+    .aez-vehicle-img > img {
+        min-width: 140px;
+    }
+}
+
+@media only screen and (min-width: 599px) {
+ .enhancements_chosen
+        { 
+         .aez-vehicle-content {
+            display: inline !important;
+            display: -webkit-inline-box;
+        }
+    }
+}
+@media only screen and (min-width: 767px)  {
+   .enhancements_chosen {
+    .aez-vehicle-img > img {
+            max-width:78%;
+        } 
+    }
+}
+
+@media only screen and (min-width: 767px) {
+    .aez-upgrade-container > .aez-vehicle-img > img {
+            max-width: 89%;
+        }
+}
+@media only screen and (min-width: 550px) and (max-width: 767px){
+    .aez-vehicle-details-container {
+        .aez-vehicle-content {
+            width: auto;
+            font-size: 1.5em
+        }
+    }
+    
+    .aez-mini-details {
+        font-size: 2em;
+    }
+    .aez-white-container .aez-mini-details {
+        font-size: 1em;
+    }
+}
+
+@media only screen and (max-width: 599px) {
+   .reserve-page {
+    .aez-vehicle-img > img {
+    margin-top: -11%;
+    width: 91% !important;
+    }
+  }
+}
+
+@media only screen and (min-width: 425px) and (max-width: 549px){
+    .aez-vehicle-details-container {
+        .aez-vehicle-content {
+            width: auto;
+            font-size: 1.5em
+        }
+    }
+    .aez-mini-details {
+        font-size: 2em;
+    }
+    .aez-white-container .aez-mini-details {
+        font-size: .8em;
+    }
+}
+
+@media only screen and (width: 600px) {
+    #choose_filter {
+        margin-top: -5.5% !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #choose_filter {
+    left: 49%;
+    margin-top: -9%;
+    width: 53%;
+    }
+
+    #filter{
+        width: 74% !important;
+    }
+
+    #filter_sort {
+        font-size: .8em;
+    }
+    .aez-choose-pay-container {
+        align-items: stretch;
+        margin-top: 0;
+        margin-bottom: 15px;
+
+        h3 { font-size: .9em; font-weight: 500; }
+
+        .best-rate { padding: 5px 0; }
+
+        form,
+        .aez-btn { height: auto; }
+
+        button p {
+            font-size: 1.1em;
+
+            b { line-height: 1.4em; }
+        }
+    }
+    .aez-choose-results-bar__heading {
+        margin-top: 17px;
+        margin-bottom: 10px;
+        display: block;
+        text-align: left;
+    }
+    .aez-vehicle-container {
+        h2 { font-size: 1.2em; line-height: 1.2; padding-bottom: 5px;}
+        p { line-height: 1.2em; font-size: .8em; }
+
+        .aez-vehicle-content > p { color: $light-grey; }
+
+        div.aez-mini-details { margin-top: 10px; }
+        div.aez-details { font-size: .7em; margin: 15px 0; }
+    }
+
+    .aez-vehicle-outside-container {
+        .aez-vehicle-content.tablet-hidden.desktop-hidden {
+            .aez-mini-details { width: 100%; }
+        }
+    }
+
+    .tablet-hidden .aez-mini-details {
+        flex-wrap: wrap;
+        flex-direction: row;
+        font-size: 1em;
+
+        > span {
+            width: 50%;
+            margin-right: 0;
+            justify-content: flex-start;
+            padding-bottom: 5px;
+        }
+    }
+    .aez-white-container .aez-mini-details {
+    	font-size: .7em;
+    }
+    .aez-vehicle-img > img {
+        min-width: 144px;
+        padding-right: 15%;
+    }
+   .aez-selected-car .aez-vehicle-img > img {
+        min-width: 115px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .aez-vehicle-content {
+        width: auto;
+    }
+    .aez-white-container .aez-mini-details {
+    	font-size: .5em;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .aez-single-car-view {
+        height: 87%;
+    }
+    .aez-choose-vehicle-container-details .aez-single-car-view .aez-choose-car-title span {
+        font-size: .89em!important;
+    }
+    .total-display {
+        font-size: 0.7em;
+    }
+    .aez-mini-details {
+        font-size: .59em!important
+    }
+    .choose-mob-title-desc {
+        font-size: 1em;
+    }
+    .aez-mini-details > span {
+        margin-right: 8px;
+    }
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    /* IE10+ CSS styles go here */
+    
+    .aez-vehicle-content {
+        &.desktop-show {
+            // Desktop View
+            height: 300px;
+            // min-width: 400px;
+        }
+
+        &.mobile-hidden.desktop-hidden {
+            // Tablet View
+            height: 325px;
+            position: relative;
+
+            .aez-vehicle-img {
+                width: 50%;
+            }
+
+            .aez-mini-details-container {
+                position: absolute;
+                bottom: 0;
+            }
+        }
+    }   
+
+    @media all and (max-width: 767px) {
+        /* IE10+ CSS styles go here */
+        .aez-vehicle-container {
+            height: 400px;
+            position: relative;
+        }
+
+        .aez-choose-pay-container {
+            position: absolute;
+            margin: auto;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            width: 95%;
+        }
+
+        .aez-vehicle-img {
+            &.tablet-hidden-block.desktop-hidden {
+                width: 50%;
+            }
+        }
+    } 
+}
+
+/* choose page redesign */
+.page-template-reservation-choose  .aez-progress-bar {
+	max-width: 100% !important;
+}
+
+.aez-vehicle-choose-outside-container {
+	// background: #f3f3f3;
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	margin-top: 26px;
+}
+
+.aez-vehicle-choose-container {
+	display: block;
+	transition-property: left;
+	transition-duration: 2s;
+	min-height: 500px;
+}
+
+.aez-choose-vehicle-list {
+	padding: 5px;
+	margin: 0 auto;
+	max-width: 1900px;
+}
+
+.aez-choose-vehicle-container {
+    margin: 0 10px;
+    // margin-top: 10px;
+    // margin-bottom: 10px;
+}
+
+.aez-choose-vehicle-container-details {
+    padding: 0px 10px;
+    margin-bottom: 20px;
+}
+.aez-single-car-view {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    box-shadow: 3px 3px 2px 1px #c6c6c6;
+	background-color: #f3f3f3;
+}
+
+.aez-choose-car {
+	transition: 0.5s;
+    width: 100%;
+    
+    color: #181918;
+}
+.aez-online-option p {
+	margin:0 !important;
+}
+
+.aez-single-car-detail-view {
+z-index: 2;
+    background: #f3f3f3;
+    padding: 0 25px;
+    width: 100%;
+    height: 100%;
+    padding-top: 10px;
+	padding-bottom:5px;
+}
+ 
+.aez-choose-car-information {
+	height: 40px;
+} 
+.aez-car-header-main-title {
+	text-align: center;
+}
+
+.aez-car-header-main-top {
+	font-size: 18px;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.aez-car-header-sub-title {
+	display: block;
+	font-size: 17px;
+	font-weight: 300;
+	font-style: normal;
+}
+
+.aez-choose-mini-details-container {
+	font-weight: 700;
+	font-style: normal;
+	font-size: 1.1em;
+	text-transform: uppercase;
+}
+
+
+.aez-choose-line-section {
+	font-weight: 700;
+	font-style: normal;
+	font-size: 14px;
+	text-transform: uppercase;
+	height: 21px;
+	line-height: 21px;
+	// border-bottom: 3px solid #181918;
+}
+.aez-choose-line-sections {
+	display: inline-block;
+	background: #fff; 
+}
+
+.aez-choose-vehicle-img-container {
+    width: 100%;
+	text-align: center;
+}
+.aez-choose-vehicle-img-info {
+	height: 120px;
+}
+.aez-choose-total-pay-container {
+	margin-top: 11px;
+}
+.aez-choose-pay-at-the-counter {
+   border-right: 1px solid #dbdbdb;
+   float: left;
+   width: 50%;
+   height: 100%;
+   text-align: center;
+}
+
+.aez-choose-pay-online{
+   float: left;
+   width: 50%;
+   text-align: center;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+.aez-counter-option>.aez-pay-total-container>h3 {
+    text-align: left;
+    font-size: .8em;
+    color: #06a;
+}
+.aez-online-option>.aez-pay-total-container>h3 {
+	text-align: left;
+    font-size: .8em;
+    color: #06a;
+}
+
+}
+
+.aez-single-car-view .aez-choose-car .aez-single-car-detail-view .aez-choose-car-information p {
+    color: #00539f;
+    font-weight: 600;
+    margin-bottom: 0;
+    font-family: Montserrat,Helvetica,Arial,sans-serif;
+}
+
+.aez-choose-pay-at-the-counter .aez-counter-option  p {
+	font-size: 0.8em;
+}
+.aez-choose-pay-online .aez-online-option  p {
+	font-size: 0.8em;
+}
+.aez-single-car-view .aez-choose-car .aez-mini-details-container p {
+	color: $light-grey;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+.preselected-text-container .select-box-text .pre-select-align {
+	 position:relative;
+	 top:0px;
+}
+
+.aez-reservation-choose .preselected-text-container  .select-box-text  {
+	float: right;
+    margin-top: 16px;
+    margin-right: -265px;
+}
+}
+.pre-select-align {
+	position:relative;
+	top: 19px;
+	right: 7px;
+	color: #00539f;
+}
+[data-ribbon-choose-heading] {
+  position: relative;
+  display: inline-block;
+
+}
+
+[data-ribbon-choose-heading]:after {
+
+    content: attr(data-ribbon-choose-heading);
+    position: absolute;
+    top: 6px;
+    left: -25px;
+    color: #1a1a1a;
+    height: 0;
+    border-bottom: 20px solid #ffed45;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(54deg);
+    font-size: 8px;
+    line-height: 20px;
+
+}
+.aez-enhance-header-pre-select-ribbon {
+position: absolute;right: 60px;top: 26px;left: 12px;
+}
+
+
+/* choose page only for mobile */
+@media screen and (max-width: 500px) {
+    article {
+        margin-top: -4%;
+    }
+	.content-mobile {
+		display: block !important;
+	}
+        .content-mobile-hide {
+		display: none !important;
+	}
+	.content-desktop {
+		display: none !important;
+    }
+    
+    .aez-options .aez-options__img > img {
+        width: 39%;
+    }
+    .aez-options {
+        height: 115px !important;
+    }
+        
+    .aez-choose-vehicle-container-details .aez-single-car-view .aez-choose-car .aez-single-car-detail-view .aez-choose-line-section{
+       
+	font-weight: 700;
+	font-style: normal;
+	font-size: 14px;
+	text-transform: uppercase;
+	height: 21px;
+	line-height: 21px;
+    border-bottom: 1px solid #e1e7e1;
+    }
+}
+
+/* choose page only for mobile */
+@media screen and (max-width: 500px) {
+    .content-mobile {
+        display: block !important;
+    }
+        .content-mobile-hide {
+        display: none !important;
+    }
+    .content-desktop {
+        display: none !important;
+    }
+    .aez-choose-vehicle-container-details .aez-single-car-view .aez-choose-car-title {
+         background-color: #06a;
+         height: 10%; 
+    }
+    .aez-choose-vehicle-container-details .aez-single-car-view .aez-choose-car .aez-single-car-detail-view .aez-choose-line-section{
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+    text-transform: uppercase;
+    height: 21px;
+    line-height: 21px;
+    border-bottom: 1px solid #e1e7e1;
+}
+
+   .aez-choose-vehicle-container-details .aez-single-car-view .aez-choose-car .aez-single-car-detail-view .aez-choose-line-sections{
+       display: inline-block;
+	background: #fff;
+        height: 0px;
+   }
+  .aez-choose-car .aez-single-car-detail-view .aez-choose-total-pay-container {
+	margin-top: 13px;
+}
+.aez-mini-details-container {
+    margin-top: 4px;
+}
+.aez-choose-vehicle-container-details .aez-single-car-view .aez-choose-car .aez-single-car-detail-view {
+        padding-top: 0!important;
+}
+.aez-single-car-view .aez-choose-car .aez-mini-details-container p {
+        font-size: 0.6em;
+        line-height: 1;
+}
+
+.aez-reservation-summary>.aez-reservation-title-bar h3{
+    position: relative;
+    // left: 106px;
+    // top:4px;
+    text-transform: uppercase;
+}
+.aez-reservation-summary>.aez-reservation-title-bar {
+    padding: 7px 0;
+}
+.aez-reservation-choose .aez-reservation-summary__full {
+    margin-top: -5%;
+}
+.aez-single-car-view{
+ margin: 6px 0px 6px !important;   
+}
+
+.aez-counter-option > h3, .aez-online-option > h3 {
+    font-size: .9em !important;
+}
+
+.aez-reservation-choose .aez-reservation-summary__full.is-open::after, .enhancements_chosen .aez-reservation-summary__full.is-open::after {
+    position: absolute;
+    left: 330px !important;
+    top: 12px!important;
+}
+
+.choose-mob-title-desc {
+    margin-top: 8px;
+    color: #06a;
+    font-size: 1.1em;
+    line-height: 1;
+}
+
+.aez-vehicle-choose-outside-container{
+    background: #ffff;
+}
+.aez-vehicle-choose-outside-container {
+    margin: 0 !important;
+}
+.aez-choose-vehicle-container,.aez-choose-vehicle-container-details {
+    margin: 0 !important;
+    padding: 0 !important;
+    height: 100%;
+}
+.aez-choose-vehicle-container-details .aez-single-car-view .aez-choose-car-title span {
+    font-size: 0.96em !important;
+    font-weight: 400;
+    height: 0px;
+    margin-top: 8px;
+}
+  .aez-choose-car .aez-single-car-detail-view .aez-choose-total-pay-container {
+    margin-top: 9px;
+}
+.aez-choose-vehicle-container-details .aez-single-car-view .aez-choose-car .aez-single-car-detail-view {
+        padding-top: 40px;
+}
+.aez-single-car-view .aez-choose-car .aez-mini-details-container p {
+        font-size: 9px;
+}
+}
+.content-desktop {display: block;}
+.content-mobile { display: none; }
+.aez-choose-vehicle-container-details .aez-single-car-view .aez-choose-car-title {
+         background-color: #06a;
+         text-transform: uppercase;
+         text-align: center;
+}
+.aez-choose-vehicle-container-details .aez-single-car-view .aez-choose-car-title span {
+    color:#fff;
+    font-size: 1em;
+    text-align: center;     
+    margin: auto;
+    vertical-align: middle; 
+    width: 100%;
+    height: 100%;
+}
+// .aez-choose-vehicle-container, .aez-choose-vehicle-container-details, .aez-single-car-view,.aez-choose-car-title span {
+    //  margin-top:10px;
+// }
+
+.aez-reservation-summary>.aez-reservation-title-bar div {
+    color:#666;
+    font-size: 0.9em;
+}
+
+.aez-reservation-summary>.aez-reservation-title-bar h3 {
+    text-transform: uppercase;
+}
+/*  end */
+@media only screen and (max-width: 425px) {
+	.aez-reservation-container div.enhance-your-car-details {
+		font-size: 1.4em!important;
+	}
+}
+@media only screen and (max-width: 768px) {
+.aez-choose-pay-at-the-counter .aez-counter-option p, .aez-choose-pay-online .aez-online-option p{
+        font-size: .7em!important;
+        font-weight: 400;
+}
+.aez-btn.aez-total-container > h3 {
+    font-size: 0.96em;
+    font-weight: 400;
+    margin-bottom: 4%;
+}
+.rez-choose-selected button{
+    text-align: left!important;
+    padding-left: 5px!important;
+}
+.rez-choose-selected .total-display {
+    font-size: 0.7em !important;
+}
+.aez-reservation-choose .preselected-text-container {
+   padding-bottom: 26px;
+   padding-top: 4px;
+   width: 100%;
+   margin: auto;
+}
+.aez-reservation-choose .preselected-text-container .select-box-text {
+   float: none;
+   margin-right:0px;
+}
+}
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  { .aez-choose-pay-at-the-counter .aez-counter-option p{
+        font-size: .85em !important;
+        font-weight: 400;
+}
+.rez-choose-selected button{
+    text-align: left!important;
+    padding-left: 5px!important;
+}
+.rez-choose-selected .total-display {
+    font-size: 0.7em !important;
+}}

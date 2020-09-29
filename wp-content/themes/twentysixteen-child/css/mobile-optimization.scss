@@ -1,0 +1,69 @@
+/* Safari 10.1+ (alternate method) */
+
+@media not all and (min-resolution:.001dpcm)
+{ @supports (-webkit-appearance:none) {
+	.home-container .aez-home {
+		background-image: url(/wp-content/themes/twentysixteen-child/assets/Adv_Marquee-pitstop.jp2) !important;
+	}
+	
+	.img-type-webp,.img-type-other {
+		display: none !important;
+	}
+	.img-type-jp2 {    
+		display: block !important;
+	}	
+}}
+
+/* IE EDGE 10+ CSS */ 
+@supports (-ms-ime-align:auto) { 	
+	.home-container .aez-home {
+		background-image: url(/wp-content/themes/twentysixteen-child/assets/Adv_Marquee-pitstop.png) !important;
+	} 
+	
+	.img-type-webp,.img-type-jp2 {
+		display: none !important;
+	}
+	.img-type-other {
+		display: block !important;
+	}		
+	
+}
+
+/* IE 10+ CSS */ 
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  //styles
+	.home-container .aez-home {
+		background-image: url(/wp-content/themes/twentysixteen-child/assets/Adv_Marquee-pitstop.png) !important;
+	}
+	
+	.img-type-webp,.img-type-jp2 {
+		display: none !important;
+	}
+	.img-type-other {
+		display: block !important;
+	}	
+	
+}
+
+/* Firefox */
+
+@media screen and (min--moz-device-pixel-ratio:0) {
+	.img-type-other,.img-type-jp2 {
+		display: none !important;
+	}
+	.img-type-webp {
+		display: block !important;
+	}	
+}
+
+/* Chrome */
+
+@media all and (-webkit-min-device-pixel-ratio:0) and (min-resolution: .001dpcm) { 
+	.img-type-other,.img-type-jp2 {
+		display: none !important;
+	}
+	.img-type-webp {
+		display: block !important;
+	}	
+}
+ 

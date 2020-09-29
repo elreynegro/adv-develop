@@ -1,0 +1,2291 @@
+/* FAQ Color   */
+@media only screen and (min-width: 1025px) {
+    .aez-form-item--dropdown-airline {
+        width: 44.8% !important;
+    }
+}
+.fa-stack-2x{
+    color: #036 !important;
+}
+.fa-tags:before {
+    color: #fff !important;
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 801) {
+    .aez-form-item--dropdown-airline {
+        width: 44% !important;
+    }
+}
+
+.fa-question-circle:before {
+    vertical-align: middle;
+}
+
+
+
+@media only screen and (min-width: 501px) and (max-width: 1023px) {
+    .fac_dropdown {
+        .aez-form-block {
+            width: 65% !important;
+        }
+    }
+}
+@media only screen and (max-width: 500px) {
+    .fac_dropdown {
+        .aez-form-block {
+            width: 95% !important;
+        }
+        .aez-form-item>input[type=search] {
+            font-size: 0.9em;
+            padding: 0.15em;
+            font-weight: 300;
+        }
+        .aez-form-block__header {
+            margin-top: 1%;
+        }
+        .aez-form-block .aez-form-item:first-of-type {
+            margin-top: 0%;
+        }
+        .aez-form-block .aez-form-block--side-by-side>.aez-form-item.aez-form-item--dropdown {
+            margin-top: 0%;
+        }
+        .aez-find-a-car-dropdown .aez-form-block__header {
+            font-size: .89em!important;
+            text-transform: uppercase;
+            font-weight: 300;
+        }
+    }
+}
+@media only screen and (min-width: 1024px) {
+    .fac_dropdown {
+        .aez-form-block {
+            width: 45%;
+        }
+    }
+
+    .fac_page {
+        width: 45%;
+        margin: auto;
+        background-color: #0056b3;
+        padding: 2% 0;
+    }
+    .fac_page {
+        .aez-form-block {
+         width: 82%;
+        }
+        .aez-find-a-car__heading, .aez-form-block__header {
+            color: #fff !important;
+        }
+    }
+}
+.fac_dropdown {
+    .aez-find-a-car-dropdown .aez-form-block__header {
+        text-transform: uppercase;
+    }
+    .aez-form-block {
+        margin: auto;
+    }
+    .aez-find-a-car__heading {
+        margin-bottom: 0% !important;
+        margin-top: 0% !important;
+        padding: 3px 0px !important;
+    }
+    .aez-find-a-car-dropdown .aez-form-block__header {
+        margin-bottom: 0% !important;
+    }
+    .aez-form-item>input[type=search] {
+        font-size: 0.9em;
+        padding: 0.325em 0.2em;
+        font-weight: 300;
+    }
+    .switch {
+        height: 19px !important;
+    }
+    .age_select {
+        font-size: 1.3em;
+    }
+    .aez-form-block__header {
+        margin-bottom: 0%;
+    }
+}
+
+#pickup_select_dropdown {
+    font-size: 0.9em !important;
+}
+#dropoff_select_dropdown {
+    font-size: 0.9em !important;
+}
+@media only screen and (max-width: 599px) {
+    .renters_age {
+        width: 50% !important;
+        margin: 0 !important;
+        padding: 0px !important;
+    }
+}
+@media only screen and (min-width: 600px) and (max-width: 767px){
+    .renters_age {
+        width: 28% !important;
+        margin: 0 !important;
+        padding: 0px !important;
+    }
+}
+
+@media only screen and (max-width: 1024) and (min-width: 910px) {
+    .aez-form-item.renter-info-right {
+        float: none;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .optional_block .aez-form-block__heading {
+        width: 100%;
+    }
+    .optional_block h4:before           { content: "\25bc"; float: right; }
+    .optional_block h4.is-active:before { content: "\25b2"; float: right;}
+    .is-hidden { display: none; }
+}
+
+@media only screen and (min-width: 1400px) {
+    .renters_age {
+        width: 19.5% !important;
+        margin: 0 !important;
+        padding: 0px !important;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1399px) {
+    .renters_age {
+        width: 24.5% !important;
+        padding: 0px !important;
+        margin: 0 !important;
+    }
+}
+
+.popover__content.reserve:before {
+    border-color: transparent transparent #036 !important;
+    top: -10px !important;
+}
+.popover__content.reserve {
+    padding: 1em;
+    font-size: 0.9em;
+    font-weight: 300;
+}
+.age_select_reserve {
+    > .select {
+        font-size: 0.86em;
+    }
+}
+.reserve .popover__message {
+    margin-bottom: 0;
+    font-size: 0.9em;
+    font-weight: 300;
+}
+.age_header_reserve {
+    font-size: .9em!important;
+    padding: 0px 0px 0px 36px;
+    margin: -1% auto 2%!important;
+    height: 28px;
+    font-weight: 300 !important;
+}
+.reserve_submit_div {
+    text-align: center;
+    margin: auto;
+    margin-top: 3%;
+}
+#submit-reserve-button1, #submit-reserve-button1-disabled {
+    padding: 0.8em .2em;
+}
+.age_header {
+    font-size: 0.9em !important;
+    margin: -1% auto 0% !important;
+    height: 22px;
+}
+.age_select {
+    margin-left: 1%;
+    background-color: transparent;
+    border: none;
+    color: #9c0;
+    font-weight: 600;
+    font-size: 1.4em;
+    text-decoration: underline;
+}
+.age_select_reserve {
+    margin-left: 1%;
+    background-color: #036;
+    border: none;
+    color: #fff;
+    font-weight: 300;
+    font-size: 0.9em;
+    height: 29px;
+}
+.age_select:focus, .age_select:active, .age_select_reserve:active, .age_select_reserve:focus {
+    border: none;
+    outline: none;
+}
+.select {
+    color: #555;
+    text-decoration: none;
+    border: none;
+    background-color: #fff;
+    font-weight: 300;
+    font-size: 0.8em;
+    -webkit-appearance: none;
+}
+.age_select::before, .age_select::after{
+    margin-left: 1%;
+    background-color: transparent;
+    border: none;
+    color: #9c0;
+    font-weight: 600;
+    font-size: 1.4em;
+    text-decoration: underline;
+    -webkit-appearance: none;
+}
+.age_select::after > .select{
+    color: #555;
+    text-decoration: none;
+    border: none;
+    background-color: #fff;
+    font-weight: 300;
+    font-size: 0.8em;
+    -webkit-appearance: none;
+}
+
+.enhance-reserve-title {
+    margin-bottom: 1%;
+}
+.cc-fa {
+    font-size: 26px;
+    color: #06a;
+}
+.arconix-faq-accordion-title.ui-state-active {
+    color: #212121;
+    border-radius: 0;
+    border: 1px solid #aaa;
+    background: #fbfbfb;
+}
+#cancel, .cancel {
+    margin: 0 auto; font-size: 0.65em; margin-top: 2%; text-align: justify; font-weight:300;
+    > a {
+        color: #00539f;
+        font-weight: 400;
+    }
+}
+#cancel_check, .cancel_check {
+    font-size: 0.8em;
+}
+#cancellation-policy, .cancellation-policy {
+    color: #00539f;
+}
+#card_cvc {
+    width: 68% !important;
+}
+
+.reserve-box input.aez-form-item__input { 
+    width: 100% !important;
+}
+@media only screen and (min-width: 769px) {
+    .reserve-box {
+        box-shadow: 3px 3px 2px 1px #c6c6c6;
+    }
+}
+@media only screen and (min-width: 910px) {
+    .reserve-box.aez-form-payonline-container {
+        width: 90%;
+    }
+    .reserve-box {
+        padding: 10px 20px !important;
+    }
+}
+.aez-form-block.promocode {
+    margin-top: 1%;
+}
+@media only screen and (min-width: 801px) {
+    .credit_card {
+        width: 70% !important;
+    }
+    .credit_card_cvv {
+        width: 24% !important;
+    }
+    .aez-form-block.aez-form-block--payment-method {
+        padding: 15px 20px;
+    }
+}
+.reserve-box {
+    background-color: #f0f0f0;
+    clear: both;
+}
+.aez-form-block__header{
+    > h4 {
+        font-size: 0.86em !important;
+    }
+}
+.input-group-text {
+    background-color: transparent !important;
+    border: none !important;
+    padding: 4px 8px;
+    width: 32px;
+}
+.reserve-box .select2-container, .reserve-box .select2-container{
+    width: 100% !important;
+}
+
+.reserve-box.aez-form-payonline-container {
+    margin: auto;
+    padding-top: 0px;
+}
+
+/*
+ *   AEZ Form Styling
+ */
+
+.aez-reservation {
+    overflow: hidden;
+}
+
+.aez-home {
+    #adv_rez {
+        .close {
+            display: none;
+        }
+    }
+}
+
+.aez-home-find-a-car-container {
+    // Z Index on home page form container
+    // Make sure that it is above the slider/person
+    z-index: 25;
+    padding: 0%;
+}
+
+.aez-form {
+    box-sizing: border-box;
+}
+
+.aez-page-title--summary,
+.aez-choose-option-container {
+    > h1 {
+        font-size: 2em;
+        font-weight: 500;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        margin-top: 1.5%;
+    }
+}
+
+#policies.modal-content, #tnc.modal-content {
+    position: fixed;
+}
+
+/* Modal Popup for TnC and Policies */
+
+#close1, #close2, #close3 {
+    display: inline-block;
+    padding: 0px 7px;
+    background: #ccc;
+    cursor: pointer;
+    position: fixed;
+    margin: -8px;
+    border-radius: 5px;
+}
+
+#close1:hover , #close2:hover, #close3:hover {
+    background:#ccc;
+    color:#fff;
+}
+
+.policies_content, #terms-and-conditions-drop-down {
+    font-weight: 300;
+    font-size: 0.75em;
+    text-align: justify;
+    padding: 0 12px;
+
+    b {
+        font-weight: 500;
+    }
+
+    p {
+        font-weight: 300;
+    }
+}
+
+#myModal.modal, #myModal2.modal, #myModal3.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 9990;
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%;
+    overflow: auto; 
+    align-items: center;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+
+/* Modal Content Box */
+#policies.modal-content, #tnc.modal-content, #can.modal-content {
+    background-color: #fefefe;
+    margin: 10% auto;
+    padding: 18px;
+    border: 1px solid #888;
+    width: 60%;
+    z-index: 9991;
+    overflow-x:auto;
+    overflow-y:scroll;bottom:0;left:0;right:0;top:0;
+    
+    .modal.closemodal{
+        color: $dark-blue;
+        cursor: pointer;
+        font-size: 2em;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        transition: $primary-transition;
+        z-index: 9992;
+
+        &:hover {
+            color: $darkened-blue;
+        }
+    }
+
+ }
+}
+    .close {
+        display: none;
+        font-size: 1em;
+        font-weight: 400;
+    }
+
+/*
+ * Datepicker Styling
+ */
+
+.ui-datepicker table,
+.ui-datepicker .ui-datepicker-buttonpane {
+    border: none !important;
+    margin: 0 !important;
+}
+.ui-datepicker .ui-datepicker-header {
+    border: none !important;
+    background: none !important;
+}
+
+.calendar .ui-datepicker {
+    border: 3px solid #fff !important;
+    padding: 10px 30px 10px !important;
+}
+.ui-datepicker select.ui-datepicker-month, .ui-datepicker select.ui-datepicker-year {
+    border: none !important;
+    outline: none !important;
+}
+.ui-datepicker .ui-datepicker-title select {
+    font-size: .9em !important;
+}
+
+.ui-datepicker .ui-datepicker-header,
+.ui-datepicker .ui-datepicker-title {
+    color: black !important;
+    background-color: transparent !important;
+}
+
+.ui-datepicker-week-end {
+    color: #B05440 !important;
+}
+
+.calendar .ui-corner-all {
+    border-radius: 5px !important;
+    border: none !important;
+}
+
+.calendar .ui-widget-content {
+    background: none !important;
+}
+
+.calendar .ui-datepicker-calendar {
+    color: #fff !important;
+}
+
+.calendar .ui-state-hover {
+    background-color: #fff !important;
+    color: #99CC00 !important;
+}
+
+.ui-datepicker .ui-datepicker-next span,
+.ui-datepicker .ui-datepicker-prev span,
+.ui-datepicker .ui-datepicker-next-hover,
+.ui-datepicker .ui-datepicker-prev-hover {
+    border: none !important;
+    outline: none !important;
+}
+
+#ui-datepicker-div {
+ width: 235px !important;   
+}
+
+.ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default{
+    text-align: center;
+    background: none;
+    border: none;
+    padding: 0;
+    outline: none;
+}
+a.ui-state-default.ui-state-active {
+     background-color: #00539f !important;
+    border-radius: 5px;
+    color: #ffffff;
+}
+a.ui-state-default.ui-state-hover {
+    color: #99CC00;
+    font-weight: bold;
+}
+a.ui-state-default.ui-state-highlight {
+    color: #B05440;
+    font-weight:bold;
+}
+a.ui-state-default.ui-state-highlight.ui-state-active{
+    color: #ffffff;
+}
+.ui-datepicker .ui-datepicker-buttonpane button.ui-datepicker-current,
+.ui-datepicker .ui-datepicker-buttonpane button.ui-datepicker-close {
+    font-size: .8em;
+    color: #ffffff;
+    font-weight: bold;
+    background-color:#99CC00;
+    border-radius: 4px;
+}
+.ui-datepicker .ui-datepicker-buttonpane button.ui-state-hover {
+    background-color: #00539f;
+    color: #ffffff;
+    border-radius:5px;
+}
+.ui-priority-secondary, .ui-widget-content .ui-priority-secondary, .ui-widget-header .ui-priority-secondary {
+    opacity: 1;
+}
+
+/*
+ *  Autocomplete styling
+ */
+ 
+ #locations-dropdown-my-reservations {
+    border: none;
+ }
+
+ input[type="search"]:focus {
+      background: #f7f7f7;
+ }
+
+.aez-form-item > input[type="search"] {
+  -webkit-appearance: searchfield !important;
+  border-radius: 5px;
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+    -webkit-appearance: searchfield-cancel-button;
+}
+
+.aez-form-item > input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: searchfield-cancel-button;
+}
+
+.aez-extra-content > input[type="search"] {
+  -webkit-appearance: searchfield;
+}
+
+.aez-extra-content > input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: searchfield-cancel-button;
+}
+
+.ui-state-active.ui-button:hover 
+{
+    color: #ffffff !important;
+    border-radius: 5px;
+    border: none;
+    background: #00539f !important;
+}
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, li.ui-button:active, .ui-button:active, .ui-state-active.ui-button:hover 
+{
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    background: #00539f;
+}
+
+ .ui-autocomplete, input[type="search"], textarea {
+        text-overflow: ellipsis;
+        white-space: nowrap;  
+}
+
+.ui-autocomplete{
+    max-height: 45%;
+    overflow-y: auto;
+    overflow-x: hidden !important;
+    z-index: 10000 !important;
+}
+
+/*
+ *  AEZ Form Block
+ */
+
+
+@media only screen and (max-width: 709px) {
+    .fac_login_btn_container {
+        width: 22%;
+    }
+    
+    .fac_login_btn_container .hm-login-popup-btn {
+        padding: 4px 5px;
+        font-size: 0.9em;
+    }
+    .express-checkout-link span {
+        width: 77%;
+    }
+    .home-container .aez-home-find-a-car-container .aez-form {
+        padding: 25px 0px;
+    }
+    .aez-home .aez-form-block {
+        margin: .2em auto;
+        padding: 2px 5px;
+    }
+    .aez-form-block__header.express-checkout-link .checkout_link {
+        font-size: .85em;
+    }
+}
+@media only screen and (min-width: 710px) {
+    .aez-form-block__header.express-checkout-link .checkout_link {
+        font-size: 0.9em;
+    }
+    .fac_login_btn_container {
+        width: 18%;
+        margin-left: 1%;
+        .hm-login-popup-btn {
+            padding: 4px 5px;
+            font-size: 1em;
+        }
+    }
+    .aez-form-block__header.express-checkout-link .checkout_link {
+        width: 80%;
+    }
+}
+
+.fac_login_btn_container {
+    float: right;
+    text-align: right;
+}
+
+.fac_login_btn_container .hm-login-popup-btn {
+    font-weight: 300;
+    height: auto;
+}
+.aez-form-block {
+
+    &.aez-form-block--payment-method {
+        // background-color: $white;
+
+        padding: 0;
+        max-width: 100%;
+        width: 100%;
+
+        > .aez-form-block__heading {
+            color: $black;
+            text-align: center;
+        }
+
+        > span.aez-form-block__heading {
+            text-align: left;
+        }
+
+        > p {
+            margin: 0 auto;
+            font-size: 0.8em;
+            font-weight: 300;
+            text-align: justify;
+        }
+    }
+
+    .aez-btn {
+        padding: 1em 0;
+        width: 100%;
+    }
+    .aez-form-block--side-by-side {
+        display: flex;
+        flex-direction: row;
+        align-items: stretch;
+        justify-content: space-between;
+
+        > * {
+            flex: 0 0 49%;
+            flex: 0 0 calc(50% - 5px);
+        }
+
+        > .aez-form-item {
+            margin: 0;
+        }
+    }
+
+}
+
+.aez-form-block.aez-form-block--log-in-information {
+    display: none;
+    margin-top: 10px;
+    padding: 0;
+    width: 100%;
+    max-width: 100%;
+}
+
+.aez-form-billing-address {
+    margin: 0 auto;
+}
+
+
+.aez-home {
+
+    .aez-form {
+        margin: 1em auto;
+    }
+
+    .aez-form-block {
+        margin: 0.382em auto;
+    }
+
+    input.aez-form-item__checkbox + .aez-form-item__label {
+        color: $white;
+    }
+
+    .aez-form-block__header {
+        color: $white;
+        margin-top: 2%;
+        margin-bottom: 1%;
+        text-transform: uppercase;
+    }
+}
+
+.aez-total {
+    text-align: center;
+    clear: both;
+}
+
+.aez-total__heading {
+    color: $blue;
+    display: block;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.aez-find-a-car-dropdown .aez-form-block__header {
+    margin-bottom: 1%;
+    font-size: 1em !important;
+}
+
+.aez-find-a-car-dropdown .aez-form-block__header .express-checkout-link {
+    font-size: 1.2em !important;
+}
+
+.aez-total__value {
+    color: $dark-blue;
+    display: block;
+    font-size: 3em;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.aez-form-block__header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+h4.aez-form-block__heading {
+    font-weight: 300 !important;
+}
+
+.aez-form-block__heading {
+    color: $form-heading-blue;
+    font-size: 1em;
+    font-weight: 400;
+    margin-bottom: 4px;
+}
+
+.aez-form-block__icon {
+    color: $green;
+    font-size: 1.2em;
+    margin-left: .5em;
+}
+
+.aez-form-block__sub-heading {
+    color: $gray;
+    flex-grow: 1;
+    text-align: right;
+}
+
+.aez-form-block__icon + .aez-form-block__sub-heading {
+    margin: 0;
+    flex-grow: 1;
+    text-align: right;
+}
+
+.aez-form-block {
+    padding: 2px 20px;
+
+    .aez-form-item,
+    .aez-form-item--with-icon,
+    .aez-form-item--with-btn {
+        margin: 0.618em auto;
+
+        &:first-of-type {
+            margin-top: 0;
+        }
+    }
+}
+
+
+.aez-form-block__cards {
+    color: $blue;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin: 0.5% auto;
+}
+h5.aez-form-block__header {
+    margin-bottom: 5px;
+    font-weight: 300!important;
+    font-size: .8em!important;
+}
+.aez-credit-cards {
+    background: url('/wp-content/uploads/2016/11/credit_cards.jpg') no-repeat center left;
+    background-size: contain;
+    height: 35px;
+    width: 55%;
+    margin-left: 10px;
+}
+
+.aez-required-fields {
+    color: #1f386a;
+    display: block;
+    text-align: right;
+    font-weight: 300;
+    font-size: .86em !important;
+}
+
+.aez-form__header {
+    font-size: 1.618em;
+    font-weight: 600;
+    margin: 0;
+    width: 100%;
+}
+
+.find-a-car-form > .aez-form__header:before {
+    content: '\f002';
+    display: inline-block;
+    font-family: 'FontAwesome';
+    font-size: 1em;
+    margin-right: 1em;
+}
+
+.aez-form__header {}
+
+.aez-checkbox-item {}
+
+.aez-radiogroup {}
+
+.aez-form-item {
+    background-color: $white;
+    border: 1px solid #d1d1d1;
+    border-radius: 5px;
+    color: $gray;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+}
+
+.aez-home-find-a-car-container > #adv_rez > .aez-form-block > .aez-form-item--with-btn > .aez-form-item,.aez-home-find-a-car-container > #adv_rez > .aez-form-block > .aez-form-item, .aez-home-find-a-car-container > #adv_rez > .aez-form-block > .aez-form-block--side-by-side > .aez-form-item {
+    border: 1px solid $off-white !important;
+}
+
+.aez-form-block__heading.renter-info{
+    color: $form-heading-blue;
+    font-size: .8em;
+    font-weight: 500;
+    padding-left: 6px;
+}
+.select2-container--default .select2-selection--single .select2-selection__placeholder, .aez-form-item .select2-container .select2-selection--single .select2-selection__rendered  {
+    font-size: 0.9em;
+    font-weight: 300;
+}
+
+@media only screen and (min-width: 909px) {
+    .aez-form-item.renter-info-left{
+        -webkit-box-align: left !important;
+        -ms-flex-align: left !important;
+        align-items: left !important;
+    }
+
+    .aez-form-item.renter-info-left, .aez-form-item.renter-info-right {
+        padding: 0px;
+        margin: 0.3em auto;
+        width: 47%;
+        display: inline-flex !important;
+        margin-top: 0;
+    }
+}
+@media only screen and (min-width: 1025px) {
+    .aez-form-item.renter-info-right {
+        -webkit-box-align: right !important;
+        -ms-flex-align: right !important;
+        align-items: right !important;
+        float: right;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .b_postal_code, .b_city, .b_country, .b_state {
+        width: 47% !important;
+    }
+    .b_city, .b_country {
+        -webkit-box-align: left !important;
+        -ms-flex-align: left !important;
+        align-items: left !important;
+    }
+    .b_postal_code, .b_state {
+        -webkit-box-align: right !important;
+        -ms-flex-align: right !important;
+        align-items: right !important;
+        float: right;
+    }
+}
+
+.aez-form-item--with-btn.renter-info.add1 {
+    width: 47%;
+    float: left;
+    margin-top: 0;
+}
+
+.aez-form-item--with-btn.renter-info.add2 {
+    width: 47%;
+    float: right;
+    margin-top: 0;
+}
+
+.aez-form-block {
+    .aez-form-item.code {
+        margin: 0.5em 0;
+        border: 1px solid #d1d1d1;
+    }
+
+}
+
+.aez-form-item.code{
+    left: 0;
+}
+
+@media only screen and (min-width: 910px) {
+    .aez-form.aez-login.aez-awards-form.aez-reserve-login-form {
+        clear: left!important;
+        position: absolute;
+        width: 30%!important;
+        margin: 0 0 10px 10px!important;
+        max-width: 1500px!important;
+    }
+}
+
+@media only screen and (max-width: 415px) {
+.aez-form-item--with-btn.renter-info.add1 {
+    width: 100% !important;
+}
+
+.aez-form-item--with-btn.renter-info.add2 {
+    width: 100% !important;
+}
+}
+@media only screen and (max-width: 800px){
+    .aez-form-block {
+        padding: 2px 8px;
+    }
+}
+
+// .aez-form-block .aez-form-item--with-btn.renter-info:nth-child(odd){
+        
+//     margin-left: 20px;
+// }
+
+.aez-form-item--with-btn.renter-info.add1:after,
+.aez-form-item--with-btn.renter-info.add2:after {
+      padding-right: 5px;
+}
+
+
+.add1 > .aez-form-item__label , .renter-info-left > .aez-form-item__label , .renter-info-right > .aez-form-item__label{
+    font-weight: 400;
+    white-space: nowrap;
+     font-size: .8em;
+    padding: 8px;
+}
+
+textarea.renter-info.aez-form-item__input,
+input[type="date"].renter-info.aez-form-item__input,
+input[type="time"].renter-info.aez-form-item__input,
+input[type="datetime-local"].renter-info.aez-form-item__input,
+input[type="week"].renter-info.aez-form-item__input,
+input[type="month"].renter-info.aez-form-item__input,
+input[type="text"].renter-info.aez-form-item__input,
+input[type="email"].renter-info.aez-form-item__input,
+input[type="url"].renter-info.aez-form-item__input,
+input[type="password"].renter-info.aez-form-item__input,
+input[type="search"].renter-info.aez-form-item__input,
+input[type="tel"].renter-info.aez-form-item__input,
+input[type="number"].renter-info.aez-form-item__input {
+        width: 58%;
+        font-size: .8em;
+}
+
+.aez-form-item.add1{
+    display: inline-flex !important;
+    -webkit-box-align: left;
+    -ms-flex-align: left;
+    align-items: left;
+    width: 100%;
+    padding: 1%;
+}
+
+@media only screen and (max-width: 1140px) and (min-width: 909px){
+    .aez-form-item.renter-info-left, .aez-form-item.renter-info-right {
+    width: 47%;
+    padding: 0px;
+    margin: 0.4em auto;
+    font-size: .8em;
+}
+.aez-form-item.renter-info-left {
+    align-items: left !important;
+}
+
+.aez-form-item.add1{
+    width: 100%;
+     font-size: .8em;
+}
+}
+
+.add1 > .aez-form-item__label , .renter-info-left > .aez-form-item__label , .renter-info-right > .aez-form-item__label {
+    font-weight: 500;
+    font-size: .8em;
+    padding-left: 4px;
+}
+
+.aez-form-item--white {
+    background-color: $white;
+
+    > textarea.aez-form-item__input,
+    > input[type="date"].aez-form-item__input,
+    > input[type="time"].aez-form-item__input,
+    > input[type="datetime-local"].aez-form-item__input,
+    > input[type="week"].aez-form-item__input,
+    > input[type="month"].aez-form-item__input,
+    > input[type="text"].aez-form-item__input,
+    > input[type="email"].aez-form-item__input,
+    > input[type="url"].aez-form-item__input,
+    > input[type="password"].aez-form-item__input,
+    > input[type="search"].aez-form-item__input,
+    > input[type="tel"].aez-form-item__input,
+    > input[type="number"].aez-form-item__input {
+        background-color: $white;
+        font-size: .8em;
+    }
+}
+
+.aez-form-item--with-icon {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+    > .aez-form-item {
+        margin: 0;
+        width: 100%;
+    }
+
+    > .aez-form-block__icon {
+        font-size: 1.618em;
+        text-align: center;
+        width: 5%;
+    }
+
+    input[type="text"].aez-form-item__input,
+    input[type="password"].aez-form-item__input {
+        width: 65.5%;
+    }
+}
+
+.aez-form-item--with-btn {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+    > .aez-form-item {
+        margin: 0;
+        width: calc(100% - 60px);
+    }
+
+    input[type="text"].aez-form-item__input {
+        width: 64%;
+    }
+}
+
+.aez-form-item > * {
+    border-radius: 5px;
+    padding: 0px 4px
+}
+
+.aez-form-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+    > .aez-form-item {
+        flex: 1;
+        margin: 0 1em;
+    }
+}
+
+.aez-pay-total {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 5px 8px;
+    margin: 0 auto;
+    clear: both;
+
+.aez-form-item__radio:checked + .aez-form-item__label[for="pay_now_total"]:after {
+        color: $blue;
+        display: block;
+        margin: 0.382em auto 0 40px;
+    }
+}
+.aez-reserve-payment-amount {
+    font-weight: 400;
+    font-size: 0.9em;
+}
+/* Label Styling */
+.reserve-box {
+    .aez-form-item__label {
+        display: none;
+    }
+}
+.pum-container .aez-form-item__label {
+    font-size: 0.8em !important;
+}
+
+.pum-container .aez-form-item__input {
+    font-weight: 400;
+}
+
+.aez-form-item__label {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    font-family: 'Montserrat', helvetica neue, helvetica, sans-serif;
+    font-size: 0.9em;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 1em;
+    margin-bottom: 0%;
+
+    a {
+        color: $green;
+    }
+}
+
+.aez-form-item__label--white {
+    color: $white;
+}
+
+.aez-form-item__label--hidden {
+    display: none;
+}
+
+#pay_now_total_container {
+    margin-bottom: 8px !important;
+}
+/* Input Styling */
+
+textarea.aez-form-item__input,
+input[type="date"].aez-form-item__input,
+input[type="time"].aez-form-item__input,
+input[type="datetime-local"].aez-form-item__input,
+input[type="week"].aez-form-item__input,
+input[type="month"].aez-form-item__input,
+input[type="text"].aez-form-item__input,
+input[type="email"].aez-form-item__input,
+input[type="url"].aez-form-item__input,
+input[type="password"].aez-form-item__input,
+input[type="search"].aez-form-item__input,
+input[type="search"].contact-us-form-search,
+input[type="tel"].aez-form-item__input,
+input[type="number"].aez-form-item__input {
+    -ms-flex-item-align: stretch;
+    -ms-grid-row-align: stretch;
+    align-self: stretch;
+    background-color: $white;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: $gray;
+    font-family: $primary-font;
+    font-size: .85em;
+    font-weight: 300;
+    margin: 0;
+    padding: 8px 0px;
+    text-indent: 12px;
+    width: 68%;
+
+    &.aez-form-item__input--date {
+        width: 80%;
+        font-size: 0.8em !important;
+    }
+
+    &::-webkit-input-placeholder {
+        color: $light-gray;
+        opacity: 1;
+        transition: $primary-transition;
+    }
+    &::-moz-placeholder {
+        color: $light-gray;
+        opacity: 1;
+        transition: $primary-transition;
+    }
+    &:moz-placeholder {
+        color: $light-gray;
+        opacity: 1;
+        transition: $primary-transition;
+    }
+    &::-ms-input-placeholder {
+        color: $light-gray;
+        opacity: 1;
+        transition: $primary-transition;
+    }
+
+    &:focus {
+        outline: none !important;
+    }
+
+    &:focus::-webkit-input-placeholder {
+        color: transparent;
+        opacity: 0;
+    }
+    &:focus::-moz-placeholder {
+        color: transparent;
+        opacity: 0;
+    }
+    &:focus::-moz-placeholder {
+        color: transparent;
+        opacity: 0;
+    }
+    &:focus::-ms-input-placeholder {
+        color: transparent;
+        opacity: 0;
+    }
+}
+
+textarea.aez-form-item__input {
+    padding: 1em 0;
+}
+
+textarea.aez-form-item__input--full-width,
+input[type="date"].aez-form-item__input--full-width,
+input[type="time"].aez-form-item__input--full-width,
+input[type="datetime-local"].aez-form-item__input--full-width,
+input[type="week"].aez-form-item__input--full-width,
+input[type="month"].aez-form-item__input--full-width,
+input[type="text"].aez-form-item__input--full-width,
+input[type="email"].aez-form-item__input--full-width,
+input[type="url"].aez-form-item__input--full-width,
+input[type="password"].aez-form-item__input--full-width,
+input[type="search"].aez-form-item__input--full-width,
+input[type="tel"].aez-form-item__input--full-width,
+input[type="number"].aez-form-item__input--full-width {
+    flex: 1;
+    padding: 1em 0;
+    text-indent: 1em;
+    width: 100%;
+}
+
+/* Dropdown Styling */
+
+select.aez-form-item__dropdown {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    -ms-flex-item-align: stretch;
+    -ms-grid-row-align: stretch;
+    align-self: stretch;
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    color: $light-gray;
+    font-family: $primary-font;
+    font-size: 1em;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    width: 75%;
+    z-index: 5;
+
+    &:focus {
+        outline: none;
+    }
+
+    option {
+        color: $gray;
+    }
+}
+
+select.aez-form-item__dropdown--full-width {
+    flex: 1;
+    padding: 0.618em 1em;
+}
+
+.aez-form-item--dropdown:before {
+    color: $gray;
+    // content: '\f0dd';
+    font-family: 'FontAwesome';
+    font-size: 1.618em;
+    position: absolute;
+    margin: auto;
+    top: -3px;
+    right: 10px;
+    z-index: 4;
+}
+
+.aez-form-item--dropdown-airline:before {
+    color: $gray;
+    // content: '\f0dd';
+    font-family: 'FontAwesome';
+    font-size: 1.618em;
+    position: absolute;
+    margin: auto;
+    top: -3px;
+    right: 30px;
+    z-index: 4;
+}
+.aez-extra-header > h4 > span {
+    font-size: 1.3em;
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+     /* IE10+ CSS styles go here */
+     .aez-form-item--dropdown:before {
+        content: '';
+        color: transparent;
+        opacity: 0;
+     }
+.aez-form-billing-address .aez-form-block .aez-form-item	 .reserve_page_billing_info{
+		 text-indent:0px;
+		 width:45%;
+	 }
+}
+/* start media query for textbox of billing address in reserve page */
+@supports (-ms-accelerator:true) {
+.aez-form-billing-address .aez-form-block .aez-form-item	 .reserve_page_billing_info {
+		 text-indent:0px;
+		
+		 width:45%;
+	 }
+
+}
+@supports (-ms-ime-align:auto) {
+.aez-form-billing-address .aez-form-block .aez-form-item	 .reserve_page_billing_info {
+		 text-indent:0px;
+		 
+		 width:45%;
+	 }
+}
+@-moz-document url-prefix() {
+.aez-form-billing-address .aez-form-block .aez-form-item .reserve_page_billing_info {
+		 text-indent:0px;
+		 width:45%;
+		 
+	 }
+}
+
+/* end media query for textbox of billing address in reserve page */
+/* Radio and Checkbox Styling */
+
+.aez-form-item--checkbox-cont {
+    margin: 0.618em auto;
+}
+
+.aez-form-item__radio,
+.aez-form-item__checkbox {
+    display: none;
+
+    + .aez-form-item__label {
+        padding: 0px 0px 3px;
+    }
+
+    + .aez-form-item__label:before {
+        border: 1.2px solid #d1d1d1;
+        display: inline-block;
+        font-family: 'FontAwesome';
+        height: 25px;
+        margin-right: 10px;
+        padding: 2px;
+        text-align: center;
+        width: 25px;
+        background-color: #ffff;
+    }
+}
+
+.aez-form-item__checkbox {
+
+    + .aez-form-item__label:before {
+        color: transparent;
+        content: '\f00c';
+        font-size: 19px;
+        line-height: 1;
+        background-color: #ffff;
+        
+    }
+
+    &:checked + .aez-form-item__label:before {
+        color: $green;
+        content: '\f00c';
+    }
+}
+
+
+.aez-form-item__radio {
+
+    + .aez-form-item__label:before {
+        border-radius: 100%;
+        color: transparent;
+        content: '\f111';
+        font-size: 17px;
+        line-height: 1.1;
+    }
+
+    &:checked + .aez-form-item__label:before {
+        color: $blue;
+        content: '\f111';
+    }
+}
+
+.aez-form-item__radio--white,
+.aez-form-item__checkbox--white {
+
+    + .aez-form-item__label:before {
+        background-color: $white;
+    }
+
+    &:checked + .aez-form-item__label:before {
+        background-color: $white;
+    }
+}
+
+.aez-form-item__label:before {
+    transition: $primary-transition;
+}
+
+
+/* Form Error States */
+
+.aez-form-item--error {
+    border-color: $error-red;
+    color: $error-red;
+
+    textarea.aez-form-item__input,
+    input[type="date"].aez-form-item__input,
+    input[type="time"].aez-form-item__input,
+    input[type="datetime-local"].aez-form-item__input,
+    input[type="week"].aez-form-item__input,
+    input[type="month"].aez-form-item__input,
+    input[type="text"].aez-form-item__input,
+    input[type="email"].aez-form-item__input,
+    input[type="url"].aez-form-item__input,
+    input[type="password"].aez-form-item__input,
+    input[type="search"].aez-form-item__input,
+    input[type="tel"].aez-form-item__input,
+    input[type="number"].aez-form-item__input {
+        color: $gray;
+
+        &::-webkit-input-placeholder {
+            color: $error-red;
+        }
+        &::-moz-placeholder {
+            color: $error-red;
+        }
+        &:moz-placeholder {
+            color: $error-red;
+        }
+        &::-ms-input-placeholder {
+            color: $error-red;
+        }
+    }
+}
+
+.error-messages {
+    // Richard's Error Message
+    background-color: transparent;
+    // border: 2px solid $error-red;
+    // border-radius: 5px;
+    color: $error-red;
+
+    display: none;
+    list-style-type: disc;
+    margin: 0 auto;
+    // padding: 8px 35px 8px 30px;
+    padding: 8px 0px;
+    width: 100%;
+}
+
+.aez-form-item__label > .fa-calendar{
+    font-size: 1.2em !important;
+}
+
+/*
+ *  AEZ Awards Form Component
+ */
+
+.aez-awards-form__link {
+    display: block;
+    font-size: 1em;
+    text-align: center;
+    transition: $primary-transition;
+    margin: 0.618em auto;
+    padding: 0;
+
+    &:hover {
+
+    }
+}
+
+.aez-awards-form__submit {
+    padding: 1em 0;
+    width: 100%;
+}
+
+.aez-awards-form__link--forgot {
+    color: $blue;
+}
+
+.aez-awards-form__link--signup {
+    color: $green;
+
+    > .fa-angle-right {
+        color: $gray;
+        font-size: 1.5em;
+        line-height: 1;
+        margin-left: 5px;
+    }
+}
+
+.aez-find-a-car-dropdown {
+    background-color: $blue;
+    width: 100%;
+    color: $white;
+    position: relative;
+
+    .aez-form-block__header {
+        color: $white;
+        font-weight: 400;
+    }
+
+    .aez-form {
+        .aez-find-a-car__heading {
+            color: $white;
+        }
+
+        label[for="return_to_same"],
+  		label[for="renter_age"] {
+            color: $white;
+        }
+
+        // Fix issue on IE
+        .aez-form-block--side-by-side .aez-form-item {
+            width: 100%;
+        }
+    }
+}
+
+.aez-form > {
+    .close {
+        text-align: center;
+        width: 100%;
+        background-color: $white;
+        display: block;
+        position: relative;
+        margin-top: 25px;
+        padding: 8px;
+        float: none;
+        opacity: unset;
+    }
+}
+
+.close:before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 15px 15px 15px;
+    border-color: transparent transparent #FFFFFF transparent;
+    top: -15px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.aez-find-a-car-form {
+
+    .aez-form-block:first-of-type {
+        .aez-form-item--checkbox-cont {
+            display: none;   
+        }
+    }
+    .aez-form-block:not(:first-of-type) {
+        display: none;
+    }
+
+
+}
+
+.aez-find-a-car-form--active {
+
+    .aez-form-block:first-of-type {
+        .aez-form-item--checkbox-cont {
+            display: block;   
+        }
+    }
+    .aez-form-block:not(:first-of-type) {
+        display: block;
+    }
+    
+}
+
+
+
+.aez-find-a-car-dropdown.is-open:after {
+    top: 100%;
+	left: 0;
+    right: 0;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: transparent;
+	border-top-color: $blue;
+	border-width: 15px;
+	margin: 0 auto;
+}
+
+.aez-find-a-car-dropdown .aez-find-a-car__heading {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.aez-home-find-a-car-container .aez-find-a-car__heading {
+    color: $white;
+    font-size: 1.2em;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.aez-find-a-car__heading {
+    color: #036;
+    font-size: 1.2em;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.aez-find-a-car__heading--white {
+    color: $white;
+}
+
+/*
+ *  Stand Alone Car Search Form
+ */
+
+.aez-car-form {
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    .aez-form {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .aez-form-block {
+        .aez-form-block__header,
+        label[for="return_to_same"],
+  		label[for="renter_age"]  {
+            color: $dark-blue;
+        }
+    }
+
+    .close {
+        display: none;
+    }
+}
+
+.aez-terms-submit-block {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+
+    .aez-form-item--checkbox-cont,
+    .aez-btn {
+        width: calc(50% - 5px);
+    }
+}
+// .aez-form-billing-address {
+//     display: none;
+// }
+/********** CONTACT US FORM **********/
+
+.wpcf7 .aez-btn {
+    height: 46px;
+}
+
+
+/*
+ *  Media Queries
+ */
+
+@media only screen and (max-width: 709px) {
+    .aez-terms-submit-block {
+        flex-direction: column;
+            
+        .aez-form-item--checkbox-cont,
+        .aez-btn {
+            width: 100%;
+        }
+    }
+.aez-page-title--summary, .aez-choose-option-container {
+    > h1 {
+        font-size: 1.9em;
+    }
+}
+    .aez-form-block {
+        .aez-form-block--side-by-side {
+
+            > .aez-form-item {
+                &.aez-form-item--dropdown {
+                    margin-left: 5px;
+                    flex: 1;
+                    margin-top: 1%;
+                }
+
+                &.aez-form-item--date {
+                    flex: 0 0 59%;
+                    flex: 0 0 calc(60% - 5px);
+                }
+            }
+        }
+    }
+
+    
+
+    .aez-form-item--date {
+
+        .aez-form-item__label {
+            padding-right: 0.618em;
+        }
+
+        input[type="date"].aez-form-item__input,
+        input[type="text"].aez-form-item__input {
+            &.aez-form-item__input--date {
+                width: 100%;
+            }
+        }  
+    }
+}
+
+@media only screen and (min-width: 710px) {
+    .aez-home {
+        .aez-form {
+            width: 90%;
+
+            > .aez-form-block {
+                padding: 0;
+                margin: auto 1em;
+                width: 100%;
+            }
+        }
+    }
+
+    .aez-find-a-car-form {
+
+        .aez-form-block:first-of-type {
+            .aez-form-item--checkbox-cont {
+                display: block;
+            }
+        }
+        .aez-form-block:not(:first-of-type) {
+            display: block;
+        }
+    }
+
+    .aez-form-block {
+
+        &.aez-form-block--payment-method {
+            margin-bottom: 15px;
+
+            > .aez-form-block__heading {
+                display: block;
+                margin: 0 auto;
+                text-align: center;
+            }
+
+            > span.aez-form-block__heading {
+                text-align: left;
+            }
+        }
+    }
+
+}
+
+.aez_login_popup .aez-form-block .aez-form-item {
+    border: 1px solid #d1d1d1;
+    width: 72%;
+    padding: 2px 0px;
+}
+
+
+#adv_login .aez-form-block .input-group-text {
+    border: none;
+}
+
+.signup_dropdown #terms-and-conditions-drop-down {
+    padding: 0 !important;
+    font-size: 0.91em !important;
+}
+#terms-and-conditions-drop-down {
+    div.aez-form-item {
+        font-size: 0.9em;
+    }
+}
+
+@media only screen and (min-width: 910px) {
+
+    .aez-form-block.add1 {
+        width: 50%;
+        height: 8%;
+        float: left;
+        padding-left: 10%;
+    }
+
+    // .aez-awards-form.aez-form,
+    .aez-reservation-form{
+        float: right;
+        width: 65%;
+        margin: 0 auto;
+    }
+
+    .aez-home {
+        .aez-form {
+            /*width: 50%;*/
+
+            > .aez-form-block {
+                padding: 0;
+                width: 100%;
+            }
+        }
+    }
+
+    .aez-find-a-car-dropdown {
+        > .aez-form {
+            float: none;
+            width: 100%;
+        }
+    }
+
+    .aez-pay-total {
+        width: 90%;
+    }
+
+    .aez-form-block {
+        width: 90%;
+        margin: 0 auto;
+        max-width: 1024px;
+        margin-top: 1.2%;
+    }
+    
+    .exp-reserve-benefit-container .aez-form-block {
+        width: 100%;
+        margin: 0 auto;
+        max-width: 1024px;
+    }
+
+     #adv_login .aez-form-block  {
+        width: 80%;
+        margin: 0 auto;
+        max-width: 1024px;
+     }
+
+     #adv_login.aez-reserve-login-form .aez-form-block  {
+        width: 100%;
+        margin: 0;
+        max-width: 490px;
+        padding: 5px 4px;
+     }
+}
+
+.express-checkout-link > span  > a {
+    color: #fff;
+    text-decoration-line: underline !important;
+}
+.express-checkout-link > span > a:hover{
+    color: #00c7dd !important;
+}
+
+@media only screen and (max-width: 909px) {
+    .aez-find-a-car-dropdown {
+        .aez-form {
+            display: none;
+
+            > .aez-find-a-car__heading {
+                display: none;
+            }
+        }
+    }
+    
+    .aez-form-item.renter-info {
+        display: -webkit-box !important;
+        display: -ms-flexbox !important;
+        display: inline-flex !important; 
+        -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+        align-items: center !important;
+        position: relative;
+        width: 100%;
+        padding: 0px 10px;
+        margin: 0.2em auto;
+        left: 0px !important;
+    }
+
+    .credit_card_cvv {
+        width: 38% !important;
+        float: right;
+    }
+    .credit_card {
+        width: 60% !important;
+    }
+    
+    textarea.renter-info.aez-form-item__input,
+    input[type="text"].renter-info.aez-form-item__input,
+    input[type="email"].renter-info.aez-form-item__input,
+    input[type="url"].renter-info.aez-form-item__input,
+    input[type="password"].renter-info.aez-form-item__input,
+    input[type="search"].renter-info.aez-form-item__input,
+    input[type="tel"].renter-info.aez-form-item__input,
+    input[type="number"].renter-info.aez-form-item__input {
+        width: 50%;
+        font-size: .8em !important;
+        font-weight: 500;
+        margin: 0;
+        padding: 0;
+        text-indent: 10px;
+    }
+}
+@media only screen and (max-width: 910px) {
+    .aez-form-item .aez-form-item--dropdown {
+        margin-top: 1%;
+    }
+
+    .reserve-box {
+        padding: 10px 8px!important;
+    }
+    #optional_div {
+        padding: 3px 8px !important;
+    }
+    .fa-question-circle {
+        font-size: 1.2em !important;
+    }
+}
+
+@media only screen and (min-width: 910px) {
+    .aez-find-a-car-dropdown {
+        > .aez-find-a-car__heading {
+            display: none;
+        }
+
+        .aez-form {
+            display: none;
+
+            > .aez-find-a-car__heading {
+                display: block;
+            }
+        }
+    }
+
+    .aez-car-form {
+        .aez-form {
+            .aez-form-item__input,
+            .aez-form-item--with-btn input[type="text"].aez-form-item__input {
+                width: 85%
+            }
+        }
+    }
+
+    .aez-find-a-car-dropdown.is-open:after {
+        content: none;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .aez-home {
+        .aez-form {
+            .aez-form-item--date {
+                input.aez-form-item__input.aez-form-item__input--date {
+                    width: 75%;
+                }
+            }
+        }
+    }
+}
+
+/* Loyalty signup additional fields begins */
+.adv-size {
+    width:68%;
+}
+.adv-size .advg-radio {
+    width:30%;
+    float:left;
+}
+
+.adv-size  .select2-selection__rendered {
+    text-align:left !important; 
+}
+
+.adv-radio {
+    width:30%;
+    float:left;
+} 
+
+.adv-fld-hide {
+    display: none;
+}
+.adv-size .advgpa-radio {
+    width:15%;
+    float:left;
+}
+.advpa-radio {
+    width:35%;
+    float:left;
+} 
+.aez-sign-up-form .aez-form .select2 span {
+    text-align: left !important;
+}
+
+.signup_dropdown .aez-extra-header {
+    background-color: #003366; 
+}
+
+.aez-extra .aez-extra-header h4 {
+    color: #ffffff; 
+    font-size: 1.3em;
+}
+
+.dd-container { 
+    z-index: 9999; 
+}
+.dd-container .dd-options {
+    height: 200px;
+}
+.popup-form.aez-sign-up-form {
+    margin: 5px auto;
+}
+.popup-form {
+    .aez-form-block {
+        padding: 4px 5px !important;
+    } 
+    input[type="date"], input[type="time"], input[type="datetime-local"], input[type="week"], input[type="month"], input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], input[type="tel"], input[type="number"], textarea {
+    padding: 0em !important;
+    } 
+}     
+/*signup and edit profile card details responsive */
+@media only screen and (max-width: 600px) {  
+    .aez-form-block .aez-form-block--side-by-side > .aez-form-item.aez-form-item--dropdown {  margin-top : 10px; }
+    .aez-form-block .aez-form-block--side-by-side > .aez-form-item { margin-top : 10px }
+    .aez-form-card-expiry { margin-top : -14px; }
+	.expiry_month_dropdown_label {
+        flex: 1 !important;
+    }
+    .aez-form-card-expiry .aez-form-item--dropdown {
+        margin-left: 0 !important;
+    }
+}
+/*end signup and edit profile card details responsive */ 
+/*signup and edit profile card details responsive */
+@media only screen and (max-width: 801px) { 
+.aez-form-block.aez-form-card-expiry {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-bottom: 10px;
+    /* margin-top: 0px; */
+	}
+	.select2-container { 
+	height: 90%!important;
+	}	
+}
+/*end signup and edit profile card details responsive */ 
+.aez-form-block .aez-form-block--side-by-side  .aez-form-item .aez-form-item--dropdown  { width: 424px; }
+/* Add more cards */
+.add-more-card-btn-container .add-more-text-card {
+    float: right;
+    top: 9px;
+    position: relative;
+    color: #0066aa;
+    margin-right: 10px;
+}
+.add-more-card-btn-container .aez-form-item--with-btn {
+    float: right;
+}
+.more_card_detail_data .aez-remove-btn-card {
+    float: right;
+}
+.more_card_detail_data .card-section-title h4 {
+    float: left;
+    margin-top: 5px;
+}
+#more_card_detail_container .card-section-title .aez-form-item--with-btn {
+    margin-top: -20px;
+}
+
+.more_card_detail_data .card-section-title .aez-form-item--with-btn, #more_card_detail_container .card-section-title .aez-form-item--with-btn{
+    float: right;
+    margin-top: 10px;
+}
+.card-section-title .card-more-title-clear {
+    clear: both;
+    height: 0;
+}
+.card-section-title .card_title {
+    float: right;
+    position: relative;
+    top: 5px;
+    left: 4px; 
+}
+.aez-form-card-expiry {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+.aez-form-card-expiry .aez-form-item {
+    height: 45px;
+}
+.card-section-title .aez-form-item--with-btn {
+    margin-top: 5px;
+}
+.more_card_detail_data .aez-form-item--with-btn span{
+    margin-left: 15px;
+}
+.expiry_month_dropdown_label {
+    flex: none;
+    width: 170px;
+}
+/* Add more cards */
+
+/* express checkout checkbox */
+.aez-form-block .express_checkbox {
+    border: 1px solid #FFFFFF;
+}
+.aez-home-find-a-car-container .aez-form-block .express_checkbox:before , .aez-find-a-car-dropdown .aez-form-block .express_checkbox:before {
+      border:0;
+}
+@media only screen and (max-width: 600px){
+    .aez_login_popup input.aez-form-item__input {
+        width: 73% !important;
+    }
+    .aez_login_popup .input-group-prepend {
+        width: 16% !important;
+    }
+    .aez_login_popup .aez-form-block .aez-form-item {
+        width: 90% !important;
+    }
+}
+/* express checkou checkbox */ 
+
+/* popup close color */
+.pum-close.popmake-close {
+	background: none!important;
+	color: #0066aa!important;
+} 
+
+.pum-theme-framed-border > .pum-close.popmake-close {
+	background: #036 !important;
+	color: #fff!important;
+} 
+.pum-theme-695 .pum-container, .pum-theme-framed-border .pum-container {
+    border: none !important;
+}
+
+/* expressway popup allignment */
+.aez-form.aez-login h3 {
+	margin-top: 0;
+	margin-bottom: 0;
+}  
+
+.aez-form.aez-login .-dark-blue {
+    font-size: 1.3em;
+	line-height: 1.2;
+} 
+.popup_p {
+    margin-bottom: 0px !important;
+    margin-top: -10px !important;
+ }
+ .popup_p, .popup_footer_button, .popup_footer_header {
+    text-align: center !important;
+ }
+ .popup_footer_div {
+    background-color: #036!important;
+    height: 116px !important; 
+    padding: 16px !important; 
+    width:100% !important;
+    align-content: center !important;
+ }
+ .popup_footer_button {
+    width: 55%;
+    margin: auto;
+    text-align: center;
+    background-color: #ffff;
+    padding: 6px 0px;
+    border-radius: 5px;
+ }
+ .popup_footer_header {margin-bottom: 16px !important; font-size: 1.09em; font-weight: 300;}
+
+.aez_login_popup input.aez-form-item__input {
+    font-size: .79em;
+    width: 89%;
+}
+.aez_login_popup .input-group-prepend {
+    width: 10%;
+}
+.aez-login .aez-awards-form__submit {
+    margin-bottom: 20px;
+}

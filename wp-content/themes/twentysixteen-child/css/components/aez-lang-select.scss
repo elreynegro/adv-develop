@@ -1,0 +1,202 @@
+/*
+ *	AEZ Language Selection Menu
+ */
+
+
+
+#lang-dropdown-wrapper {
+	// position: absolute;
+    right: 430px;
+    top: 20px;
+    margin-right: 3%;
+}
+
+#lang-dropdown-select {
+	border-radius: 0;
+}
+
+#lang-dropdown-wrapper > label {
+	position:relative;
+}
+
+#lang-dropdown-wrapper > label:after {
+    content:"\f078";   
+    font-family: "FontAwesome";
+    font-size: 11px;
+    color: $gray;
+    right: 10px; 
+    top: -1px;
+    padding: 0 0 2px;
+    position: absolute;
+    pointer-events: none;
+}
+
+#lang-dropdown-wrapper > label:before {
+    content:'';
+    right: 5px; 
+    top: 0px;
+    width: 23px; 
+    height: 18px;
+    background: $white;
+    position: absolute;
+    pointer-events: none;
+    display: block;
+}
+
+#lang-dropdown-select {
+	padding: 0 .5em;
+    margin: 0;
+    background: $white;
+    color: $gray;
+    border: 1px solid $gray;
+    outline: none;
+    display: inline-block;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    cursor: pointer;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+
+#lang-dropdown-wrapper > option {
+	color: $gray;
+	background-color: $blue;
+}
+
+.lang-globe-select {
+	margin-right: 5px;
+	color: $blue;
+}
+
+.menu-secondary-menu-container ul.primary-menu > li:first-child {
+    margin-top: -0.4%;
+}
+
+.aez-footer-menu__footer .menu-secondary-menu-container ul.aez-footer-menu > li:first-child, .menu-secondary .menu-secondary-menu-container ul.primary-menu > li:nth-child(2) {
+    display: none;
+}
+
+/* Targetting Webkit browsers only. FF will show the dropdown arrow with so much padding. */ 
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    #lang-dropdown-select {
+    	padding-right: 1.6em;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+	#lang-dropdown-wrapper {
+        display: block !important;
+		// position: absolute;
+        right: 60px;
+        top: 25px;
+	}
+}
+
+@media screen and (max-width: 667px) {
+
+    #lang-dropdown-wrapper {
+        top: 22px;
+    }
+
+	#lang-dropdown-select {
+		max-width: 75px;
+	}
+}
+
+@media screen and (max-width: 567px) {
+    #lang-selector-desktop {
+        display: none;
+    }
+    #lang-selector-mobile {
+        float: right !important;
+        line-height: 1em;
+    }
+}
+
+@media screen and (min-width: 568px) {
+    #lang-selector-mobile {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 414px) {
+
+    #lang-dropdown-wrapper {
+        top: 13px;
+        // right: 50px;
+        margin: auto;
+    }
+
+	#lang-dropdown-select {
+		max-width: 55px;
+	}
+}
+/* ipad pro enhance page */
+@media screen and (max-width: 1024px) {
+	.enhancements_chosen .aez-upgrade-container {
+		height: 155px !important;
+	}
+}
+/* iphone 5s enhance page */
+/*@media screen and (max-width: 320px) {
+	.enhancements_chosen .aez-upgrade-container {
+		height: 175px !important;
+	}
+}*/
+
+/* for all mobiles */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+	.aez-reservation-summary>.aez-reservation-title-bar h3 {
+		margin: auto !important;
+		font-size: 0.9em !important;
+	}
+	.login_options .modal-header {
+		display: block !important;  
+	}
+	.login_options .modal {
+		z-index: 100001!important;
+	}
+}
+/*mobile landscape */
+@media only screen and (min-device-width : 565px) and (max-device-width : 961px) {
+	.login_options .modal-header {
+		display: block !important;  
+	}
+	.login_options .modal {
+		z-index: 100001!important;
+	}
+}
+@media only screen and (min-width : 321px) { 
+	.aez-reservation-summary>.aez-reservation-title-bar h3 {
+		margin: auto !important;
+	}
+}
+/* reserve page update button */
+@media only screen and (min-device-width : 319px) and (max-device-width : 961px) {
+	.update_button_div {
+        margin: auto 0% !important;
+    }
+}
+@media only screen and (max-width: 824px) and (min-width: 567px) {
+	#lang-dropdown-wrapper {
+		top: 0!important;
+		position: relative;
+		right: 25px;
+	}
+}
+
+/* iPad in portrait & landscape */
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  { 
+	#lang-dropdown-wrapper {
+		top: 0!important;
+		position: relative;
+		right: 25px;
+	}
+}

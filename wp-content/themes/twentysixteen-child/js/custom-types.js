@@ -1,0 +1,1 @@
+(function($){var $arrow1=$('#arrow1');var $arrow2=$('#arrow2');$('#arrow1').click(function(evt){evt.preventDefault();var promocode=$('#promocode1').text();$('#promo_codes1').val(promocode);});$('#arrow2').click(function(evt){evt.preventDefault();var promocode=$('#promocode2').text();$('#promo_codes1').val(promocode);});})(jQuery);

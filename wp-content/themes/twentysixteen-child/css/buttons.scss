@@ -1,0 +1,373 @@
+/*
+ * AEZ Button Styling
+ */
+.aez-add-btn,.aez-add-btn-loc,
+.aez-add-btn-total,
+.aez-remove-btn-total,
+.aez-remove-btn,.aez-remove-btn-loc,
+.aez-add-btn-card,
+.aez-remove-btn-card,
+.aez-edit-btn-card {
+    cursor: pointer;
+    transition: $primary-transition;
+}
+
+.aez-add-btn:hover:before,.aez-add-btn-loc:hover:before,
+.aez-add-btn-total:hover:before {
+    background-color: $darkened-green;
+    border-color: $darkened-green;
+}
+
+.aez-remove-btn:hover:before,.aez-remove-btn-loc:hover:before,
+.aez-remove-btn-total:hover:before {
+    background-color: $darkened-red;
+    border-color: $darkened-red;
+}
+
+.aez-add-btn--outline:hover:before {
+    background-color: $green;
+    color: $white;
+}
+
+.aez-remove-btn--outline:hover:before {
+    background-color: #BE604A;
+    color: $white;
+}
+
+.aez-add-btn,.aez-add-btn-loc,
+.aez-add-btn-total,
+.aez-add-btn-card{
+
+    &:before {
+        background-color: $green;
+        border-radius: 5px;
+        border: 3px solid $green;
+        color: $white;
+        content: '\f067';
+        display: inline-block;
+        font-family: 'FontAwesome';
+        font-size: 20px;
+        line-height: 1.4;
+        height: 31px;
+        width: 31px;
+        text-align: center;
+    }
+}
+
+.aez-add-btn--outline {
+
+    &:before {
+        background-color: transparent;
+        color: $green;
+    }
+}
+
+.aez-remove-btn,.aez-remove-btn-loc,
+.aez-remove-btn-total,.aez-remove-btn-card {
+
+    &:before {
+        background-color: $red;
+        border-radius: 5px;
+        border: 3px solid $red;
+        color: $white;
+        content: '\f068';
+        display: inline-block;
+        font-family: 'FontAwesome';
+        font-size: 20px;
+        line-height: 1.4;
+        height: 31px;
+        width: 31px;
+        text-align: center;
+    }
+}
+
+.cc_pre_container .aez-delete-btn-card {
+    &:before {
+        background-color: $red;
+        border-radius: 5px;
+        border: 3px solid $red;
+        color: $white;
+        content: '\f00d';
+        display: inline-block;
+        font-family: 'FontAwesome';
+        font-size: 26px;
+        line-height: 1.3;
+        height: 38px;
+        width: 38px;
+        text-align: center;
+    }    
+}
+
+.aez-edit-btn-card {
+
+    &:before {
+        background-color: $green;
+        border-radius: 5px;
+        border: 3px solid $green;
+        color: $white;
+        content: '\f044';
+        display: inline-block;
+        font-family: 'FontAwesome';
+        font-size: 26px;
+        line-height: 1.3;
+        height: 38px;
+        width: 38px;
+        text-align: center;
+    }
+}
+
+.aez-remove-btn--outline {
+
+    &:before {
+        background-color: transparent;
+        color: $red;
+    }
+}
+
+.aez-add-btn--sm,
+.aez-remove-btn--sm {
+    &:before {
+        font-size: 15px;
+        line-height: 1.4;
+        height: 25px;
+        width: 25px;
+    }
+}
+
+.aez-add-btn--md,
+.aez-remove-btn--md {
+    &:before {
+        font-size: 26px;
+        line-height: 1.3;
+        height: 38px;
+        width: 38px;
+    }
+}
+
+.aez-add-btn--lg,
+.aez-remove-btn--lg {
+    &:before {
+        font-size: 45px;
+        line-height: 1.6;
+        height: 75px;
+        width: 75px;
+    }
+}
+
+.aez-btn,
+a.aez-btn,
+button.aez-btn,
+input[type="submit"].aez-btn,
+input[type="button"].aez-btn {
+    background-color: transparent;
+    border: 2px solid #06a;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #555;
+    font-size: 1em;
+    padding: 0.618em 0;
+    text-align: center;
+    text-transform: none !important;
+    transition: $primary-transition;
+    -webkit-appearance: none !important;
+
+    &:hover,
+    &:active,
+    &:focus {
+        background-color: $darkened-green;
+        box-shadow: 0px 2px 2px -1px #999;
+    }
+
+    &:focus {
+        outline: none;
+    }
+}
+
+.aez-btn--filled-blue,
+a.aez-btn--filled-blue ,
+button.aez-btn--filled-blue ,
+input[type="submit"].aez-btn--filled-blue,
+input[type="button"].aez-btn--filled-blue {
+    background-color: $blue;
+    border-color: $blue;
+    color: $white;
+
+    &:hover,
+    &:active,
+    &:focus {
+        background-color: $darkened-blue;
+        border-color: $darkened-blue;
+        color: $white;
+        box-shadow: 0px 2px 2px -1px #999;
+    }
+}
+
+.aez-btn--filled-red,
+a.aez-btn--filled-red ,
+button.aez-btn--filled-red ,
+input[type="submit"].aez-btn--filled-red,
+input[type="button"].aez-btn--filled-red {
+    background-color: $red;
+    border-color: $red;
+    color: $white;
+
+    &:hover,
+    &:active,
+    &:focus {
+        background-color: $darkened-red;
+        border-color: $darkened-red;
+        color: $white;
+        box-shadow: 0px 2px 2px -1px #999;
+    }
+}
+
+.aez-btn--filled-green,
+a.aez-btn--filled-green,
+button.aez-btn--filled-green,
+input[type="submit"].aez-btn--filled-green,
+input[type="button"].aez-btn--filled-green {
+    background-color: $green;
+    border-color: $green;
+    color: $white;
+    border-radius: 5px;
+    vertical-align: middle;
+
+    &:hover,
+    &:active,
+    &:focus {
+        background-color: $darkened-green;
+        border-color: $darkened-green;
+        color: $white;
+        box-shadow: 0px 2px 2px -1px #999;
+    }
+}
+
+.aez-btn--outline-blue,
+a.aez-btn--outline-blue,
+button.aez-btn--outline-blue,
+input[type="submit"].aez-btn--outline-blue,
+input[type="button"].aez-btn--outline-blue {
+    background-color: transparent;
+    border-color: $blue;
+    color: $blue;
+
+    &:hover,
+    &:active,
+    &:focus {
+        background-color: $blue;
+        color: $white;
+    }
+}
+
+.aez-btn--outline-red,
+a.aez-btn--outline-red,
+button.aez-btn--outline-red,
+input[type="submit"].aez-btn--outline-red,
+input[type="button"].aez-btn--outline-red {
+    background-color: transparent;
+    border-color: $red;
+    color: $red;
+
+    &:hover,
+    &:active,
+    &:focus {
+        background-color: $red;
+        color: $white;
+    }
+}
+
+.aez-btn--outline-green,
+a.aez-btn--outline-green,
+button.aez-btn--outline-green,
+input[type="submit"].aez-btn--outline-green,
+input[type="button"].aez-btn--outline-green {
+    background-color: transparent;
+    border-color: $green;
+    color: $green;
+
+    &:hover,
+    &:active,
+    &:focus {
+        background-color: $green;
+        color: $white;
+    }
+}
+
+.aez-select-option-button {
+    border: 1px #0066AA solid;
+}
+
+.aez-btn.aez-total-container {
+    border: 2px solid $blue;
+    background-color: #fff;
+
+    &:hover,
+    &:active,
+    &:focus {
+        background-color: #06a;
+        color: $white;
+        border: 2px solid #06a;
+        p, h3 {
+            color: $white !important;
+        }
+    }
+}
+@media only screen and (max-width: 1286px) { 
+
+	.aez-counter-option>h3, .aez-online-option>h3 {
+	    font-size: .8em;
+	}
+
+}
+
+@media only screen and (max-width: 1200px) { 
+	.aez-counter-option>h3, .aez-online-option>h3 {
+	    font-size: .8em;
+	}
+	.aez-btn.aez-total-container,.aez-btn.best-rate {
+	    width: 140px !important;
+	}
+
+}
+
+@media only screen and (max-width: 824px)and (min-width: 768px) {
+	.aez-choose-car .tablet-choosepage-car_name {
+		font-size: 13px!important;
+    }
+    .aez-choose-vehicle-container-details .aez-single-car-view .aez-choose-car-title span {
+        font-size: 1em !important;
+        font-weight: 400 !important;
+    }
+    .aez-choose-vehicle-container-details .aez-single-car-view .aez-choose-car-title {
+        margin: 2px auto !important;
+    }
+    .aez-choose-vehicle-container {
+        margin: 0 5px !important;
+    }
+    .aez-choose-vehicle-container-details {
+        padding: 0 6px !important;
+        margin-bottom: 15px !important;
+    }
+
+	/*#submit-reserve .error-messages {
+		clear: both !important;
+	}*/
+}
+
+@media only screen and (max-width: 824px)and (min-width: 800px) {
+	.aez-choose-total-pay-container .tablet-pay-button {
+		    padding-left: 17px!important;
+		}
+}
+@media only screen and (max-width: 768px) and (min-width: 700px) {
+	.aez-car-option .tablet-enhance {
+		width: 78px!important;
+	}
+	 .aez-vehicle-content .tablet-enhance-box-content { 
+		margin-left: 29px!important;
+	}
+}
+
+#submit-reserve .error-messages {
+		clear: both !important;
+	}

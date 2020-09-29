@@ -1,0 +1,165 @@
+/*
+ *	Informational Modal Styling
+ */
+
+.aez-modal {
+    background-color: rgba(255, 255, 255, 0.75);
+    display: none;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: auto;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9990;
+    
+    .aez-modal-dialog {
+        background-color: $off-white;
+        box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
+        font-family: $primary-font;
+        height: auto;
+        min-height: 318px;
+        max-height: 80%;
+        padding: 3em 1em;
+        position: relative;
+        overflow-y: auto;
+        width: 80%;
+        max-width: 800px;
+        z-index: 9991;
+    }
+
+    .aez-modal-dialog__text {
+    	display: block;
+    	font-size: 1.2em;
+    	margin: 0 auto;
+		width: 80%;
+	}
+
+    .aez-modal-dialog__close {
+        color: $dark-blue;
+        cursor: pointer;
+        font-size: 2em;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        transition: $primary-transition;
+        z-index: 9992;
+
+        &:hover {
+            color: $darkened-blue;
+        }
+    }
+
+    .close {
+        display: none;
+    }
+
+    &.aez-modal--info {
+    	background-color: transparent;
+
+    	.aez-modal-dialog {
+    		background-color: $dark-blue;
+    		color: $white;
+    		width: 60%;
+    	}
+
+    	.aez-modal-dialog__text {
+    		color: $white;
+    	}
+
+    	.aez-modal-dialog__roadsign {
+    		background: url('./assets/roadsign.png') no-repeat center center;
+			background-size: contain;
+			height: 200px;
+			width: 200px;
+			position: absolute;
+			top: 10px;
+			left: 50px;
+    	}
+
+		.aez-modal-dialog__roadsign + .aez-modal-dialog__text {
+			margin-top: 185px;
+		}
+
+    	.aez-modal-dialog__close {
+    		color: $white;
+
+    		&:hover {
+    			color: $off-white;
+    		}
+    	}
+    }
+
+
+    &.aez-modal--active {
+        display: flex;
+    }
+
+    .aez-btn {
+        display: block;
+        margin: 0 auto;
+        padding: 1em 0;
+        width: 75%;
+        width: calc(80% - 40px);
+    }
+    
+
+    .aez-form {
+
+        .aez-form-block__header {
+            color: $dark-blue;
+        }
+
+        .aez-form-item {
+            height: 45px;
+        }
+
+        .aez-form-item__checkbox + .aez-form-item__label {
+            color: $dark-blue;
+        }
+    }
+
+}
+
+@media screen and (max-width: 709px) {
+	.aez-modal {
+		.aez-modal-dialog {
+			width: 80%;
+		}
+
+		&.aez-modal--info {
+			.aez-modal-dialog {
+				width: 80%;
+			}
+		}
+	   
+        &.aez-reservation-summary-modal {
+            .aez-modal-dialog {
+                width: 95%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+	.aez-modal {
+		&.aez-modal--info {
+			.aez-modal-dialog {
+				.aez-modal-dialog__roadsign {
+					height: 100px;
+					width: 100px;
+				}
+
+				.aez-modal-dialog__roadsign + .aez-modal-dialog__text {
+					margin-top: 80px;
+				}
+			}
+		}
+	}
+}

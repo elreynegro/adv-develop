@@ -1,0 +1,162 @@
+/* brand promise */
+  
+body {
+	color:#666; 
+	font-size:.9em;
+}	 	 
+a {
+	text-decoration: none !important;
+	box-shadow: none !important;
+	color: #00539f;
+}	 	 
+a:hover { 
+	color: #009fdd
+}	 	 
+h1, h2 {
+	color: #00539f;
+}
+p {
+	font-weight: 400; 
+	font-size:.9em
+}	 	 
+.bold {
+	font-weight:bold; 
+	font-size: 1.1em;
+}	 	 
+.promise-title {
+	font-size:1.25em;
+	padding-top: 15px;
+}
+
+.promise-header {
+	margin: 5% 15%;
+}
+
+.promise-wrapper {
+	background-repeat: no-repeat;
+}
+
+
+@media screen and (max-width: 839px) {
+	.promise-wrapper {
+		background-image: none !important;
+		background-color: #F0F0F0;
+	}
+}
+
+@media screen and (min-width: 840px) {
+	.promise-wrapper {
+		background-position: right -300px bottom 50%;
+	}
+}
+
+
+@media screen and (min-width: 1200px) {
+	.promise-wrapper {
+		background-position: right 0 bottom 50%; 
+		background-repeat: no-repeat;
+	}
+}
+
+/*new brand promise css*/
+.brand-promise-container { 
+	min-height: 485px;
+	background-color:#f0f0f0;
+	color:#01396e;
+	padding: 10px;
+}
+.brand-promise-title {
+	color:#01396e;
+	text-align: center;
+        font-size: 1.7rem;
+        min-height: 100px;
+}
+.brand-promise-sub-title {
+	color:#01396e;
+	font-size: 1.5em;
+	text-align: center;
+	font-weight: 400;
+        min-height: 125px;
+}
+.brand-promise-image {
+	width:150px;
+	margin:0 auto;
+}
+.brand-promise-image img {
+    width: 150px;
+    height: 150px;
+}
+.brand-promise-heading {
+	width:80%;
+	color:#01396e;
+	text-align: center;
+        font-size: 2.5em;
+}
+.brand-promise-whole-container {
+	background-color:
+	white;padding: 30px;
+}
+.brand-promise-main-heading {
+    position: absolute;
+    left: 0;
+    top: 40%;
+    width: 70%;
+    text-align: center;
+    font-size: 4em;
+    font-weight: 500;
+    line-height: 55px;
+}
+.brand-promise-title {
+	font-size: 1.8em;
+}
+.brand-promise-heading {
+	font-size: 2.7em;
+}
+@media only screen and (width: 1024px) {
+	.brand-promise-container {
+		height: 550px;
+	}
+}
+
+@media only screen and (max-width: 910px) {
+	.brand-promise-main-heading {
+		width: 100%;
+		font-size: 2.9em;
+	}
+	.brand-promise-heading {
+		font-size: 1.8em;
+	}
+	.brand-promise-title {
+		font-size: 1.3em;
+	}
+	.brand-promise-sub-title {
+		font-size: 1.3em;
+		font-weight: 300;
+	}
+	.brand-promise-container {
+		height: 320px;
+	}
+	.aez-secondary-header .hero-margin {
+		position: unset !important;
+	}
+}	
+
+#brand-promise-background {
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-position-y: 0px;
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+
+    .brand-promise-title {
+        min-height: 100px;
+    }
+    .brand-promise-sub-title {
+        min-height: 196px; 
+    }
+}
+ /* end new brand promise css*/

@@ -1,0 +1,220 @@
+/**
+ * Info Block
+ */
+ 
+.aez-info-block-container,
+.aez-list--confirmation {
+    width: 100%;
+    background-color: $light-white;
+
+    > h3 {
+        color: $semi-dark-grey;
+        margin: 0;
+        text-align: center;
+        font-weight: 600;
+    }
+
+
+    .aez-info-block {
+        line-height: 1.55em;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: 0 auto;
+
+        .aez-info-date, .aez-info-time {
+            display: inline;
+            font-size: 1em;
+            color: $semi-dark-grey;
+            font-weight: 600;
+        }
+
+        .aez-info-date {
+            border-right: 2px solid $semi-dark-grey;
+            padding-right: 5px;
+        }
+
+        .aez-info-text {
+            color: $semi-dark-grey;
+            font-weight: 400;
+            margin: 0px;
+            font-size: 1em;
+
+            > a {
+                font-weight: bold;
+                font-size: 1.1em;
+            }
+        }
+        .aez-info-time {
+            color: $semi-dark-grey;
+            font-weight: 400;
+        }
+        .aez-hours-text {
+            float: left;
+            color: $semi-dark-grey;
+            font-weight: 700;
+            width: 100px;
+            margin: 0px;
+            font-size: 1em;
+        }
+    }
+}
+
+.aez-list.aez-list--confirmation {
+    background-color: transparent;
+    > ul {
+        margin: 0 auto;
+    }
+}
+
+
+.aez-info-section__header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+
+    > h4,
+    > a {
+        margin-bottom: 0.618em;
+    }
+
+    > .aez-edit-block {
+        width: 160px;
+    }
+}
+
+.aez-edit-block {
+    color: $gray;
+    cursor: pointer;
+    font-size: 0.9em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    span {
+        color: #0066AA;
+    }
+
+    .fa-pencil-square-o {
+        font-size: 20px;
+        color: #0066AA;
+    }
+}
+
+.renter-info {
+    margin: .3em auto;
+    padding: 2px;
+    .aez-btn--outline-blue {
+        width: 100%;
+    }  
+}
+
+.aez-confirm-btn__disclaimer {
+    color: $gray;
+    display: block;
+    margin-top: 5px;
+    font-size: 0.9em;
+    font-weight: 300;
+}
+
+@media screen and (min-width: 910px) {
+    .aez-list--confirmation {
+        ul {
+            width: 80%;
+        }
+    }
+
+    .aez-info-block {
+        width: 80%;
+    }
+
+    .aez-confirm-btn-container {
+        text-align: center;
+        margin: 30px 0px;
+
+        button {
+            width: 600px;
+            height: 55px;
+        }
+    }
+}
+
+@media screen and (max-width: 909px) {
+    .aez-info-time {
+        font-size: .9em !important;
+    }
+
+    .aez-confirm-btn-container {
+        text-align: center;
+        margin: 15px 0px;
+
+        .aez-confirm-btn {
+            width: 95%;
+            height: 40px;
+        }
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .aez-info-block-container,
+    .aez-list--confirmation {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        padding-top: 10px;
+
+        .aez-info-block {
+            width: 90%;
+            padding: 15px 0px;
+            max-width: 1200px;
+            margin: 0 auto;
+
+            .aez-info-section {
+                width: 48%;
+            }
+            
+        }
+    }
+.aez-info-block-container > .aez-info-block.counter-pay {
+            width: 90%;
+            padding-top: 0px;
+            padding-bottom: 15px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+    .aez-list--confirmation {
+        ul {
+            width: 90%;
+            padding: 15px 0;
+        }
+    }
+}
+
+@media screen and (max-width: 768px)  {
+    .aez-info-block-container,
+    .aez-list--confirmation {
+        padding: 10px 0px;
+
+        .aez-info-block {
+            .aez-info-section {
+                width: 100%;
+                padding: 15px 20px;
+            }
+        }
+    }
+
+    .aez-list--confirmation {
+        > ul {
+            width: 100%;
+            padding: 15px 20px;
+        }
+    }
+}

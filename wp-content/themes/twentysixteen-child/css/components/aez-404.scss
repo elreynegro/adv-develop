@@ -1,0 +1,16 @@
+/* 
+ * Name: AEZ 404 Page
+ * File Name: aez-404.scss
+ */
+
+.find-a-car-link-green {
+	a {
+	    color: $green;
+
+	    &:hover,
+	    &:active,
+	    &:focus {
+	        color: $darkened-green;
+	    }
+	}
+}

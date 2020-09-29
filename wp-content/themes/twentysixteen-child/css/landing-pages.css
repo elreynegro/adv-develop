@@ -1,0 +1,1017 @@
+/* Landing Page Partners Stylesheet */
+
+
+/* Import font used for Promo Code */
+
+@font-face {
+  font-family: 'PixelMix';
+  src: url("/wp-content/plugins/adv-landing-pages/fonts/pixelmix-webfont.woff2") format("woff2"),
+  url("/wp-content/plugins/adv-landing-pages/fonts/pixelmix-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+/* 
+  Feature Section Classes 
+*/
+
+@media screen and (max-width: 601px) {
+  .aez-partners-feature__hero-content {
+    max-width: 76% !important;
+    text-align: center !important;
+    width: 100% !important;
+    left: unset !important;
+    right: unset !important;
+    height: auto;
+  }
+  .aez-partners-feature__hero-content h2{
+    flex-wrap: wrap;
+    display: flex;
+    width: 79%;
+    height: 100%;
+    margin-left: 69px;
+  }
+}
+
+.aez-partners-feature__hero {
+  position: relative;
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-position: center center; 
+  height: 300px;
+  background-size: cover;
+  width: 100%;
+}
+
+.aez-partners-feature__hero-content {
+  position: absolute;
+  margin: 0 auto;
+  top: auto;
+  right: 0;
+  bottom: 1rem;
+  left: 0;
+  max-width: 330px;
+  width: 95%;
+}
+
+.aez-partners-feature__hero-content h2 {
+  color: #ffffff;
+  font-size: 2.2rem;
+  font-weight: 400;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.aez-partners-feature__hero-gradient {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 50%;
+  width: 100%;
+  padding-bottom: 20px;
+  background: -webkit-linear-gradient( top,
+  rgba(34, 34, 34, 0) 0%,
+  #222222 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(34, 34, 34, 0)), to(#222222));
+  background: -webkit-linear-gradient(top, rgba(34, 34, 34, 0) 0%, #222222 100%);
+  background: -o-linear-gradient(top, rgba(34, 34, 34, 0) 0%, #222222 100%);
+  background: linear-gradient(to bottom, rgba(34, 34, 34, 0) 0%, #222222 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00222222',
+  endColorstr='#222222',
+  GradientType=0);
+}
+
+.aez-partners-feature__form {
+  padding-bottom: 1rem;
+  -webkit-box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14),
+  0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14),
+  0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.2);
+}
+
+.aez-partners-feature__form-promo {
+  position: relative;
+  background-color: #74a553;
+  color: #ffffff;
+  padding: 1rem 2rem 0 2rem;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.aez-partners-feature__form-promo:after {
+  content: '';
+  position: absolute;
+  height: 0;
+  width: 0;
+  border-left: 50vw solid transparent;
+  border-right: 50vw solid transparent;
+  border-top: 30px solid #74a553;
+  bottom: -30px;
+  top: auto;
+  right: 0;
+  left: 0;
+}
+
+.aez-partners-feature__form-promo p {
+  font-size: 1.2rem;
+  line-height: 1.2;
+  margin: 0;
+}
+
+.aez-partners-feature__form-promo .code {
+  font-family: 'PixelMix', sans-serif;
+  font-size: 2.2rem;
+  text-transform: uppercase;
+}
+
+.aez-partners-feature__form .aez-form {
+  color: #ffffff;
+}
+
+.aez-partners-feature__form .aez-form .aez-find-a-car__heading {
+  color: #ffffff;
+}
+
+.hawaiian-error .aez-form .aez-form-block .error-messages {
+  color: #ffffff;
+}
+
+.aez-partners-feature__form .aez-form .close {
+  display: none;
+}
+
+.aez-partners-feature__content {
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 95%;
+  padding-bottom: 1rem;
+}
+
+.aez-partners-feature__content-logo {
+  margin: 2rem auto 0 auto;
+}
+
+.aez-partners-feature__content-title {
+  color: #003366;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.2;
+  margin: 1rem auto;
+}
+
+.aez-partners-feature__content-copy {
+  color: #55565a;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.aez-partners-feature__content-promo {
+  display: none;
+}
+
+.aez-partners-feature__content-promo .code {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  position: relative;
+  margin-right: 1rem;
+  padding: 0 1rem;
+  height: 50px;
+}
+
+.aez-partners-feature__content-promo .code span {
+  color: #ffffff;
+  font-family: 'PixelMix', sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.aez-partners-feature__content-promo-two .code span {
+  color: #ffffff;
+  font-family: 'PixelMix', sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.aez-partners-feature__content-promo .code:before {
+  content: '';
+  position: absolute;
+  height: 0;
+  width: 0;
+  border-top: 50px solid transparent;
+  border-bottom: 50px solid transparent;
+  border-right: 30px solid transparent;
+  bottom: 0;
+  top: -25px;
+  right: auto;
+  left: -30px;
+}
+
+.aez-partners-feature__content-promo p {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.1;
+  margin: 0;
+  /* width: 45%; */
+}
+
+/* 
+  Stacking Rewards Section Classes 
+*/
+
+.aez-partners-stacking {
+  padding: 3rem 0;
+}
+
+.aez-partners-stacking__container {
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 95%;
+}
+
+.aez-partners-stacking__header {
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.aez-partners-stacking__header-title {
+  color: #003366;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.2;
+  margin: 0 auto;
+}
+
+.aez-partners-stacking__header-subtitle {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.aez-partners-stacking__equation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 2rem auto;
+}
+
+.aez-partners-stacking__equation>* {
+  margin: 8px 0;
+}
+
+.aez-partners-stacking__equation-circle {
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-position: center center; 
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+}
+
+.aez-partners-stacking__equation-circle--advantage-logo {
+  background-image: url("/wp-content/plugins/adv-landing-pages/assets/partners/gaytravel/advantage-logo.png");
+  background-size: 80%;
+}
+
+.aez-partners-stacking__equation-circle--partner-logo {
+  /* Logo Image */
+  background-image: url("/wp-content/plugins/adv-landing-pages/assets/partners/gaytravel/gay.travel.awards.png");
+}
+
+.aez-partners-stacking__equation-circle--person {
+  /* Person Image */
+  background-image: url("/wp-content/plugins/adv-landing-pages/assets/partners/gaytravel/person.png");
+}
+
+.aez-partners-questions__header-car {
+  /* Car Image */
+  background-image: url("/wp-content/plugins/adv-landing-pages/assets/partners/tudo-azul/car.png");
+}
+
+.aez-partners-stacking__equation-circle--partner-logo {
+  background-size: 100%;
+}
+
+.aez-partners-stacking__equation-symbol {
+  font-size: 40px;
+}
+
+.aez-partners-stacking__equation-symbol--equals {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.aez-partners-stacking__equation-symbol--equals .fa {
+  line-height: 16px;
+}
+
+.aez-partners-stacking__copy {
+  color: #003366;
+  font-size: 1.2rem;
+  font-weight: 400;
+  text-align: center;
+  margin: 2rem auto;
+  max-width: 600px;
+}
+
+.aez-partners-stacking__bullet-icon {
+  font-size: 2rem;
+  margin-right: 8px;
+  position: relative;
+}
+
+.aez-partners-stacking__bullets {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  list-style-type: none;
+  margin: 16px auto;
+}
+
+.aez-partners-stacking__bullet {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  margin: 1rem 0;
+}
+
+.aez-partners-stacking__bullet-icon:after {
+  content: '';
+  background-image: url("/wp-content/plugins/adv-landing-pages/assets/partners/gaytravel/shadow.png");
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  bottom: -25px;
+  left: -35px;
+}
+
+.aez-partners-stacking__bullet-content {
+  color: #003366;
+}
+
+.aez-partners-stacking__bullet-content-title {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.3;
+  margin: 0 0 .5rem 0;
+}
+
+.aez-partners-stacking__bullet-content-copy {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.3;
+  margin: 0;
+}
+
+.aez-partners-stacking__adv-awards-title {
+  color: #003366;
+  font-size: 1.4rem;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: .5rem;
+}
+
+.aez-partners-stacking__adv-awards-button {
+  display: block;
+  padding: .5rem 0;
+  border-radius: 5px;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.aez-partners-stacking__adv-awards-button:active {
+  color: #ffffff;
+}
+
+.aez-partners-stacking__adv-awards-button.aez-partners--primary-bg-color {
+  color: #ffffff;
+}
+
+.aez-partners-stacking__adv-awards-button.aez-partners--primary-bg-color:hover,
+.aez-partners-stacking__adv-awards-button.aez-partners--primary-bg-color:focus {
+  background-color: #eb731a;
+  color: #ffffff;
+}
+
+.aez-partners-stacking__adv-awards-button.aez-partners-sign-up--primary-bg-color {
+  color: #ffffff;
+}
+
+/* .aez-partners-stacking__adv-awards-button.aez-partners-sign-up--primary-bg-color:hover,
+.aez-partners-stacking__adv-awards-button.aez-partners-sign-up--primary-bg-color:focus {
+  background-color: #eb731a;
+  color: #ffffff;
+} */
+
+.aez-partners-stacking__adv-awards-button.aez-partners-awards--primary-bg-color {
+  color: #ffffff;
+}
+
+.aez-partners-questions__content-button.aez-partners-awards--primary-bg-color:hover,
+.aez-partners-questions__content-button.aez-partners-awards--primary-bg-color:focus {
+  background-color: #eb731a;
+  color: #ffffff;
+}
+
+.aez-partners-stacking__adv-awards-button.aez-partners--accent-bg-color {
+  color: #ffffff;
+}
+
+.aez-partners-stacking__adv-awards-button.aez-partners--accent-bg-color:hover,
+.aez-partners-stacking__adv-awards-button.aez-partners--accent-bg-color:focus {
+  background-color: #004e8c;
+  color: #ffffff;
+}
+
+/* 
+  Feature Questions Classes 
+*/
+
+.aez-partners-questions {
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 95%;
+  margin-bottom: 4rem;
+}
+
+.aez-partners-questions__header-car {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center center; 
+  height: 200px;
+  width: 100%;
+}
+
+.aez-partners-questions__header-title {
+  color: #003366;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.2;
+  margin: .5rem auto;
+}
+
+.aez-partners-questions__content-copy {
+  color: #55565a;
+}
+
+.aez-partners-questions__content-button {
+  display: block;
+  padding: .5rem 0;
+  border-radius: 5px;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.aez-partners-questions__content-button:visited {
+  color: #ffffff;
+}
+
+.aez-partners-questions__content-button:active {
+  color: #ffffff;
+}
+
+.aez-partners-questions__content-button.aez-partners--primary-bg-color {
+  color: #ffffff;
+}
+
+.aez-partners-questions__content-button.aez-partners--primary-bg-color:hover,
+.aez-partners-questions__content-button.aez-partners--primary-bg-color:focus {
+  background-color: #eb731a;
+  color: #ffffff;
+}
+
+.aez-partners-questions__content-button.aez-partners--accent-bg-color {
+  color: #ffffff;
+}
+
+.aez-partners-questions__content-button.aez-partners--accent-bg-color:hover,
+.aez-partners-questions__content-button.aez-partners--accent-bg-color:focus {
+  background-color: #004e8c;
+  color: #ffffff;
+}
+
+.landing-disclaimer {
+	width: 100%;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: -50px;
+}
+
+.landing-disclaimer-space {
+	width: 100%;
+	text-align: center;
+}
+
+.landing-disclaimer-no-image {
+	width: 100%;
+	text-align: center;
+	margin-top: 290px;
+	margin-bottom: -50px;
+}
+
+.landing-disclaimer-blank {
+	width: 100%;
+	text-align: center;
+	/*margin-top: 250px;*/
+	margin-bottom: -50px;
+}
+
+.landing-disclaimer-logo-blank {
+	width: 100%;
+	text-align: center;
+	margin-top: 200px;
+	margin-bottom: -50px;
+}
+
+@media print,
+screen and (min-width: 40em) {
+  .aez-partners-feature__hero {
+    height: 400px;
+  }
+  .aez-partners-feature__hero-content {
+    margin-bottom: 1.5rem;
+    max-width: 1200px;
+  }
+  .aez-partners-feature__hero-content h2 {
+    text-align: right;
+  }
+  .aez-partners-stacking__equation {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+  .aez-partners-stacking__equation-circle {
+    height: 150px;
+    width: 150px;
+  }
+  .aez-partners-stacking__equation>* {
+    margin: 0 8px;
+  }
+  .aez-partners-feature__content {
+    margin: 2rem auto;
+    width: 80%;
+  }
+
+.aez-partners-stacking__bullets {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+
+.aez-partners-stacking__bullet {
+    padding: 1rem;
+    width: 32%;
+}
+
+.aez-partners-stacking__bullet:first-child {
+    border-right: 1px solid #55565a;
+  }
+.aez-partners-stacking__bullet:last-child {
+    border-left: 1px solid #55565a;
+}
+
+  .aez-partners-stacking__adv-awards-button {
+    margin: 0 auto;
+    max-width: 275px;
+  }
+  .aez-partners-questions {
+    max-width: 600px;
+  }
+  .aez-partners-questions__header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+  .aez-partners-questions__header-title {
+    margin-bottom: 2rem;
+  }
+  .aez-partners-questions__content {
+    margin: 0 auto;
+    width: 80%;
+  }
+  .aez-partners-questions__content-copy {
+    text-align: center;
+  }
+  .aez-partners-questions__content-button {
+    margin: 0 auto;
+    max-width: 340px;
+  }
+}
+
+@media print,
+screen and (min-width: 64em) {
+  .aez-partners-feature__hero-content {
+    margin-right: 0;
+    width: 50%;
+  }
+  .aez-partners-feature__hero-content h2 {
+    text-align: left;
+  }
+  .aez-partners-feature__container {
+    position: relative;
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 95%;
+  }
+  .aez-partners-feature__form-promo {
+    display: none;
+  }
+  .aez-partners-feature__form {
+    position: absolute;
+    top: -25px;
+    left: 0;
+    width: 45%;
+    max-width: 600px;
+    border-radius: 25px;
+    padding: 5rem 0;
+  }
+  .aez-partners-feature__form .aez-form-block {
+    width: 95%;
+  }
+  .aez-partners-stacking__equation-circle {
+    height: 300px;
+    width: 300px;
+  }
+  .aez-partners-feature__content {
+    margin: 0 0 0 auto;
+    padding-bottom: 4rem;
+    width: 50%;
+  }
+  .aez-partners-feature__content-title {
+    font-size: 1.8rem;
+  }
+  .aez-partners-feature__content-promo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    margin: 3rem auto 1rem 2rem;
+  }
+}
+
+@media screen  and (min-width: 1025px) and (max-width: 1280px) {
+	.aez-partners-feature__hero {
+		width: 100%;
+		height: 300px;
+	}
+}
+
+@media screen and (min-width:1001px) and (max-width:1024px) {
+	.aez-partners-feature__hero {
+		width: 100%;
+		height: 300px;
+	}
+}
+
+@media screen and (max-width: 1000px) and (min-width: 985px) {
+	.aez-partners-feature__hero {
+		width: 100%;
+		height: 300px;
+	}
+}
+
+@media screen and (max-width: 984px) and (min-width: 910px) {
+	.aez-partners-feature__hero {
+		width: 100%;
+		height: 250px;
+	}
+}
+
+@media screen and (max-width: 909px) {
+	.aez-partners-feature__hero {
+		width: 100%;
+		height: 200px;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.aez-partners-feature__hero {
+		width: 100%;
+		height: 200px;
+	}
+}
+
+@media screen and (max-width: 709px) {
+	.aez-partners-feature__hero {
+		width: 100%;
+		height: 160px;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	.aez-partners-feature__hero {
+		width: 150%;
+		height: 250px;
+		right: 60px;
+	}
+	.aez-partners-feature__hero-content {
+		left: -400px;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.aez-partners-feature__hero {
+		width: 150%;
+		height: 200px;
+		right: 44px;
+	}
+	.aez-partners-feature__hero-content {
+		left: -400px;
+	}
+	.aez-partners-feature__hero-content h2 {
+		font-size: 1.8rem;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.aez-partners-feature__hero {
+		width: 152%;
+		height: 181px;
+		right: 60px;
+	}
+	.aez-partners-feature__hero-content {
+		left: -300px;
+	}
+
+	.aez-partners-feature__hero-content h2 {
+		font-size: 1.5rem;
+	}
+}
+
+@media screen and (max-width: 300px) {
+	.aez-partners-feature__hero {
+		width: 250%;
+		height: 250px;
+		right: 60px;
+	}
+	.aez-partners-feature__hero-content {
+		left: -300px;
+	}
+
+	.aez-partners-feature__hero-content h2 {
+		font-size: 1.3rem;
+	}
+}
+
+
+
+/*
+ * Partner Styles
+ */
+
+.aez-partners--primary-bg-color {
+  /* Primary BG Color */
+  background-color: #00539f;
+}
+
+.aez-partners-business-leisure--primary-color {
+  /* Primary Text Color */
+  color: #DDB23E;
+}
+
+.aez-partners-plus-sign--primary-color {
+  /* Primary Text Color */
+  color: #DDB23E;
+}
+
+.aez-partners-equal-sign--primary-color {
+  /* Primary Text Color */
+  color: #DDB23E;
+}
+
+.aez-partners-check-marks--primary-color {
+  /* Primary Text Color */
+  color: #DDB23E;
+}
+
+.aez-partners-check-marks1--primary-color {
+  /* Primary Text Color */
+  color: #DDB23E;
+}
+
+.aez-partners-check-marks2--primary-color {
+  /* Primary Text Color */
+  color: #DDB23E;
+}
+
+.aez-partners-check-marks3--primary-color {
+  /* Primary Text Color */
+  color: #DDB23E;
+}
+
+.aez-partners--primary-color {
+  /* Primary Text Color */
+  color: #DDB23E;
+}
+
+.aez-partners--accent-bg-color {
+  /* Accent BG Color */
+  background-color: #005ca5;
+}
+
+.aez-partners--accent-color {
+  /* Accent Text Color */
+  color: #005ca5;
+}
+
+.aez-partners--heading-color {
+  /* Heading Text Color */
+  color: #003366;
+}
+
+.aez-partners--copy-color {
+  /* Copy Text Color */
+  color: #55565a;
+}
+
+.aez-partners--promo-bg-color {
+  /* Promo Mobile View Block BG Color */
+  background-color: #74A553;
+}
+
+.aez-partners--arrow-promo-bg-color {
+  /* Promo Arrow Desktop View Block BG Color */
+  background-color: #74A553 ;
+}
+
+.aez-partners-feature__content-promo .code.aez-partners--arrow-promo-bg-color:before {
+  /* Promo Arrow Desktop View Block BG Color - Triangle Of Arrow */
+  border-right-color: #74A553;
+}
+
+.aez-partners--arrow-promo-bg-color-two {
+  /* Promo Arrow Desktop View Block BG Color */
+  background-color: #74A553 ;
+}
+
+.aez-partners-feature__content-promo .code.aez-partners--arrow-promo-bg-color-two:before {
+  /* Promo Arrow Desktop View Block BG Color - Triangle Of Arrow */
+  border-right-color: #74A553;
+}
+
+.aez-partners--stacking-rewards-bg-color {
+  /* Stacking BG Color */
+  background-color: #f0f0f0;
+}
+
+
+
+/*
+  Buttons
+ */
+
+.aez-partners--sigh-up, .aez-partners--sigh-up:before {
+  /* Use Accent BG Color */
+  background-color: #DDB23E;
+  border-color: #DDB23E;
+  color: white;
+}
+
+.aez-partners--awards , .aez-partners--awards:before {
+  /* Use Accent BG Color */
+  background-color: #DDB23E;
+  border-color: #DDB23E;
+  color: white;
+}
+
+/* .aez-partners-questions__content-button.aez-partners--primary-bg-color:before {
+
+  background-color: #DDB23E !important;
+  border-color: #DDB23E !important;
+} 
+*/
+
+.aez-partners--sigh-up:hover,
+.aez-partners--sigh-up:focus,
+.aez-partners--awards:hover,
+.aez-partners--awards:focus {
+  /* 
+    Buttons Hover & Focus State
+    Primary BG Color darkened by 5%
+    http://hslpicker.com/#B93293
+  */
+  background-color: #c39822;
+  color: white;
+}
+
+
+
+/* 
+  AEZ Find A Car Form Buttons
+*/
+
+.aez-partners-feature__form .aez-form #adv_rez_submit,
+.aez-partners-feature__form .aez-form .aez-add-btn:before {
+  /* Use Accent BG Color */
+  background-color: #99CC00;
+  border-color: #99CC00;
+}
+
+.aez-partners-feature__form .aez-form #adv_rez_submit:hover,
+.aez-partners-feature__form .aez-form #adv_rez_submit:focus,
+.aez-partners-feature__form .aez-form .aez-add-btn:hover:before,
+.aez-partners-feature__form .aez-form .aez-add-btn:focus:before {
+  /*
+    Accent BG Color darkened by 5%
+    http://hslpicker.com/#005ca5
+   */
+  background-color: #86b300;
+  border-color: #86b300;
+}

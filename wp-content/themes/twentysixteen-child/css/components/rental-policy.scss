@@ -1,0 +1,105 @@
+.marker {
+    height: 35px;
+    margin-right: 15px;
+}
+
+.policy-dropdown {
+    background-color: $off-white;
+    padding: 20px;
+
+    > span {
+        font-size: 1.1em;
+        margin-bottom: 5px;
+        display: block;
+    }
+
+    .select-rental-policy {
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+
+        .select2-selection__arrow {
+            display: none;
+        }
+    }
+}
+
+.aez-body__rental {
+    h2 { line-height: 1.2em; margin-bottom: 10px; }
+    h3.-blue.aez-all-caps { line-height: 1.6em; }
+}
+
+.aez-info-section__locations {
+    h4 { display: inline; }
+    img { height: 30px; margin-right: 10px; }
+    .aez-info__double-sided {
+        display: flex;
+        margin-top: 10px;
+
+        .aez-info-text { width: 50%; }
+        .aez-info-time { text-align: right; }
+    }
+
+    .aez-rental-check { text-align: center; }
+}
+
+.aez-info-block-container__policy { background-color: transparent; }
+
+
+@media screen and (min-width: 910px) {
+    .select-rental-policy {
+        width: 80%;
+
+        > .select2 {
+            width: 100% !important;
+            margin: 0px;
+        }
+    }
+
+    .aez-info-section__locations { padding: 20px 40px; }
+}
+
+@media screen and (min-width: 710px) and (max-width: 909px) {
+    .select-rental-policy {
+        width: 80%;
+
+        > .select2 {
+            width: 80% !important;
+            margin: 0px;
+        }
+    }
+
+    .aez-info-section__locations { padding: 15px; }
+}
+
+@media only screen and (min-width: 710px) {
+    .aez-rental-check {
+        .aez-btn {
+            width: 75%;
+            margin: 10px auto;
+            display: block;
+        }
+    }
+
+    .aez-info-section__locations:nth-child(4n),
+    .aez-info-section__locations:nth-child(4n-1) {
+        background: $white;
+    }
+    .aez-info-section__locations:nth-child(4n-2),
+    .aez-info-section__locations:nth-child(4n-3) {
+        background: $off-white;
+    }
+
+    .aez-info-section__locations { width: 50% !important; }
+    .aez-info-block-container__policy > .aez-info-block__policy { width: 100% !important; padding: 0px !important; }
+    .policy-dropdown > span { margin-left: 11%; }
+}
+
+@media screen and (max-width: 709px) {
+    .aez-info-section__locations:nth-child(odd) { background-color: $off-white; }
+}
+//location policy dropdown font size
+#location-policy-drop-down { 
+    font-size: .9em;
+    font-weight: 300;
+}

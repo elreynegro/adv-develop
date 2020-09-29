@@ -1,0 +1,861 @@
+/********************* SELECTED CAR STYLING *********************/
+
+/******Reserve Page ******/
+
+@media only screen and (min-width: 910px) {
+	.aez-selected-car-container > .reserve-page > .aez-vehicle-img {
+		width: 42%;
+		float: right;
+	}
+
+	.aez-selected-car-container > .aez-mini-details.reserve-page  {
+		margin-top: 0px;
+		margin-bottom: 16px;
+	}
+
+	.aez-reserve-selection .aez-enhance-selection__car-type .car-type {
+		font-size: 0.8em;
+	}
+
+	.aez-reserve-selection .aez-enhance-selection__car-name {
+		font-size: 0.8em;
+	}
+
+	#reserve_page_sum > .aez-reservation-title-bar > .aez-reservation-edit {
+		position: unset;
+		top: unset;
+		right: unset;
+		width: auto;
+	}
+
+}
+
+#submit-enhance {
+	margin-bottom: 30px;
+
+	.aez-reserve-btn {
+		display: block;
+		padding: 1em;
+		width: 50%;
+		margin: 0 auto;
+		clear:both;
+	}
+}
+@media only screen and (max-width: 1023px) {
+.enhancements_chosen .aez-upgrade-content {
+		br {
+			display: none;
+		}
+	}
+}
+@media only screen and (min-width: 1025px) {
+	.enhancements_chosen .aez-selected-car .aez-vehicle-content {
+		width: 45%;
+		text-align: left;
+    	margin-left: 4%;
+		// white-space: nowrap !important;
+	}
+}
+@media only screen and (min-width: 801px) and (max-width: 1024px){
+	.enhancements_chosen .aez-selected-car .aez-vehicle-content {
+		width: 66%;
+		// white-space: nowrap !important;
+	}
+}
+@media only screen and (min-width: 767px) and (max-width: 801px) {
+	.enhancements_chosen .aez-selected-car .aez-vehicle-content {
+		width: 79%;
+		// white-space: nowrap;
+	}
+	.aez-options .aez-options__img > img {
+		width: 35% !important;
+	}
+	.aez-options {
+		height: 125px;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+.enhancements_chosen .aez-selected-car .aez-vehicle-content {
+		flex-direction: column;
+	}	
+}
+
+.aez-reservation-choose, .enhancements_chosen {
+	.aez-reservation-title-bar {
+	span {
+	    text-align: left !important;
+	}
+  }
+}
+.aez-reserve-selection, .aez-complete-selection{
+	span {
+		line-height: 1.4;
+	}
+}
+.aez-reserve-selection {
+	span {
+		font-size: 1.3em;
+		.fa {
+				font-size: 1.2em !important;
+		}
+	}
+}
+.or_similar {
+    font-size: 0.6em !important;
+}
+.aez-upgrade-content__description {
+	display: block !important;
+}
+.for_additional {
+	font-size: 1.1em !important;
+	display: block !important;
+}
+
+.aez-enhance-selection {
+	span {
+		line-height: 1.4;
+	}
+}
+
+.aez-enhance-selection__car-code {
+	font-size: 0.5em;
+	font-weight: 200;
+}
+
+.aez-enhance-selection__selected {
+	color: $blue;
+	text-transform: uppercase;
+}
+
+.aez-enhance-selection__car-name {
+	font-size: 1em;
+	font-weight: 500;
+}
+.enhancements_chosen .aez-enhance-selection__car-name {
+	font-size: 1em;
+	font-weight: 500;
+}
+
+.reserve-page .aez-vehicle-content {
+	.aez-enhance-selection__car-name {
+		line-height: 1.2;
+	}
+}
+
+.aez-enhance-selection__selected, .aez-enhance-selection__car-type, .aez-enhance-selection__car-price, .aez-enhance-selection__car-code, .aez-enhance-selection__car-name {
+    padding-right: 1%;
+}
+
+@media only screen and (min-width: 767px) {
+.enhancements_chosen .aez-selected-car {
+		.aez-enhance-selection__car-type.car-type {
+		    font-size: 1.1em;
+		}
+		background-color: #F0F0F0;
+		display: flex;
+	  	flex-direction: row;
+		width: 97%;
+		width: calc(100% - 16px);
+		margin: 16px auto;
+		padding: 6px 0;
+		padding-top: 0;
+	&.enhance-page {
+		flex-wrap: wrap
+	}
+    > a {
+		align-self: flex-start;
+		color: #99CC00;
+	}
+
+	.aez-vehicle-img {
+		img {
+			max-width: 450px;
+			width: 100%;
+		}
+	}
+
+	.aez-vehicle-content {
+
+		> h1 { font-size: 2.3em; }
+
+		> h3 {
+			font-weight: 400;
+			text-transform: uppercase;
+			font-size: 1.2em;
+		}
+
+		> .aez-mini-details {
+			justify-content: flex-end;
+		    align-items: center;
+			font-size: 1.5em;
+
+			> span {
+				margin-right: 15px;
+			}
+		}
+	}
+ }
+}
+
+@media only screen and (max-width: 767px) {
+ .aez-selected-car {
+.aez-vehicle-img {
+		img {
+			max-width: 450px;
+			width: 56% !important;
+		}
+	}
+ }
+}
+
+.aez-selected-car {
+	display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+	width: 97%;
+	width: calc(100% - 16px);
+
+    text-align: right;
+	margin: 16px auto;
+	padding: 8px 0;
+
+	&.enhance-page {
+		flex-wrap: wrap;
+	}
+	+
+	&.reserve-page {
+		flex-wrap: nowrap;
+	}
+
+    > a {
+		align-self: flex-start;
+		color: #99CC00;
+	}
+
+	.aez-vehicle-img {
+		img {
+			max-width: 450px;
+			width: 84%;
+		}
+	}
+
+	.aez-vehicle-content {
+		display: flex;
+	    flex-direction: row;
+	    flex-wrap: nowrap;
+	    // white-space: nowrap;
+	    margin-right: 2%;
+    	float: left !important;
+
+		> h1 { font-size: 2.3em; }
+
+		> h3 {
+			font-weight: 400;
+			text-transform: uppercase;
+			font-size: 1.2em;
+		}
+
+		> .aez-mini-details {
+			justify-content: initial;
+		    align-items: center;
+			font-size: 1.2em;
+
+			> span {
+				margin-right: 15px;
+			}
+		}
+	}
+}
+
+.aez-selected-car {
+	.aez-vehicle-content.aez-reserve-selection, .aez-vehicle-content.aez-complete-selection {
+		flex-direction: column !important;
+	}
+}
+
+.aez-car-option {
+	border: 3px solid transparent;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: $primary-transition;
+	position: relative;
+
+	.fa-check {
+		color: $green;
+		opacity: 0;
+		transition: $primary-transition;
+		position: absolute;
+	    top: -10px;
+	    right: 10px;
+	}
+
+	input[type="radio"] {
+		display: none;
+	}
+
+	&.aez-car-option--active {
+		border-color: $green;
+		box-shadow: $primary-box-shadow;
+
+		.fa-check {
+			opacity: 1;
+		}
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.aez-selected-car {
+		.aez-vehicle-img {
+			max-width: 250px;
+			text-align: center;
+		}
+	}
+	.aez-selected-car .aez-vehicle-img img {
+		width: 68%;
+	}
+	#submit-reserve-button1, #submit-reserve-button1-disabled {
+		width: 100%;
+	}
+}
+
+@media screen and (min-width: 769px) {
+	#submit-reserve-button1, #submit-reserve-button1-disabled {
+		width: 40%;
+	}
+	.aez-selected-car {
+		.aez-vehicle-img {
+			max-width: 450px;
+		}
+
+		.aez-mini-details {
+			margin-top: 1%;
+			margin-right: 2%;
+		}
+	}
+}
+
+@media only screen and (min-width: 767px) {
+	.enhancements_chosen {
+		.aez-selected-car, .aez-reservation-summary__full {
+			width: calc(85% - 16px);
+		}
+	}
+}
+
+@media only screen and (min-width: 910px) {
+	.enhancements_chosen {
+		.aez-upsell-cars-container{
+			width: calc(85% - 16px);
+		}
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 909px) {
+	#submit-enhance {
+		.aez-reserve-btn {
+			width: 80%;
+		}
+	}
+
+	.aez-selected-car {
+
+		> .aez-vehicle-img {
+			width: 100%;
+		}
+
+		.aez-vehicle-content {
+			h1 {
+				font-size: 1.6em;
+			}
+			h3 {
+				font-size: 1.2em;
+			}
+		}
+		
+		.aez-mini-details {
+
+		    > span {
+
+		        > i{
+		            color: $gray;
+		        }
+
+		        > p{
+		            margin-bottom: 0;
+		            margin-left: 3px;
+		            font-size: 0.8em;
+		            font-family: $primary-font;
+		        }
+		    }
+		}
+	}
+}
+
+@media only screen and (min-width: 767px) {
+	.enhancements_chosen  {
+		.aez-selected-car .aez-mini-details {
+				margin-top: -1%;
+				margin-bottom: 0.5%;
+				margin-right: 0% !important;
+			}
+			.aez-selected-car .aez-vehicle-img{
+			    max-width: 90px !important;
+			    margin-right: 2.5% !important;
+			}
+		}
+}
+@media only screen and (min-width: 799px) {
+	.aez-selected-car {
+		 .aez-mini-details {
+				margin-right: 5% !important;
+			}
+				 .aez-vehicle-img {
+			    max-width: 390px;
+			}
+		}
+}
+
+@media only screen and (min-width: 600px) {
+	 .reserve-page {
+		.aez-vehicle-content {
+			    left: -44% !important;
+			    margin-right: 1% !important;
+		}
+	}
+
+	.enhance-page .aez-vehicle-img {
+			right: -52% !important;
+			float: left;
+			}
+			.aez-vehicle-content .tablet-enhance-box-content {
+			margin-left: 0px !important;
+			}
+
+		.aez-selected-car.reserve-page{
+		.aez-vehicle-content {
+		    margin-right: 1%;
+			.aez-mini-details {
+			    margin-right: 1%;
+			}
+			}
+		}
+}
+
+@media only screen and (width: 800px) {
+    .aez-selected-car.reserve-page{
+        .aez-vehicle-content {
+            .aez-mini-details {
+                margin-right: -3.5% !important;
+                font-size: 0.8em;
+            }
+        }
+    }
+}
+
+@media only screen and (width: 768px) {
+    .aez-vehicle-img {
+        padding-top: 18px !important;
+    }
+    .aez-selected-car.reserve-page{
+        .aez-vehicle-content {
+            .aez-mini-details {
+                margin-right: 2.5% !important;
+                font-size: 0.8em;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 599px) {
+	.enhance-page, reserve-page {
+		.aez-vehicle-content {
+			    left: -56% !important;
+			    margin-right: 1% !important;
+		}
+		.aez-vehicle-img {
+			right: -44% !important;
+			}
+	}
+	.aez-selected-car.reserve-page {
+		.aez-vehicle-content {
+			    margin-right: 1% !important;
+		}
+	}
+}
+@media only screen and (min-width: 599px)  and (max-width: 910px) {
+	.enhance-page .aez-vehicle-content
+ 		{
+		    left: -42% !important;
+		}
+}
+
+@media only screen and (min-width: 599px)  and (max-width: 766px) {
+	.aez-selected-car .aez-vehicle-content {
+			width: 24%;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	#submit-enhance {
+		.aez-reserve-btn {
+			width: 80%;
+			margin-top: 20px;
+		}
+	}
+
+	.aez-choose-option-container {
+		.aez-reservation__back-btn {
+			margin-top: 0.5% !important;
+		}
+	}
+
+	.aez-enhance-selection__car-name {
+	    font-size: 1.1em;
+	}
+	.aez-enhance-selection, .aez-reserve-selection, .aez-complete-selection, span {
+	    font-size: 1em;
+	    text-align: left;
+	    margin-top: 0.5%;
+		line-height: 1.4;
+	}
+	// .enhance-page {
+	// 	.aez-vehicle-content {
+	// 			width: 50%;
+	// 		    left: -56%;
+	// 		    position: relative !important;
+	// 		     align-items: baseline;
+	// 	}
+	// 		.aez-vehicle-img {
+	// 			right: -39%;
+	//     		position: relative !important;
+	// 	}
+	// }
+
+	.aez-selected-car {
+
+		.fa-check {
+			font-size: 1.5em;
+		}
+
+		.aez-vehicle-img {
+			width: 40%;
+		}
+
+		.aez-vehicle-content {
+			width: 50%;
+
+			h1 {
+				font-size: 1em;
+			}
+			h3 {
+				font-size: 1em;
+			}
+		}
+
+		.aez-mini-details {
+
+		    > span {
+
+		        > i{
+		            color: $gray;
+		            font-size: 0.5em;
+		        }
+
+		        > p{
+		            margin-bottom: 0;
+		            margin-left: 2px;
+		            font-size: 0.5em;
+		            font-family: $primary-font;
+		        }
+		    }
+		}
+	}
+}
+@media only screen and (max-width: 340px) {
+	.enhancements_chosen {
+		.aez-selected-car {
+			.aez-vehicle-content {
+				width: 35% !important;
+				max-width: 40% !important;
+				white-space: nowrap;
+			}
+		}
+		.aez-complete-selection, .aez-enhance-selection, .aez-reserve-selection, span {
+			font-size: 0.84em;
+		}
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.enhancements_chosen {
+		.aez-selected-car {
+			.aez-vehicle-content {
+				width: 62%;
+				max-width: 40%;
+				white-space: nowrap;
+			}
+		}
+	}
+
+	.aez-reservation .aez-selected-car {
+		margin: 2% auto!important;
+	}
+		.aez-selected-car.reserve-page {
+			.aez-vehicle-img {
+				width: 55%;
+			}
+
+			.aez-vehicle-content {
+				width: 60%;
+				max-width: 40%;
+			}
+		}
+	.aez-selected-car {
+			.aez-vehicle-img {
+				width: 31%;
+			}
+
+			.aez-vehicle-content {
+				max-width: 50%;
+			}
+		}
+		.aez-choose-option-container > h1, .aez-page-title--summary > h1 {
+			font-size: 1.4em;
+		}
+}
+/* express way rewards in enhance page */
+.free-text-disable {
+color: #e6e6e6;
+cursor: default;
+pointer-events:none;
+
+}
+.free-text-disable a {
+color: #e6e6e6;
+cursor: default;
+pointer-events:none;
+
+}
+.sel_free_text { 
+font-size:10px; 
+margin-left: 30px;}
+.sel_free_text:hover { color: #9c0; }
+.aez-btn--outline-blue-background {
+    background-color: #06a!important;
+    border-color: #06a!important;
+    color: #fff!important;
+ }
+ .aez-btn--outline-blue-background b,.aez-btn--outline-blue-background span {
+ color:#ffffff!important;
+ }
+.aez-expressway-container .button:hover{background-color:#06A !important; border-color: black !important;}
+.aez-expressway-container .benefit:selected {color:#06A !important; }
+.aez-expressway-container .btn-text{ color:black !important;text-align: left;width: 80%; margin: 0 auto; }
+.aez-expressway-container .rewards-button{
+    background-color: #eaeaea;
+    border-color: black;
+    width: 32% !important;
+}
+
+.aez-exp-form-block { margin-left:45px; }
+.aez-expressway-container .apply-btn-text{
+    background-color: #86b300!important;
+    width: 32% !important;
+    border-color: black;
+    }
+/* end express way rewards in enhance page  */
+
+
+/*********************expressway reserve page*******************************/
+
+.btn_list_benifits:hover, .btn_list_benifits_active, .btn_list_benifits:focus{     
+	background-color:#06a !important;
+	border: 1px solid #06a !important;
+	border-radius: 8px;
+}
+.btn_list_benifits:hover, .btn_list_benifits_active, .btn_list_benifits:focus{     
+	.btn-text img.awards-icons {
+		background-color: #ffffff !important;
+	}
+}
+.btn-grey {
+    background-color: gray !important;
+    border-radius: 8px;
+}
+
+#expressway_flow_apply_to_reservation {
+    display: none;
+}
+
+.btn_list_benifits {
+   background-color: #ffff;
+   border-radius: 8px;
+   width: 90%;
+   height: 35px;
+   font-size: 13px;
+   padding: 0px 12px !important;
+   margin: 0 auto;
+   border: 1px solid #06a;
+}
+
+.btn_list_benifits .select-text {
+    color: #06a;
+}
+
+.btn_list_benifits:focus .select-text, .btn_list_benifits:hover .select-text,.btn_list_benifits:hover .btn-text, .btn_list_benifits:focus .btn-text {
+    color: #ffffff !important;
+}
+
+.btn_list_benifits_active .select-text {
+    display:none;
+}
+
+.btn_list_benifits.btn-grey .btn-text {
+    color:#000!important;
+}
+
+.btn_list_benifits_active .btn-text {
+    color:#ffffff !important;
+}
+.btn_list_benifits_active img.award-icons {
+    background-color: #ffffff;
+    padding-top: 2px;
+}
+.btn_list_benifits:hover, .btn_list_benifits:focus {
+	img.award-icons {
+		background-color: #ffffff;
+	}
+} 
+
+.reserve-option-desc .btn_list_benifits_active{
+    pointer-events: none;
+    cursor: default;
+    text-decoration: none;
+    color: grey;
+	background-color: #06a !important;
+	border: 1px solid #06a;
+}
+
+.vehicle_option_based_free_benefits .exp_vehicle_option_exp_link_disabled{
+    pointer-events: none;
+    cursor: default;
+    text-decoration: none;
+    color: grey;
+    background-color: transparent !important;
+}
+
+.aez-expressway-container .btn_list_benifits_active {
+    background-color: #06A !important; 
+}
+
+button.expressway-options-btn img {
+    height: 29px;
+    margin-top: -1px;
+} 
+
+.list_vehicle_options_exp {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+
+/*********************expressway reserve page*******************************/
+
+/*********************expressway find a car form switch and tooltip*******************************/
+ .switch {
+        position: relative;
+        display: inline-block;
+        width: 40px;
+        height: 34px;
+        bottom: -10px; 
+    }
+
+    .switch input { 
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+
+    .slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #ccc;
+        -webkit-transition: .4s;
+        transition: .4s;
+        width: 52px;
+        height: 20px;
+    }
+
+    .slider:before {
+        position: absolute;
+        content: "";
+        height: 18px;
+        width: 17px;
+        left: 4px;
+        bottom: 1px;
+        background-color: white;
+        -webkit-transition: .4s;
+        transition: .4s;
+    }
+
+    input:checked + .slider {
+        background-color: #9c0;
+    }
+
+    input:focus + .slider {
+        box-shadow: 0 0 1px #9c0;
+    }
+
+    input:checked + .slider:before {
+        -webkit-transform: translateX(26px);
+        -ms-transform: translateX(26px);
+        transform: translateX(14px);
+    }
+
+    /* Rounded sliders */
+    .slider.round {
+        border-radius: 34px;
+        width: 37px;
+    }
+
+    .slider.round:before {
+        border-radius: 50%;
+    }
+	.tooltip-alignment{
+	    top: 19px;
+		left: 5px;
+	}
+	.exp-popover__content{
+		background-color: #036 !important;
+	}
+	.exp-popover__content{
+		color: white;
+	}
+	.exp-popover__content:before {
+		position: absolute;
+		z-index: -1;
+		content: '';
+		right: calc(50% - 10px);
+		top: -8px;
+		border-style: solid;
+		border-width: 0 10px 10px;
+		border-color: transparent transparent #036;
+		transition-duration: .3s;
+		transition-property: transform;
+	} 
+	 
+/*********************expressway find a car form switch and tooltip********************************/
+/*********************choose page car text begin********************************/
+@media only screen and (max-width: 970px) and (min-width: 300px) {
+	.aez-choose-car .car-name-text-align {
+		text-align: center!important;
+	}
+}
+/*********************choose page car text end********************************/
+
+

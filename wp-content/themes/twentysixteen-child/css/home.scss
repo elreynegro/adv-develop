@@ -1,0 +1,642 @@
+#content {
+   max-width: 2200px;
+   margin: 0 auto;
+}
+.hm-clear {
+    clear: both;
+}
+
+.home-container .aez-home {
+    background-image: url(/wp-content/themes/twentysixteen-child/assets/Adv_Marquee-pitstop.webp);
+    min-height: 678px;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+	background-color: #c6c6c6;
+}
+
+.aez-home .aez-home-layer {
+    height: 100%;
+    // background: rgba(2, 2, 2, 0.37);    
+}
+
+.home-container .aez-home-find-a-car-container .aez-form{
+    background-color: #0056b3;
+    padding: 25px 10px;
+    padding-top: 8px;
+    margin-top: 20px;
+    width: 90%;
+}
+
+.learn-more-button .ch-btn {
+    border-radius: 4px;
+    background-color: #003366;
+    width: 85%;
+    height: 45px;
+    text-transform: none;
+    font-size: 1.3em;
+    font-weight: normal;
+    color: #ffffff;
+    display: block;
+    line-height: 44px;
+    padding: 0px 5px;
+    text-align: center;
+}
+@media only screen and (max-width: 992px) {
+    .learn-more-button .ch-btn {
+        margin: auto;
+        width: 50%;
+    }
+    .home-container .home-feature-title h1{
+        text-align: center !important;
+    }
+    .home-container .home-feature-title {
+        width: 100% !important;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .mobile_hide_banner {
+        display: none;
+    }
+    .home-container .aez-home-find-a-car-container .aez-form {
+        margin-top: 0px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .home-container .aez-home-find-a-car-container .aez-form {
+        width: 100%;
+    }
+    .home-container .home-feature-title {
+        text-align: center;
+        width: 100%!important;
+    }    
+    
+    .home-container .home-awards-member-signup, .home-awards-member-signup .awards-member-signup-link {
+        width: 100%!important;
+    }
+    .learn-more-button .ch-btn {
+        width: 85%;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .europcar_home, .sign_up_home{
+        display: none;
+    }
+    .home-aez-images .aez-image-block-award {
+        margin-bottom: 2%;
+    }
+    .home-aez-images {
+        margin-top: 3%;
+        margin-right: 0%;
+    }
+}
+
+.slider:before {
+    left: 0px !important;
+}
+input:checked + .slider:before {
+    left: 5px !important;
+}
+
+@media only screen and (max-width: 766px) and (min-width: 600){
+    .home-container .aez-form h4 div {
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width: 766px) {
+    .home-newest-fleets {
+        display: none;
+    }
+    .home-container .aez-form h4 span {
+        width: 65%;
+        text-align: left;
+    }
+    
+    .home-container .aez-form h4 div {
+        float: right;
+        text-align: right;
+    }
+    
+    .home-container .aez-form h4 #home_login {
+        margin-left: unset;
+        position: relative;
+        left: unset;
+    }
+    .aez-home-find-a-car-container .aez-find-a-car__heading {
+        font-size: 1.1em;
+    }
+    
+    .home-awards-member-signup .awards-member-signup-link {
+        line-height: 3 !important;
+        font-size: 1em !important;
+    }
+    .aez-worldwide .aez-world-top p {
+        font-size: 1.1em;
+    }
+    .home-container .aez-worldwide {
+        padding: unset;
+    }
+    .aez-worldwide a { 
+        font-size: 1em;
+        line-height: 1.8;
+    }
+}
+
+.home-container .aez-form h4 {
+    font-size: 0.8em;
+}
+
+.home-container .aez-form-item label {
+    margin-bottom: 0;
+}
+
+.home-container .aez-find-a-car__heading {
+    margin-bottom: 2.5%;
+    margin-top: 1%;
+}
+
+.home-container .aez-form .aez-form-block {
+    width: 95% !important;
+}
+
+.home-container .aez-form .aez-form-item input,.home-container .aez-form-item aez-form-item--dropdown {
+    font-size: 0.8em;
+}
+
+.home-container .aez-form-item--with-btn .aez-form-item , .home-container .aez-form-block--side-by-side .aez-form-item{ 
+  height: 33px;  
+}
+
+.home-container .aez-form-item--with-btn .aez-form-item__label{
+    font-size: 0.8em;
+}
+
+.home-container .aez-form-item.aez-form-item--dropdown {
+    font-size: 0.8em;   
+}
+
+.home-container .aez-form-block button {
+    padding: 0;
+    height: 30px;
+}
+.home-container .home-feature-title {
+    // width: 100%;
+    width: 43%;
+    text-transform: capitalize;
+    margin-top: 20px;
+}
+
+.home-container h4 {
+    font-size: 1.1rem;
+}
+
+.home-container .home-feature-title h2 {
+    text-transform: uppercase;
+    color: #ffffff;
+    // font-size: 2.2em;
+    font-size: 2.3em;
+    font-weight: 400;
+    line-height: 46px;
+    margin-bottom: 15px;
+    // text-align: center;
+    text-align: left;
+}
+// .home-container .home-feature-title h1 {
+// font-size: 0!important;
+// height: 0!important;
+// }
+.home-feature-title .book-now-btn {
+    background-color: #003366;
+    width: 150px;
+    font-weight: normal;
+    height: 30px;
+    color: #ffffff;
+    padding: 10px 40px;
+}
+
+.home-container .home-awards-member-signup  {
+    clear: both;
+}
+.home-awards-member-signup .awards-member-signup-link {
+    background-color: #003366;
+    width: 90%;
+    position: relative;
+    bottom: 15px;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    font-size: 1.3em;
+    margin: 0 auto;
+    font-weight: 300;
+}
+
+.awards-member-signup-link span {
+    text-decoration: underline;
+}
+
+.home-container .home-section-2 {
+    background: rgba(2, 2, 2, 0.37);
+}
+
+.section-2-cols .sec2-col {
+    float: left;
+    margin-left: 40px;
+    margin: 20px;
+    margin-right: 58px;
+}
+
+.section-2-cols .sec2-col-bg {
+    height: 225px;
+}
+
+.section-2-cols .sec2-col-bg {
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+.banner-2-img {
+    /*padding:15px;*/
+    text-align: center;
+}
+
+.section-2-cols .signup-text-home {
+    color: #000000;
+    padding-top: 15px;
+    font-size: 1.2em;
+    font-weight: 500;
+    text-align: justify;
+    padding-left: 20px;
+    line-height: 23px;    
+}
+.section-2-cols .img-layer {
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0); 
+}
+
+.home-container .signup-form-home {
+    padding-top: 20px;
+    width: 90%;
+    margin:0 auto; 
+}
+
+.signup-form-home input {
+    height: 35px;
+}
+
+.signup-form-home input[type=email] {
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 0
+}
+
+.signup-form-home input[type=button] {
+    margin-top: 10px;
+    background-color: #2196f3;
+    border: #2196f3;
+    border-radius: 5px;
+    color: #ffffff;
+    font-weight: 300;
+}
+
+.signup-form-home input[type=button]:hover,.signup-form-home input[type=button]:active,.signup-form-home input[type=button]:focus {
+    background-color: #03a9f4;
+    border: #03a9f4;
+}
+
+.col-bg-1 {
+    background-image: url(/wp-content/themes/twentysixteen-child/assets/Banner1.webp);
+    background-repeat: no-repeat;
+    
+}
+.col-bg-2 {
+   background-image: url(/wp-content/themes/twentysixteen-child/assets/Banner2-1.png);
+    background-repeat: no-repeat;
+}
+.col-bg-3 {
+    /*background-image: url(/wp-content/themes/twentysixteen-child/assets/Banner3.webp);*/
+    background-repeat: no-repeat;
+}
+.home-container .home-newest-fleets {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.home-newest-fleets .fleets-title {
+    width: 100%;
+}
+
+a.signup-link {
+    color: #fff;
+}
+
+a.signup-link:hover {
+    color: #007acc;
+}
+ 
+.home-newest-fleets .fleets-title h1,  .home-newest-fleets .fleets-title h2 {
+    color: #003366;
+    text-align: center;
+    font-size: 23px;
+    line-height: 35px;
+    text-transform: capitalize;
+    margin-top: 23px;
+    padding-top: 10px;
+}
+
+.fleets-rows .fleets-cols {
+    margin-top: 25px;  
+    margin-bottom: 25px; 
+}
+.fleets-cols .fleet-img {
+    text-align: center;
+}
+
+.fleets-cols .fleet-img img{
+    width: 65%;
+    margin: 0 auto;
+}
+
+.fleets-cols .fleet-text {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    color: #003366;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.fleets-cols .fleet-button {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.fleets-cols .fleet-button .ch-btn{
+    border-radius: 5px;
+    background-color: #003366;
+    width: 80%;
+    height: 45px;
+    text-transform: none;
+    font-size: 1.1em;
+    font-weight: normal;
+    color: #ffffff;
+    display: block;
+    line-height: 3;
+    margin: 0 auto;
+    padding: 0px 5px;
+}
+
+.fleets-cols .fleet-button a.ch-btn:hover {
+    // background-color: #007acc;
+    color: #9c0;
+}
+
+.home-container .home-influencer {
+    min-height: 400px;
+    background-color: #e6e6e6;
+    border: 1px solid #999;
+}
+
+.home-influencer h3 {
+    text-align: center;
+    font-size: 2em;
+    margin-top: 200px;
+}
+
+.home-section-row{
+    padding: 5px;
+    background-color: #fff;
+}
+
+.home-sec3-rows{
+    width: 85%;
+    margin: auto;
+    padding: 40px;
+}
+
+
+.aez-image-overlay {
+    height: 100%;
+    width: 100%;
+    background: rgba(2, 2, 2, 0.37);
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .rectancle_gradient {
+        width: 80%;
+        top: 5%;
+        bottom: -5%;
+        font-size: 0.87em;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .rectancle_gradient {
+        width: 65%;
+        top: 11%;
+        bottom: -11%;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 412px) {
+    .rectancle_gradient {
+        top: 5%;
+        bottom: -5%;
+        width: 99%;
+    }
+}
+
+@media screen and (max-width: 600px) and (min-width: 411px){
+    .rectancle_gradient {
+        top: 3%;
+        bottom: -3%;
+        font-size: 0.75em;
+        width: 99%;
+    }
+}
+@media screen and (max-width: 410px) and (min-width: 375px){
+    .rectancle_gradient {
+        top: 2%;
+        bottom: -2%;
+        font-size: 0.7em;
+        width: 99%;
+    }
+}
+
+@media screen and (max-width: 374px){
+    .rectancle_gradient {
+        top: 4%;
+        bottom: -4%;
+        font-size: 0.66em;
+        width: 99%;
+    }
+}
+
+.rectancle_gradient {
+    margin: auto auto;
+    position: relative;
+
+    div {
+        background: linear-gradient(rgba(255,255,255,.7) 0,rgba(255,255,255,20.5) 100%);
+        background-position: center center;
+        text-align: center;
+        font-size: 1em;
+        color: black;
+        border-radius: 25px;
+        padding: 14px;
+    }
+}
+.home-award-logo-text {
+    color: #ffffff;
+    font-weight: 100;
+    font-size: 2em;    
+}
+.aez-image-block-content img {
+    display: block;
+    width: 300px;
+}
+
+.aez-image-block-award .aez-image-block-content {
+    padding-top: 150px;
+}
+
+.home-aez-images {
+    display: flex;
+    margin-left: 0px;
+}
+
+.home-aez-images .aez-image-block-award {
+    height: 400px;
+    padding: 0;
+    text-align: center;
+}
+
+.aez-image-block-award img {
+    margin: 0 auto;
+}
+
+.home-container .aez-worldwide{
+    margin: 0;
+}
+.aez-worldwide .aez-world-top p {
+    color: #003366;
+    font-size: 2.2em;
+    font-weight: 400;
+}
+
+
+.home-container .aez-worldwide {
+    padding: 70px 50px;
+}
+
+.aez-worldwide a {
+    background-color: #003366;
+    color: #ffffff;
+    text-transform: uppercase !important;
+    border: 2px solid #003366;
+    line-height: 30px;
+    font-size: 1.1em;
+    font-weight: 300;    
+}
+.home-container .aez-quotes {
+    padding: 35px 30px;
+    margin:0;
+}
+
+.home-container .aez-quotes .aez-quote__text {
+    font-size: 1.5em;
+    font-weight: 400;
+} 
+
+.home-container .home-rethinking {
+    background-image: url(/wp-content/themes/twentysixteen-child/assets/man_fixing_tie.jpg);
+    height: 335px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    background-position: center 32%;
+}
+
+.rethinking-text-cols {
+    display: flex;
+    color: #ffffff;
+    font-size: 1.5em;
+    font-weight: 350;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.page-template-home .ui-widget-content a {
+	font-size: 13px!important;
+}
+/* chooselanguage popup issue in ipad*/
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+    
+    iframe.white_content {
+        border: 1px solid #fff;
+    }
+}
+/* fac find a car form login button design for responsive */
+@media (min-width: 320px) and (max-width: 480px) {
+    span.fac-login-mobile {
+        width: 78% !important;
+    }
+    .page-template-home span.fac-login-mobile {
+        width: 77% !important;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    span.fac-login-mobile {
+        width: 78% !important;
+    }
+    .page-template-home span.fac-login-mobile {
+        width: 77% !important;
+    }
+   
+}
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    span.fac-login-mobile {
+        width: 80% !important;
+    }
+    .page-template-home span.fac-login-mobile {
+        width: 77% !important;
+    } 
+}
+@media screen and (max-width: 846px) and (min-width: 320px) {
+    .aez-find-a-car-dropdown .aez-form-block__header{
+        width: 100% !important;
+    } 
+}
+//find a car for promocode image
+.promo-code-image {
+    color: #fff !important;
+}
+// display 2 promocodes section
+@media screen  and (min-width: 767px) {
+#adv_rez .aez-form-item--with-btn {
+  
+    float: left;
+    width: 50%;
+}
+#adv_rez  .aez-form-block  .promo-code-section-dynamic {
+    margin: 0;
+}
+#update_rez .aez-form-item--with-btn {
+    float: left;
+    width: 50%;
+} 
+#update_rez .aez-form-block  .promo-code-section-dynamic {
+   margin-top: 1.2%;
+}
+#adv_rez .aez-form-block .promo-code-section-dynamic {
+
+        &:nth-of-type(2) {
+            position: relative;
+            left: 6px;
+        }
+    }
+
+}

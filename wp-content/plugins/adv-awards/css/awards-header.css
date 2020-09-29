@@ -1,0 +1,29 @@
+.awards-tabs{background:center 15% no-repeat #06a;z-index:1;text-align:center;/*padding:59% 0 0;*/height:100px;display:block;border-radius:0;border:none;font-size:100%;color:#fff;font-weight:300}
+.awards-tabs-wo-login{background: center 15% no-repeat #06a;
+    z-index: 1;
+    text-align: center;
+    line-height: 155px;
+    height: 100px;
+    display: block;
+    width: 87px;
+    border-radius: 0;
+    border: none;
+    font-size: 0.84em;
+    color: #fff;
+    font-weight: 300;
+    margin: 0 auto;}
+    .awards-book-now-btn{ margin: 0 auto;}
+   
+@media (max-width:910px) {
+    .backgound_row {
+        margin-top: -5%;
+    }
+    .awards_header_tablets{
+        display: none;
+    }
+    .awards-background-img {
+         margin-top: -2%;
+    }
+}
+    
+.awards-tabs:focus,.awards-tabs:hover{background-color:#9acd00;text-decoration:none;color:#fff}.highlight-text-awards{font-weight:700;text-transform:uppercase;font-size:107%;color:#666}.prefix-text{font-weight:300;font-size:110%;color:#666}.awards{background-image:url(/wp-content/plugins/adv-awards/assets/nav-awards.png)}.activity{background-image:url(/wp-content/plugins/adv-awards/assets/nav-activity.png)}.benefits{background-image:url(/wp-content/plugins/adv-awards/assets/nav-benefits.png)}.faq{background-image:url(/wp-content/plugins/adv-awards/assets/nav-faq.png)}.ng-scope{width:23%;margin-left:1%;float:right;display:block;line-height:1.5!important}@media only screen and (max-width:800px) and (min-width:768px){.ng-scope{width:23%}.header_status{width:36%}.table-cell{width:52%;margin-top:-2.5%!important;padding-left:2%}.header_image{margin-top:5%}}.awards-main-div{margin-right:auto;margin-left:auto;padding-left:15px;padding-right:15px;max-width:1400px}.header_division_tablets{border-left:solid 1.5px #06a;padding-right:1%;display:inline-block;padding-left:2%}.header_no_desktop{text-align:center;margin-top:5%;margin-bottom:2%}.awards_header_bottom_line{background-color:#036!important;color:#fff;height:2px;margin:4% 0}.header_division{margin-bottom:.5%}@media (max-width:1024px){.visible-xs.header_no_desktop{display:block!important; margin-top: -6%;}}@media only screen and (max-width:1180px) and (min-width:1025px){.header_status{font-size:1.2em}}.header_status>p{margin:0 0 1.4em}

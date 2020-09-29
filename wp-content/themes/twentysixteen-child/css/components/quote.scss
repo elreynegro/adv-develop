@@ -1,0 +1,151 @@
+/*
+ * AEZ Quote Styling
+ */
+.aez-quote-block {
+    background-color: $off-white;
+    padding-bottom: 25px;
+
+    .aez-btn--outline-blue {
+        background-color: $white;
+        display: block;
+        margin: 10px auto;
+    }
+}
+
+.aez-quotes {
+    background-color: $off-white;
+    font-size: 1em;
+    font-weight: 500;
+    text-align: center;
+
+    .fa-quote-right,
+    .fa-quote-left {
+        color: $green;
+    }
+
+    .fa-quote-left {
+        vertical-align: super;
+        padding-right: 5px;
+    }
+
+    .fa-quote-right {
+        vertical-align: sub;
+        padding-left: 5px;
+    }
+
+    .slick-prev {
+        left: 25px;
+    }
+
+    .slick-next {
+        right: 25px;
+    }
+
+    .slick-prev:before,
+    .slick-next:before {
+        color: $light-gray;
+        font-size: 30px;
+    }
+}
+
+.aez-quotes > div {
+    margin: 0 auto;
+}
+
+.aez-quotes span:first-of-type {
+    padding-right: 10px;
+    margin-right: 7px;
+    border-right: 2px solid $green;
+}
+
+.aez-quote > * {
+    margin: 1em auto;
+}
+
+.aez-quote__text {
+    width: 85%;
+    margin: 0 auto 5px;
+    color: $blue;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    line-height: 1.8;
+    padding: 20px;
+}
+
+.aez-quote__text::after {
+    content: "";
+    display: block;
+    height: 47px;
+    background-image: url(/wp-content/uploads/2016/11/bottom_hover.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.aez-quote__credit {
+    color: $gray;
+}
+
+.aez-quote__credit-bold {
+    font-weight: 700;
+}
+
+.aez-quote__credit-pipe {
+    color: $green;
+}
+
+.aez-quote__credit > * {
+    margin: 2px;
+}
+
+@media only screen and (min-width: 910px) {
+    .aez-quotes {
+        padding: 85px 30px;
+
+        > div {
+            width: 75%;
+        }
+
+        span:first-of-type { border-right: 3px solid $green; }
+        .aez-quote__credit { font-size: 1.6em; }
+        .aez-quote__text { font-size: 2em; }
+    }
+
+    .aez-quote-block > .aez-btn--outline-blue {
+        width: 500px;
+    }
+}
+
+@media only screen and (min-width: 710px) and (max-width: 909px) {
+    .aez-quotes {
+        padding: 20px;
+
+        > div {
+            width: 80%;
+        }
+    }
+
+    .aez-quote-block > .aez-btn--outline-blue {
+        width: 80%;
+    }
+
+    .aez-quote__credit { font-size: 1.2em; }
+    .aez-quote__text { font-size: 1.5em; }
+}
+
+@media only screen and (max-width: 709px) {
+    .aez-quotes {
+        padding: 15px;
+
+        > div {
+            width: 90%;
+        }
+    }
+
+    .aez-quote-block > .aez-btn--outline-blue {
+        width: 80%;
+    }
+
+    .aez-quote__credit { font-size: 1.2em; }
+    .aez-quote__text { font-size: 1.3em; }
+}
